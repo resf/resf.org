@@ -10,6 +10,9 @@
     "paths": {
       "@/components/*": [
         "./components/*"
+      ],
+      "@/pages/*": [
+        "./pages/*"
       ]
     },
     "allowJs": true,
