@@ -1,0 +1,44 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Full Stack",
+            "type": "node-terminal",
+            "request": "launch",
+            "command": "npm run dev",
+            "sourceMaps": true,
+            "serverReadyAction": {
+                "pattern": "started server on .+, url: (https?://.+)",
+                "uriFormat": "%s",
+                "webRoot": "${workspaceFolder}",
+                "action": "debugWithChrome"
+            }
+        },
+        {
+            "name": "Server-Side",
+            "type": "node-terminal",
+            "request": "launch",
+            "command": "npm run dev"
+        },
+        {
+            "name": "Test",
+            "type": "node-terminal",
+            "request": "launch",
+            "command": "npm run test"
+        },
+        {
+            "name": "Test with Watch",
+            "type": "node-terminal",
+            "request": "launch",
+            "command": "npm run test:watch"
+        },
+        {
+            "name": "Client-Side",
+            "type": "chrome",
+            "request": "launch",
+            "webRoot": "${workspaceFolder}",
+            "sourceMaps": true,
+            "url": "http://localhost:3000"
+        }
+    ]
+}
