@@ -1,0 +1,64 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the README at:
+// https://github.com/microsoft/vscode-dev-containers/tree/v0.245.2/containers/typescript-node
+{
+	"name": "RESF.ORG",
+	"build": {
+		"dockerfile": "Dockerfile",
+		// Update 'VARIANT' to pick a Node version: 18, 16, 14.
+		// Append -bullseye or -buster to pin to an OS version.
+		// Use -bullseye variants on local on arm64/Apple Silicon.
+		"args": {
+			"VARIANT": "16-bullseye"
+		}
+	},
+	// Configure tool-specific properties.
+	"customizations": {
+		// Configure properties specific to VS Code.
+		"vscode": {
+			"settings": {
+				"[javascript]": {
+					"editor.defaultFormatter": "esbenp.prettier-vscode"
+				},
+				"workbench.iconTheme": "vscode-icons",
+				"[typescript]": {
+					"editor.defaultFormatter": "esbenp.prettier-vscode"
+				},
+				"editor.defaultFormatter": "esbenp.prettier-vscode",
+				"vsicons.dontShowNewVersionMessage": true,
+				"git.autofetch": true,
+				"git.confirmSync": false,
+				"files.associations": {
+					"*.env.*": "env",
+					"*.env.development": "env",
+					"*.env.test": "env",
+					"*.env.production": "env",
+					"*.env.local": "env",
+					"*.env.*.local": "env"
+				},
+				"git.suggestSmartCommit": false,
+				"typescript.suggestionActions.enabled": false,
+				"javascript.suggestionActions.enabled": false
+			},
+			"extensions": [
+				"dbaeumer.vscode-eslint",
+				"esbenp.prettier-vscode",
+				"irongeek.vscode-env",
+				"ecmel.vscode-html-css",
+				"zignd.html-css-class-completion",
+				"bradlc.vscode-tailwindcss",
+				"austenc.tailwind-docs",
+				"eamodio.gitlens"
+			]
+		}
+	},
+	// Use 'forwardPorts' to make a list of ports inside the container available locally.
+	// "forwardPorts": [],
+	// Use 'postCreateCommand' to run commands after the container is created.
+	"postCreateCommand": "npm install",
+	// Comment out to connect as root instead. More info: https://aka.ms/vscode-remote/containers/non-root.
+	"remoteUser": "node",
+	"features": {
+		"git": "os-provided",
+		"github-cli": "latest"
+	}
+}
