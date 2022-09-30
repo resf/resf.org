@@ -29,7 +29,7 @@ const customJestConfig = {
           https://jestjs.io/docs/webpack#handling-static-assets */
     "^.+\\.(jpg|jpeg|png|gif|webp|avif|svg)$":
       "<rootDir>/__mocks__/fileMock.js",
-    ...pathsToModuleNameMapper(compilerOptions.paths),
+    ...pathsToModuleNameMapper(compilerOptions.paths, { prefix: "<rootDir>/" }),
   },
   transformIgnorePatterns: [
     "/node_modules/",
@@ -40,6 +40,11 @@ const customJestConfig = {
     "<rootDir>/.next/",
     "<rootDir>/cypress/",
   ],
+  transform: {
+    /* Use babel-jest to transpile tests with the next/babel preset
+            https://jestjs.io/docs/configuration#transform-objectstring-pathtotransformer--pathtotransformer-object */
+    "^.+\\.(js|jsx|ts|tsx)$": ["babel-jest", { presets: ["next/babel"] }],
+  },
 };
 
 // createJestConfig is exported this way to ensure that next/jest can load the Next.js config which is async
