@@ -13,6 +13,9 @@
       ],
       "@/pages/*": [
         "./pages/*"
+      ],
+      "@/utils/*": [
+        "./utils/*"
       ]
     },
     "allowJs": true,
