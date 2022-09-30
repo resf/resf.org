@@ -6,7 +6,12 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
+    "test:coveragereport": "jest --coverage --coverageDirectory coverage --coverageReporters lcov",
+    "test:clear": "jest --clearCache"
   },
   "dependencies": {
     "next": "12.3.1",
