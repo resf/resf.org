@@ -17,9 +17,9 @@ const Index: NextPage = () => {
         </div>
         <h1 className="text-6xl font-bold font-display">
           Something{" "}
-          <a className="text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-600 italic" href="https://nextjs.org">
+          <span className="text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-600 italic">
             exciting
-          </a>{" "}
+          </span>{" "}
           is on the way!
         </h1>
         <p className="mt-6 text-2xl text-gray-700">
