@@ -7,7 +7,7 @@ const Index: NextPage = () => {
   return (
     <div className="flex min-h-screen flex-col items-center justify-center py-2">
       <Head>
-        <title>RESF.org</title>
+        <title>Rocky Enterprise Software Foundation</title>
         <link rel="icon" href="/favicon.svg" />
       </Head>
 
