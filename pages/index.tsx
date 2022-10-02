@@ -1,18 +1,23 @@
 import type { NextPage } from "next";
 import Head from "next/head";
+import Image from "next/image";
+import Logo from "../public/icon-text.svg";
 
 const Index: NextPage = () => {
   return (
     <div className="flex min-h-screen flex-col items-center justify-center py-2">
       <Head>
         <title>RESF.org</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon.svg" />
       </Head>
 
       <main className="flex w-full flex-1 flex-col items-center justify-center px-20 text-center">
-        <h1 className="text-6xl font-bold">
+        <div className="mb-6">
+          <Image src={Logo} alt="RESF Logo" className="h-24" />
+        </div>
+        <h1 className="text-6xl font-bold font-display">
           Something{" "}
-          <a className="text-green-600 italic" href="https://nextjs.org">
+          <a className="text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-600 italic" href="https://nextjs.org">
             exciting
           </a>{" "}
           is on the way!
