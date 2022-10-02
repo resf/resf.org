@@ -15,7 +15,7 @@ const Index: NextPage = () => {
         <div className="mb-6">
           <Image src={Logo} alt="RESF Logo" className="h-24" />
         </div>
-        <h1 className="text-6xl font-bold font-display">
+        <h1 className="text-6xl font-semibold font-display">
           Something{" "}
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-600 italic">
             exciting
