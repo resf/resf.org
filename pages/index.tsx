@@ -1,13 +1,20 @@
-import type { NextPage } from "next";
 import Head from "next/head";
 import Image from "next/image";
+import { serverSideTranslations } from "next-i18next/serverSideTranslations";
+import { useTranslation, Trans } from "next-i18next";
+
 import Logo from "../public/icon-text.svg";
 
+import type { GetStaticProps, NextPage } from "next";
+
 const Index: NextPage = () => {
+  const { t: tCommon } = useTranslation("common");
+  const { t } = useTranslation("coming-soon");
+
   return (
     <div className="flex min-h-screen flex-col items-center justify-center py-2">
       <Head>
-        <title>Rocky Enterprise Software Foundation</title>
+        <title>{tCommon("orgName")}</title>
         <link rel="icon" href="/favicon.svg" />
       </Head>
 
@@ -15,29 +22,37 @@ const Index: NextPage = () => {
         <div className="mb-6">
           <Image src={Logo} alt="RESF Logo" className="h-24" />
         </div>
-        <h1 className="text-6xl font-semibold font-display">
-          Something{" "}
-          <span className="text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-600 italic">
-            exciting
-          </span>{" "}
-          is on the way!
-        </h1>
+        <h1
+          className="text-6xl font-semibold font-display"
+          dangerouslySetInnerHTML={{
+            __html: t("somethingexcitingcoming", {
+              interpolation: { escapeValue: false },
+            }),
+          }}
+        />
         <p className="mt-6 text-2xl text-gray-700">
-          We are working on bringing you a great website!
+          {t("workonbringingwebsite")}
         </p>
-        <p className="mt-3 text-2xl text-gray-700">
-          Try visiting the{" "}
-          <a
-            href="https://www.rockylinux.org/"
-            className="text-blue-700 text-opacity-80 underline"
-          >
-            Rocky Linux
-          </a>{" "}
-          project for now.
-        </p>
+        <p
+          className="mt-3 text-2xl text-gray-700"
+          dangerouslySetInnerHTML={{
+            __html: t("visitrockylinux", {
+              interpolation: { escapeValue: false },
+            }),
+          }}
+        />
       </main>
     </div>
   );
 };
+
+export const getStaticProps: GetStaticProps = async ({ locale }) => ({
+  props: {
+    ...(await serverSideTranslations(locale ? locale : "en", [
+      "common",
+      "coming-soon",
+    ])),
+  },
+});
 
 export default Index;
