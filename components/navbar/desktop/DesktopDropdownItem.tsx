@@ -9,12 +9,14 @@ import type { NavItems } from "@/types/navigation/NavItem";
 export interface DesktopDropdownItemProps {
   children?: ReactNode;
   items: NavItems;
+  openNewTab: boolean;
   isFirstMenuItem: boolean;
 }
 
 const DesktopDropdownItem = ({
   children,
   items,
+  openNewTab,
   isFirstMenuItem,
 }: DesktopDropdownItemProps) => {
   return (
@@ -59,6 +61,7 @@ const DesktopDropdownItem = ({
                       key={item.name}
                       href={item.href}
                       className="-m-3 flex items-center p-3 hover:bg-gray-50"
+                      target={openNewTab ? "_blank" : "_self"}
                     >
                       {item.icon && (
                         <picture>

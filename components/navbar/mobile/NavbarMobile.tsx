@@ -1,10 +1,10 @@
 import MobileMenuPanel from "./MobileMenuPanel";
-import MobileProjectItems from "./MobileTopItems";
+import MobileTopItems from "./MobileTopItems";
 import MobileActionItem from "./MobileActionItem";
+import MobileItem from "./MobileItem";
 
 import type { NavItems } from "@/types/navigation/NavItem";
 import type { NavActionItems } from "@/types/navigation/NavActionItem";
-import MobileItem from "./MobileItem";
 
 export interface NavbarMobileProps {
   projectItems: NavItems;
@@ -21,7 +21,7 @@ const NavbarMobile = ({
 }: NavbarMobileProps) => {
   return (
     <MobileMenuPanel>
-      <MobileProjectItems items={projectItems} />
+      <MobileTopItems projectItems={projectItems} />
       <div className="space-y-6 py-6 px-5">
         <div className="grid grid-cols-2 gap-y-4 gap-x-8">
           {menuItems.map((item) => (

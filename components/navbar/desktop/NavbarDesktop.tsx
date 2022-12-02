@@ -32,7 +32,11 @@ const NavbarDesktop = ({
           <MobileMenuOpenButton />
         </div>
         <Popover.Group as="nav" className="hidden space-x-10 md:flex">
-          <DesktopDropdownItem items={projectItems} isFirstMenuItem={true}>
+          <DesktopDropdownItem
+            items={projectItems}
+            openNewTab={true}
+            isFirstMenuItem={true}
+          >
             Projects
           </DesktopDropdownItem>
           {menuItems.map((item) => (
@@ -40,7 +44,11 @@ const NavbarDesktop = ({
               {item.name}
             </DesktopItem>
           ))}
-          <DesktopDropdownItem items={aboutItems} isFirstMenuItem={false}>
+          <DesktopDropdownItem
+            items={aboutItems}
+            openNewTab={false}
+            isFirstMenuItem={false}
+          >
             About
           </DesktopDropdownItem>
         </Popover.Group>

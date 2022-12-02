@@ -5,7 +5,7 @@ export const projectDropdownItems: NavItems = [
   {
     name: "Rocky Linux",
     description: "A community-backed enterprise operating system.",
-    href: "#",
+    href: "https://www.rockylinux.org/",
     icon: "/rl-logo-np.svg",
   },
   {
@@ -30,11 +30,11 @@ export const menuItems: NavItems = [
 export const aboutDropdownItems: NavItems = [
   {
     name: "Charter & Bylaws",
-    href: "#",
+    href: "/charter-bylaws",
   },
   {
     name: "FAQ",
-    href: "#",
+    href: "/faq",
   },
 ];
 
