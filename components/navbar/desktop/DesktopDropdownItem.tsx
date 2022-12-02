@@ -4,11 +4,11 @@ import { Popover, Transition } from "@headlessui/react";
 import { ChevronDownIcon } from "@heroicons/react/20/solid";
 import classNames from "@/utils/classNames";
 
-import type { DropdownItems } from "@/types/DropdownItem";
+import type { NavItems } from "@/types/navigation/NavItem";
 
 export interface DesktopDropdownItemProps {
   children?: ReactNode;
-  items: DropdownItems;
+  items: NavItems;
   isFirstMenuItem: boolean;
 }
 

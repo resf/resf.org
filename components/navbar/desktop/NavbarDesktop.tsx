@@ -6,14 +6,22 @@ import MobileMenuOpenButton from "./MobileMenuOpenButton";
 import DesktopDropdownItem from "./DesktopDropdownItem";
 import DesktopActionItem from "./DesktopActionItem";
 
-import type { DropdownItems } from "@/types/DropdownItem";
+import type { NavItems } from "@/types/navigation/NavItem";
+import type { NavActionItems } from "@/types/navigation/NavActionItem";
 
 export interface NavbarDesktopProps {
-  projectItems: DropdownItems;
-  aboutItems: DropdownItems;
+  projectItems: NavItems;
+  menuItems: NavItems;
+  aboutItems: NavItems;
+  actionItems: NavActionItems;
 }
 
-const NavbarDesktop = ({ projectItems, aboutItems }: NavbarDesktopProps) => {
+const NavbarDesktop = ({
+  projectItems,
+  menuItems,
+  aboutItems,
+  actionItems,
+}: NavbarDesktopProps) => {
   return (
     <div className="mx-auto max-w-7xl px-4 sm:px-6">
       <div className="flex items-center justify-between border-b-2 border-gray-100 py-6 md:justify-start md:space-x-10">
@@ -27,14 +35,21 @@ const NavbarDesktop = ({ projectItems, aboutItems }: NavbarDesktopProps) => {
           <DesktopDropdownItem items={projectItems} isFirstMenuItem={true}>
             Projects
           </DesktopDropdownItem>
-          <DesktopItem href="/sponsors">Sponsors</DesktopItem>
-          <DesktopItem href="/partners">Partners</DesktopItem>
+          {menuItems.map((item) => (
+            <DesktopItem key={item.name} href={item.href}>
+              {item.name}
+            </DesktopItem>
+          ))}
           <DesktopDropdownItem items={aboutItems} isFirstMenuItem={false}>
             About
           </DesktopDropdownItem>
         </Popover.Group>
         <div className="hidden items-center justify-end md:flex md:flex-1 lg:w-0">
-          <DesktopActionItem href="/joinus">Join Us</DesktopActionItem>
+          {actionItems.map((item) => (
+            <DesktopActionItem key={item.name} href={item.href}>
+              {item.name}
+            </DesktopActionItem>
+          ))}
         </div>
       </div>
     </div>

@@ -1,6 +1,7 @@
-import type { DropdownItems } from "@/types/DropdownItem";
+import { NavActionItems } from "@/types/navigation/NavActionItem";
+import type { NavItems } from "@/types/navigation/NavItem";
 
-export const projectDropdownItems: DropdownItems = [
+export const projectDropdownItems: NavItems = [
   {
     name: "Rocky Linux",
     description: "A community-backed enterprise operating system.",
@@ -15,7 +16,18 @@ export const projectDropdownItems: DropdownItems = [
   },
 ];
 
-export const aboutDropdownItems: DropdownItems = [
+export const menuItems: NavItems = [
+  {
+    name: "Sponsors",
+    href: "/sponsors",
+  },
+  {
+    name: "Partners",
+    href: "/partners",
+  },
+];
+
+export const aboutDropdownItems: NavItems = [
   {
     name: "Charter & Bylaws",
     href: "#",
@@ -23,5 +35,12 @@ export const aboutDropdownItems: DropdownItems = [
   {
     name: "FAQ",
     href: "#",
+  },
+];
+
+export const actionItems: NavActionItems = [
+  {
+    name: "Join Us",
+    href: "/joinus",
   },
 ];

@@ -1,8 +1,8 @@
-export interface DropdownItem {
+export interface NavItem {
   name: string;
   href: string;
   icon?: string;
   description?: string;
 }
 
-export type DropdownItems = DropdownItem[];
+export type NavItems = NavItem[];

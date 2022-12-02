@@ -1,18 +1,28 @@
 import Head from "next/head";
-import Image from "next/image";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import { useTranslation, Trans } from "next-i18next";
 
 import Header from "../components/Header";
 import Layout from "../components/Layout";
 
-import { projectDropdownItems, aboutDropdownItems } from "@/config/menu";
+import {
+  projectDropdownItems,
+  menuItems,
+  aboutDropdownItems,
+  actionItems,
+} from "@/config/menu";
 
 import type { GetStaticProps, NextPage } from "next";
-import type { DropdownItems } from "@/types/DropdownItem";
+import type { NavItems } from "@/types/navigation/NavItem";
+import type { NavActionItems } from "@/types/navigation/NavActionItem";
 
 export interface IndexProps {
-  menuItems?: { projectItems: DropdownItems; aboutItems: DropdownItems };
+  menuItems?: {
+    projectItems: NavItems;
+    menuItems: NavItems;
+    aboutItems: NavItems;
+    actionItems: NavActionItems;
+  };
 }
 
 const Index: NextPage = ({ menuItems }: IndexProps) => {
@@ -38,7 +48,9 @@ export const getStaticProps: GetStaticProps = async ({ locale }) => ({
     ])),
     menuItems: {
       projectItems: projectDropdownItems,
+      menuItems: menuItems,
       aboutItems: aboutDropdownItems,
+      actionItems: actionItems,
     },
   },
 });
