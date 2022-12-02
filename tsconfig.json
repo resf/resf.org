@@ -17,6 +17,9 @@
       "@/pages/*": [
         "./pages/*"
       ],
+      "@/types/*": [
+        "./types/*"
+      ],
       "@/utils/*": [
         "./utils/*"
       ]

@@ -1,4 +1,6 @@
-export const projects = [
+import type { DropdownItems } from "@/types/DropdownItem";
+
+export const projectDropdownItems: DropdownItems = [
   {
     name: "Rocky Linux",
     description: "A community-backed enterprise operating system.",
@@ -13,7 +15,7 @@ export const projects = [
   },
 ];
 
-export const resources = [
+export const aboutDropdownItems: DropdownItems = [
   {
     name: "Charter & Bylaws",
     href: "#",
