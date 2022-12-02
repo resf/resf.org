@@ -11,8 +11,14 @@
       "@/components/*": [
         "./components/*"
       ],
+      "@/config/*": [
+        "./config/*"
+      ],
       "@/pages/*": [
         "./pages/*"
+      ],
+      "@/types/*": [
+        "./types/*"
       ],
       "@/utils/*": [
         "./utils/*"
