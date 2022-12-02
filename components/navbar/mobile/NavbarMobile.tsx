@@ -1,5 +1,5 @@
 import MobileMenuPanel from "./MobileMenuPanel";
-import MobileProjectItems from "./MobileProjectItems";
+import MobileProjectItems from "./MobileTopItems";
 import MobileActionItem from "./MobileActionItem";
 
 import type { NavItems } from "@/types/navigation/NavItem";
