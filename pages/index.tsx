@@ -1,6 +1,6 @@
 import Head from "next/head";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
-import { useTranslation, Trans } from "next-i18next";
+import { useTranslation } from "next-i18next";
 
 import Header from "../components/Header";
 import Layout from "../components/Layout";
@@ -15,6 +15,7 @@ import {
 import type { GetStaticProps, NextPage } from "next";
 import type { NavItems } from "@/types/navigation/NavItem";
 import type { NavActionItems } from "@/types/navigation/NavActionItem";
+import Hero from "@/components/homepage/hero";
 
 export interface IndexProps {
   menuItems?: {
@@ -35,7 +36,10 @@ const Index: NextPage = ({ menuItems }: IndexProps) => {
         <title>{tCommon("orgName")}</title>
         <link rel="icon" href="/favicon.svg" />
       </Head>
-      <Layout>{menuItems && <Header menu={menuItems} />}</Layout>
+      <Layout>
+        {menuItems && <Header menu={menuItems} />}
+        <Hero />
+      </Layout>
     </>
   );
 };
