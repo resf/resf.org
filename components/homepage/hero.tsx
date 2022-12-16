@@ -34,18 +34,12 @@ export default function Hero() {
                     pledges to uphold this for all member projects.
                   </p>
                   <div className="mx-auto mt-10 max-w-sm sm:flex sm:max-w-none sm:justify-center">
-                    <div className="space-y-4 sm:mx-auto sm:inline-grid sm:grid-cols-2 sm:gap-5 sm:space-y-0">
+                    <div className="space-y-4 sm:mx-auto sm:space-y-0">
                       <a
                         href="#"
                         className="flex items-center justify-center border border-transparent bg-white px-4 py-3 text-base font-medium text-green-700 shadow-sm hover:bg-blue-50 sm:px-8"
                       >
                         Learn More
-                      </a>
-                      <a
-                        href="#"
-                        className="flex items-center justify-center border border-transparent bg-gradient-to-r from-green-300 to-blue-300 bg-opacity-60 px-4 py-3 text-base font-medium text-white shadow-sm hover:bg-opacity-70 sm:px-8"
-                      >
-                        Get Involved
                       </a>
                     </div>
                   </div>
