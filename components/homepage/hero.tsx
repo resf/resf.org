@@ -51,7 +51,7 @@ export default function Hero() {
           {/* Logo cloud */}
           <div className="bg-gray-100">
             <div className="mx-auto max-w-7xl py-16 px-4 sm:px-6 lg:px-8">
-              <p className="text-center text-base font-semibold text-gray-500 font-display">
+              {/* <p className="text-center text-base font-semibold text-gray-500 font-display">
                 BACKED BY INDUSTRY LEADERS
               </p>
               <div className="mt-6 grid grid-cols-2 gap-8 md:grid-cols-6 lg:grid-cols-5">
@@ -100,7 +100,7 @@ export default function Hero() {
                     />
                   </picture>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

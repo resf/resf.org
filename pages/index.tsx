@@ -4,6 +4,7 @@ import { useTranslation } from "next-i18next";
 
 import Header from "../components/Header";
 import Layout from "../components/Layout";
+import Footer from "@/components/footer/footer";
 
 import {
   projectDropdownItems,
@@ -41,6 +42,7 @@ const Index: NextPage = ({ menuItems }: IndexProps) => {
         {menuItems && <Header menu={menuItems} />}
         <Hero />
         <Feature />
+        <Footer />
       </Layout>
     </>
   );
