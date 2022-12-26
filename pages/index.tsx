@@ -27,7 +27,6 @@ export interface IndexProps {
 
 const Index: NextPage = ({ menuItems }: IndexProps) => {
   const { t: tCommon } = useTranslation("common");
-  const { t } = useTranslation("coming-soon");
 
   return (
     <>
