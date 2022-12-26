@@ -2,8 +2,8 @@ import Head from "next/head";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import { useTranslation, Trans } from "next-i18next";
 
-import Header from "../components/Header";
-import Layout from "../components/Layout";
+import Header from "@/components/Header";
+import Layout from "@/components/Layout";
 
 import {
   projectDropdownItems,
