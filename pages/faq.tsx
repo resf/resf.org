@@ -39,7 +39,7 @@ const FAQ: NextPage = ({ menuItems }: IndexProps) => {
       </Head>
       <Layout>
         {menuItems && <Header menu={menuItems} />}
-        <BasicPageTitle>{t("faq")}</BasicPageTitle>
+        <BasicPageTitle subtext={t("listoffaq")}>{t("faq")}</BasicPageTitle>
         <Footer />
       </Layout>
     </>
