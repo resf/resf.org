@@ -8,7 +8,7 @@ import Footer from "@/components/footer/Footer";
 
 import {
   projectDropdownItems,
-  menuItems,
+  //   menuItems,
   aboutDropdownItems,
   actionItems,
 } from "@/config/menu";
@@ -54,7 +54,7 @@ export const getStaticProps: GetStaticProps = async ({ locale }) => ({
     ])),
     menuItems: {
       projectItems: projectDropdownItems,
-      menuItems: menuItems,
+      //   menuItems: menuItems,
       aboutItems: aboutDropdownItems,
       actionItems: actionItems,
     },
