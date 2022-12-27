@@ -8,14 +8,12 @@ import type { NavActionItems } from "@/types/navigation/NavActionItem";
 
 export interface NavbarMobileProps {
   projectItems: NavItems;
-  menuItems: NavItems;
   aboutItems: NavItems;
   actionItems: NavActionItems;
 }
 
 const NavbarMobile = ({
   projectItems,
-  menuItems,
   aboutItems,
   actionItems,
 }: NavbarMobileProps) => {
@@ -24,11 +22,11 @@ const NavbarMobile = ({
       <MobileTopItems projectItems={projectItems} />
       <div className="space-y-6 py-6 px-5">
         <div className="grid grid-cols-2 gap-y-4 gap-x-8">
-          {menuItems.map((item) => (
+          {/* {menuItems.map((item) => (
             <MobileItem key={item.name} href={item.href}>
               {item.name}
             </MobileItem>
-          ))}
+          ))} */}
           {aboutItems.map((item) => (
             <MobileItem key={item.name} href={item.href}>
               {item.name}
