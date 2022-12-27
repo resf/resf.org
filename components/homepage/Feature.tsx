@@ -29,7 +29,7 @@ export default function Feature() {
                 </p>
                 <div className="mt-6">
                   <a
-                    href="#"
+                    href="https://rockylinux.org"
                     className="inline-flex bg-green-500 px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm ring-1 ring-green-500 hover:bg-green-600 hover:ring-green-600"
                   >
                     View Project
@@ -104,7 +104,7 @@ export default function Feature() {
                 </p>
                 <div className="mt-6">
                   <a
-                    href="#"
+                    href="https://github.com/rocky-linux/peridot"
                     className="inline-flex bg-green-700 px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm ring-1 ring-green-700 hover:bg-green-800 hover:ring-green-800"
                   >
                     View Project

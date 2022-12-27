@@ -4,7 +4,7 @@ import { useTranslation } from "next-i18next";
 
 import Header from "../components/Header";
 import Layout from "../components/Layout";
-import Footer from "@/components/footer/footer";
+import Footer from "@/components/footer/Footer";
 
 import {
   projectDropdownItems,
@@ -16,8 +16,8 @@ import {
 import type { GetStaticProps, NextPage } from "next";
 import type { NavItems } from "@/types/navigation/NavItem";
 import type { NavActionItems } from "@/types/navigation/NavActionItem";
-import Hero from "@/components/homepage/hero";
-import Feature from "@/components/homepage/feature";
+import Hero from "@/components/homepage/Hero";
+import Feature from "@/components/homepage/Feature";
 
 export interface IndexProps {
   menuItems?: {

@@ -4,7 +4,7 @@ import { useTranslation } from "next-i18next";
 
 import Header from "../components/Header";
 import Layout from "../components/Layout";
-import Footer from "@/components/footer/footer";
+import Footer from "@/components/footer/Footer";
 
 import {
   projectDropdownItems,

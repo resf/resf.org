@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Hero() {
   return (
     <div className="bg-white mt-7">
@@ -35,12 +37,12 @@ export default function Hero() {
                   </p>
                   <div className="mx-auto mt-10 max-w-sm sm:flex sm:max-w-none sm:justify-center">
                     <div className="space-y-4 sm:mx-auto sm:space-y-0">
-                      <a
-                        href="#"
+                      <Link
+                        href="/charter-bylaws"
                         className="flex items-center justify-center border border-transparent bg-white px-4 py-3 text-base font-medium text-green-700 shadow-sm hover:bg-blue-50 sm:px-8"
                       >
                         Learn More
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
