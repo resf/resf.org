@@ -11,7 +11,7 @@ export const projectDropdownItems: NavItems = [
   {
     name: "Peridot",
     description: "Cloud-native build & release tools.",
-    href: "#",
+    href: "https://github.com/rocky-linux/peridot",
     icon: "/pd-logo-np.svg",
   },
 ];
@@ -41,6 +41,6 @@ export const aboutDropdownItems: NavItems = [
 export const actionItems: NavActionItems = [
   {
     name: "Join Us",
-    href: "/joinus",
+    href: "https://chat.rockylinux.org/resf",
   },
 ];

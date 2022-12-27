@@ -8,7 +8,7 @@ import Footer from "@/components/footer/Footer";
 
 import {
   projectDropdownItems,
-  // menuItems,
+  //   menuItems,
   aboutDropdownItems,
   actionItems,
 } from "@/config/menu";
@@ -16,8 +16,7 @@ import {
 import type { GetStaticProps, NextPage } from "next";
 import type { NavItems } from "@/types/navigation/NavItem";
 import type { NavActionItems } from "@/types/navigation/NavActionItem";
-import Hero from "@/components/homepage/Hero";
-import Feature from "@/components/homepage/Feature";
+import CharterBylaws from "@/components/charter-bylaws/CharterBylaws";
 
 export interface IndexProps {
   menuItems?: {
@@ -35,13 +34,12 @@ const Index: NextPage = ({ menuItems }: IndexProps) => {
   return (
     <>
       <Head>
-        <title>{tCommon("orgName")}</title>
+        <title>Charter & Bylaws | {tCommon("orgName")}</title>
         <link rel="icon" href="/favicon.svg" />
       </Head>
       <Layout>
         {menuItems && <Header menu={menuItems} />}
-        <Hero />
-        <Feature />
+        <CharterBylaws />
         <Footer />
       </Layout>
     </>
@@ -56,7 +54,7 @@ export const getStaticProps: GetStaticProps = async ({ locale }) => ({
     ])),
     menuItems: {
       projectItems: projectDropdownItems,
-      // menuItems: menuItems,
+      //   menuItems: menuItems,
       aboutItems: aboutDropdownItems,
       actionItems: actionItems,
     },
