@@ -32,10 +32,6 @@ export const aboutDropdownItems: NavItems = [
     name: "Charter & Bylaws",
     href: "/charter-bylaws",
   },
-  {
-    name: "FAQ",
-    href: "/faq",
-  },
 ];
 
 export const actionItems: NavActionItems = [
