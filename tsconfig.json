@@ -11,8 +11,14 @@
       "@/components/*": [
         "./components/*"
       ],
+      "@/config/*": [
+        "./config/*"
+      ],
       "@/pages/*": [
         "./pages/*"
+      ],
+      "@/types/*": [
+        "./types/*"
       ],
       "@/utils/*": [
         "./utils/*"
@@ -29,7 +35,8 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "jsx": "preserve",
-    "incremental": true
+    "incremental": true,
+    "noImplicitAny": false
   },
   "include": [
     "next-env.d.ts",
