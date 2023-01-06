@@ -3,6 +3,8 @@ import Link from "next/link";
 
 import MobileMenuCloseButton from "./MobileMenuCloseButton";
 
+import { ChevronDownIcon } from "@heroicons/react/24/outline";
+
 import type { NavItems } from "@/types/navigation/NavItem";
 
 export interface MobileTopItemsProps {
@@ -18,7 +20,14 @@ const MobileTopItems = ({ projectItems }: MobileTopItemsProps) => {
           <MobileMenuCloseButton />
         </div>
       </div>
-      <div className="mt-6">
+      <div>
+        <h2 className="my-6 text-gray-700 flex items-center">
+          <span>Projects</span>
+          <ChevronDownIcon
+            className="ml-2 h-4 w-4 text-gray-700"
+            aria-hidden="true"
+          />
+        </h2>
         <nav className="grid gap-y-8">
           {projectItems.map((item) => (
             <Link
