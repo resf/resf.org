@@ -2,13 +2,10 @@ import Head from "next/head";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import { useTranslation } from "next-i18next";
 import { Disclosure } from "@headlessui/react";
-import { MinusSmallIcon, PlusSmallIcon } from "@heroicons/react/24/outline";
 import {
   ChevronDownIcon,
   ChevronUpIcon,
-  CheckCircleIcon,
   ChevronRightIcon,
-  EnvelopeIcon,
 } from "@heroicons/react/20/solid";
 import Charter from "@/components/charter-bylaws/Charter";
 import Bylaws from "@/components/charter-bylaws/Bylaws";
