@@ -11,14 +11,12 @@ import type { NavActionItems } from "@/types/navigation/NavActionItem";
 
 export interface NavbarDesktopProps {
   projectItems: NavItems;
-  menuItems: NavItems;
   aboutItems: NavItems;
   actionItems: NavActionItems;
 }
 
 const NavbarDesktop = ({
   projectItems,
-  menuItems,
   aboutItems,
   actionItems,
 }: NavbarDesktopProps) => {
@@ -39,11 +37,11 @@ const NavbarDesktop = ({
           >
             Projects
           </DesktopDropdownItem>
-          {menuItems.map((item) => (
+          {/* {menuItems.map((item) => (
             <DesktopItem key={item.name} href={item.href}>
               {item.name}
             </DesktopItem>
-          ))}
+          ))} */}
           <DesktopDropdownItem
             items={aboutItems}
             openNewTab={false}
