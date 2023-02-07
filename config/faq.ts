@@ -39,18 +39,6 @@ export const about = [
     `,
   },
   {
-    slug: "nonprofit-change",
-    question: "Didn't Kurtzer promise to make the RESF/Rocky Linux non-profit?",
-    answer: `<p>That was the initial intention and thus was discussed, but nothing absolute was defined. Knowing that the process of creating a non-profit takes a lot of time (and resources), we started easy to give us the coverage and protection we needed to mitigate liability, so we started with an LLC.</p>
-    <br />
-    <p>This gave us the ability to now focus on building Rocky Linux and consider the options of our structure without. With research, and debate, we decided to go the route of a not-for-profit Public Benefits Corporation (PBC).</p>
-    <br />
-    <p>We are not alone in this decision. The Fedora Foundation had a very similar path. <a href="https://web.archive.org/web/20190715202622/https://www.redhat.com/en/about/press-releases/press-fedorafoundation">When the Fedora Foundation was first announced</a>, the goal was to become a non-profit open source foundation, separate from Red Hat. But almost a year later, it was <a href="https://listman.redhat.com/archives/fedora-announce-list/2006-April/msg00016.html">announced that Fedora would instead just continue to be part of Red Hat as a for-profit entity</a>. Interestingly, most of the discussions that we had seemed to mirror <a href="https://listman.redhat.com/archives/fedora-announce-list/2006-April/msg00016.html">what happened at Red Hat outlined by Max Spevack in that thread</a>. Plus, we had another motivation that came directly from the experience of what happened with CentOS Linux in the early days, and how it was removed from the Caos Foundation, a 501(c)3 non-profit organization.</p>
-    <br />
-    <p>The entire Rocky team came to the decision that at least for the foreseeable future, we are going to keep the RESF as a PBC to ensure the greatest potential and survival of Rocky Linux to the open source community.</p>
-    `
-  },
-  {
     slug: "gregory-kurtzer-owner",
     question: "Is Gregory Kurtzer the owner of the RESF?",
     answer: `<p>Yes, Greg owns the legal entity of the RESF (somebody has to!).</p>
