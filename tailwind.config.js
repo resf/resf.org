@@ -3,6 +3,7 @@ module.exports = {
   content: [
     "./pages/**/*.{js,ts,jsx,tsx}",
     "./components/**/*.{js,ts,jsx,tsx}",
+    "./config/**/*.{js,ts,jsx,tsx}",
     "./public/locales/**/*.json",
   ],
   theme: {
@@ -31,7 +32,8 @@ module.exports = {
           700: "#0a326f",
           800: "#06224a",
           900: "#031125",
-        }
+        },
+        rockyGreen: "#10B981",
       },
       fontFamily: {
         display: ["Red Hat Display", "sans-serif"],

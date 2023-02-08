@@ -18,12 +18,12 @@ export const projectDropdownItems: NavItems = [
 
 export const menuItems: NavItems = [
   {
-    name: "Sponsors",
-    href: "/sponsors",
+    name: "About",
+    href: "/about",
   },
   {
-    name: "Partners",
-    href: "/partners",
+    name: "FAQ",
+    href: "/faq",
   },
 ];
 

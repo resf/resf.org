@@ -2,9 +2,9 @@ import Head from "next/head";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import { useTranslation } from "next-i18next";
 
-import Header from "../components/Header";
-import Layout from "../components/Layout";
-import Footer from "@/components/footer/Footer";
+import Header from "@/components/Header";
+import Layout from "@/components/Layout";
+import Footer from "@/components/Footer";
 
 import {
   projectDropdownItems,
@@ -30,7 +30,6 @@ export interface IndexProps {
 
 const Index: NextPage = ({ menuItems }: IndexProps) => {
   const { t: tCommon } = useTranslation("common");
-  const { t } = useTranslation("coming-soon");
 
   return (
     <>
