@@ -21,6 +21,10 @@ export const menuItems: NavItems = [
     name: "About",
     href: "/about",
   },
+  {
+    name: "FAQ",
+    href: "/faq",
+  },
 ];
 
 export const aboutDropdownItems: NavItems = [
