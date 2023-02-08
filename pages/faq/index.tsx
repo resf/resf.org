@@ -40,48 +40,50 @@ const FAQPage: NextPage = ({ menuItems }: IndexProps) => {
         <link rel="icon" href="/favicon.svg" />
       </Head>
       <Layout>
-        {menuItems && <Header menu={menuItems} />}
-        <BasicPageTitle>{t("faq")}</BasicPageTitle>
-        <div className="mx-5">
-          <FAQ>
-            <FAQ.Group title={t("about")}>
-              {faq.about.map((faq) => (
-                <FAQ.Item key={faq.slug} slug={faq.slug}>
-                  {faq.question}
-                </FAQ.Item>
-              ))}
-            </FAQ.Group>
-            <FAQ.Group title={t("bylaws")}>
-              {faq.byLaws.map((faq) => (
-                <FAQ.Item key={faq.slug} slug={faq.slug}>
-                  {faq.question}
-                </FAQ.Item>
-              ))}
-            </FAQ.Group>
-            <FAQ.Group title={t("board-of-directors")}>
-              {faq.BOD.map((faq) => (
-                <FAQ.Item key={faq.slug} slug={faq.slug}>
-                  {faq.question}
-                </FAQ.Item>
-              ))}
-            </FAQ.Group>
-            <FAQ.Group title={t("projects")}>
-              {faq.projects.map((faq) => (
-                <FAQ.Item key={faq.slug} slug={faq.slug}>
-                  {faq.question}
-                </FAQ.Item>
-              ))}
-            </FAQ.Group>
-            <FAQ.Group title={t("members")}>
-              {faq.members.map((faq) => (
-                <FAQ.Item key={faq.slug} slug={faq.slug}>
-                  {faq.question}
-                </FAQ.Item>
-              ))}
-            </FAQ.Group>
-          </FAQ>
+        <div className="max-w-6xl mx-auto">
+          {menuItems && <Header menu={menuItems} />}
+          <BasicPageTitle>{t("faq")}</BasicPageTitle>
+          <div className="mx-5">
+            <FAQ>
+              <FAQ.Group title={t("about")}>
+                {faq.about.map((faq) => (
+                  <FAQ.Item key={faq.slug} slug={faq.slug}>
+                    {faq.question}
+                  </FAQ.Item>
+                ))}
+              </FAQ.Group>
+              <FAQ.Group title={t("bylaws")}>
+                {faq.byLaws.map((faq) => (
+                  <FAQ.Item key={faq.slug} slug={faq.slug}>
+                    {faq.question}
+                  </FAQ.Item>
+                ))}
+              </FAQ.Group>
+              <FAQ.Group title={t("board-of-directors")}>
+                {faq.BOD.map((faq) => (
+                  <FAQ.Item key={faq.slug} slug={faq.slug}>
+                    {faq.question}
+                  </FAQ.Item>
+                ))}
+              </FAQ.Group>
+              <FAQ.Group title={t("projects")}>
+                {faq.projects.map((faq) => (
+                  <FAQ.Item key={faq.slug} slug={faq.slug}>
+                    {faq.question}
+                  </FAQ.Item>
+                ))}
+              </FAQ.Group>
+              <FAQ.Group title={t("members")}>
+                {faq.members.map((faq) => (
+                  <FAQ.Item key={faq.slug} slug={faq.slug}>
+                    {faq.question}
+                  </FAQ.Item>
+                ))}
+              </FAQ.Group>
+            </FAQ>
+          </div>
+          <Footer />
         </div>
-        <Footer />
       </Layout>
     </>
   );
