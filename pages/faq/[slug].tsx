@@ -45,20 +45,20 @@ const FAQItemPage: NextPage = ({ menuItems, faqData }: IndexProps) => {
       </Head>
       <Layout>
         {menuItems && <Header menu={menuItems} />}
-        <div className="max-w-2xl mx-auto mt-20">
-          <div className="my-6">
+        <div className="max-w-7xl mx-auto mt-20">
+          <div className="my-6 ml-6">
             <Link href="/faq" className="flex gap-x-1 text-rockyGreen">
               <ChevronLeftIcon className="w-4" />
               <span>{t("backtofaq")}</span>
             </Link>
           </div>
-          <h1 className="text-2xl font-bold tracking-tight text-gray-900 font-display">
+          <h1 className="text-2xl font-bold tracking-tight text-gray-900 font-display ml-6">
             {faqData?.question}
           </h1>
           <div
-            className="mt-10"
+            className="mt-10 ml-6"
             dangerouslySetInnerHTML={{ __html: faqData?.answer || "" }}
-          ></div>
+          />
         </div>
         <Footer />
       </Layout>
