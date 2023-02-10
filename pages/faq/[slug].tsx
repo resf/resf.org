@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Link from "next/link";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import { useTranslation } from "next-i18next";
 import * as faq from "@/config/faq";
@@ -13,12 +14,12 @@ import {
   actionItems,
 } from "@/config/menu";
 
+import { ChevronLeftIcon } from "@heroicons/react/24/outline";
+
 import type { GetStaticPaths, GetStaticProps, NextPage } from "next";
 import type { NavItems } from "@/types/navigation/NavItem";
 import type { NavActionItems } from "@/types/navigation/NavActionItem";
 import type { ParsedUrlQuery } from "querystring";
-import Link from "next/link";
-import { ChevronLeftIcon } from "@heroicons/react/24/outline";
 
 export interface IndexProps {
   menuItems?: {

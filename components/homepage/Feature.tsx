@@ -1,5 +1,3 @@
-import { InboxIcon, SparklesIcon } from "@heroicons/react/24/outline";
-
 export default function Feature() {
   return (
     <div className="relative overflow-hidden bg-white pt-16 pb-32">
