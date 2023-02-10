@@ -9,12 +9,7 @@ import BasicPageTitle from "@/components/common/BasicPageTitle";
 import FAQ from "@/components/faq/FAQ";
 import Footer from "@/components/Footer";
 
-import {
-  projectDropdownItems,
-  menuItems,
-  aboutDropdownItems,
-  actionItems,
-} from "@/config/menu";
+import { projectDropdownItems, menuItems, actionItems } from "@/config/menu";
 
 import type { GetStaticProps, NextPage } from "next";
 import type { NavItems } from "@/types/navigation/NavItem";
@@ -99,7 +94,6 @@ export const getStaticProps: GetStaticProps = async ({ locale }) => ({
     menuItems: {
       projectItems: projectDropdownItems,
       menuItems: menuItems,
-      aboutItems: aboutDropdownItems,
       actionItems: actionItems,
     },
   },

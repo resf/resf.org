@@ -27,13 +27,6 @@ export const menuItems: NavItems = [
   },
 ];
 
-export const aboutDropdownItems: NavItems = [
-  {
-    name: "Charter & Bylaws",
-    href: "/charter-bylaws",
-  },
-];
-
 export const actionItems: NavActionItems = [
   {
     name: "Join Us",
