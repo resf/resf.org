@@ -145,7 +145,15 @@ export const BOD = [
   {
     slug: "board-structure",
     question: "What does the RESF board structure look like?",
-    answer: `TODO WITH IMAGE`,
+    answer: `
+    <div class="flex flex-col gap-y-5 max-w-4xl">
+      <p>There is a structure of boards, with a summary as depicted in this image:</p>
+      <div>
+        <img alt="Board Structure" src="/board-structure.png" />
+      </div>
+      <p>This structure was not invented by these bylaws and charter, but rather it is basically the merit-based structure that the RESF uses today. What we did do is formalize this structure, nomenclature, and process.</p>
+      <p>All board seats are voted by peers based only on merit. No board seats are ever purchased or bought, and no single company can represent more than 1/3rd of any voting board.</p>
+    </div>`,
   },
   {
     slug: "board-of-directors",
