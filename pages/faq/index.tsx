@@ -40,8 +40,8 @@ const FAQPage: NextPage = ({ menuItems }: IndexProps) => {
         <link rel="icon" href="/favicon.svg" />
       </Head>
       <Layout>
-        <div className="max-w-6xl mx-auto">
-          {menuItems && <Header menu={menuItems} />}
+        {menuItems && <Header menu={menuItems} />}
+        <div className="max-w-7xl mx-auto">
           <BasicPageTitle>{t("faq")}</BasicPageTitle>
           <div className="mx-5">
             <FAQ>
@@ -82,8 +82,8 @@ const FAQPage: NextPage = ({ menuItems }: IndexProps) => {
               </FAQ.Group>
             </FAQ>
           </div>
-          <Footer />
         </div>
+        <Footer />
       </Layout>
     </>
   );
