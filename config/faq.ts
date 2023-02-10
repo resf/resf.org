@@ -50,7 +50,8 @@ export const about = [
   },
   {
     slug: "kurtzer-control",
-    question: "But if Gregory Kurtzer owns the RESF, doesn't he still have control over it?",
+    question:
+      "But if Gregory Kurtzer owns the RESF, doesn't he still have control over it?",
     answer: `<p>As a member of the foundation, Greg is subject to the same rules and functions as everyone else, but the question is still valid.</p>
     <br />
     <p>As the owner, Greg could retract the bylaws completely and unilaterally; an action that would essentially shut down the RESF and be a very public signal to the community that something unanticipated has happened which jeopardizes the Projects (e.g. Board manipulation, takeover of control, etc.).</p>
@@ -103,7 +104,8 @@ export const byLaws = [
   },
   {
     slug: "why-this-structure",
-    question: "Why has the RESF chosen this structure and bylaws and not simply adopted those from an existing open source foundation like the Apache Software Foundation, Linux Foundation or others?",
+    question:
+      "Why has the RESF chosen this structure and bylaws and not simply adopted those from an existing open source foundation like the Apache Software Foundation, Linux Foundation or others?",
     answer: `<p>The RESF structure is different from other open source foundations only in that it takes what we feel is the best of each and brings them together into a unique structure. You will find similarities among all of those listed, and our uniqueness is based on how we mixed everything together and superimposed this structure on top of how we basically operate today while striving to achieve a balance between community and the needs of enterprise organizations.</p>
     `,
   },
@@ -179,7 +181,8 @@ export const BOD = [
   },
   {
     slug: "project-funding",
-    question: "If you don't sell board seats for membership dues, how will the Projects be funded?",
+    question:
+      "If you don't sell board seats for membership dues, how will the Projects be funded?",
     answer: `<p>The RESF believes in merit based control and ensuring that all Projects are led by the best individuals for that role. All Board seats should be held by the individuals who know the needs of the Foundation and Projects best. Selling Board seats not only risks misalignment with the community, but it also alienates the people who contribute to the Project as a <em>labor of love</em>.</p>
     <br />
     <p>Funding of the RESF is provided by both RESF Sponsors as well as individual donations. These funds will be used according to the discretion of the RESF Board of directors and can be designated for things like legal expenses, hosting, physical hardware, tokens, and on occasion, compensation of contribution activity.</p>
@@ -204,7 +207,8 @@ export const BOD = [
 export const projects = [
   {
     slug: "other-projects",
-    question: "Are other Projects (not associated with Rocky Linux) also welcome to join the RESF?",
+    question:
+      "Are other Projects (not associated with Rocky Linux) also welcome to join the RESF?",
     answer: `<p>Yes, absolutely! The RESF was created to do much more than just Rocky Linux. No association required with Rocky Linux is necessary to join the RESF and new Projects are in formation. Projects do not even need to be Linux-related, but they must be open source under an OSI approved license with a preference towards non-copyleft.</p>
     <br />
     <p>The RESF welcomes any open source projects that need a neutral ground to operate.</p>
@@ -227,7 +231,8 @@ export const projects = [
   },
   {
     slug: "company-projects-resf",
-    question: "Why would a company want to put their open source projects into the RESF?",
+    question:
+      "Why would a company want to put their open source projects into the RESF?",
     answer: `<p>Open source is not a marketing gimmick or hype generating tool, it is a collaborative and effective development model that inherently builds longevity, stability, transparency, trust, and community behind an idea or development initiative. But when open source projects are controlled behind the locked doors of executive offices and boardrooms, the decisions are always in the fiduciary interest of the company, not the open source Community; at times these decisions align but many times, they do not.</p>
     <br />
     <p>The fix is for organizations to free these open source projects to community foundations.</p>
@@ -239,13 +244,15 @@ export const projects = [
   },
   {
     slug: "difference-between-project-board-and-team",
-    question: "What's the difference between a Project Board and a Project Team?",
+    question:
+      "What's the difference between a Project Board and a Project Team?",
     answer: `<p>A Project Team is a group that has a specific purpose within a Project. Within a Project Team, there must exist at least one Team Lead and at least one Team Deputy which is assigned by the Project Board. All teams report and are subject to their respective Project Boards.</p>
     `,
   },
   {
     slug: "project-board",
-    question: "What is a Project Board and how does it relate to the RESF Board?",
+    question:
+      "What is a Project Board and how does it relate to the RESF Board?",
     answer: `<p>Each Project Board exists under the RESF (Foundation) Board and there can be any number of Project Teams beneath it. Each Project Board will have a chair and a vice-chair on the RESF board for a single vote. This provides a top level RESF Board structure which has representation and board visibility to all Projects within the Foundation. This creates a system of checks and balances in the RESF Board proper as well as between the Project Boards.</p>
     <br />
     <p>Project boards are subject to the RESF board but are responsible for the governance of their own Project Teams which are subject to their respective Project Board.</p>    
@@ -288,7 +295,8 @@ export const members = [
   },
   {
     slug: "difficult-to-become-member",
-    question:"Why is it more difficult to become a member of the RESF than other open source foundations?",
+    question:
+      "Why is it more difficult to become a member of the RESF than other open source foundations?",
     answer: `<p>Membership provides a critical role to the Foundation, the right to vote for board members and become Project or Foundation leaders. Because we strive to be a meritocracy, it is most important for everyone voting to understand clearly what is needed for the benefit of the organization, Projects, and teams and thus the community. Also, it is important to ensure that elections are fair and always in the best interest of the general public and community.</p>
     <br />
     <p>Becoming a member isn’t difficult, but it does require being an active contributor to the Foundation and/or one or more Project Teams.</p>
