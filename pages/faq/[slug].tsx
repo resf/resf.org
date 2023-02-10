@@ -56,7 +56,7 @@ const FAQItemPage: NextPage = ({ menuItems, faqData }: IndexProps) => {
             {faqData?.question}
           </h1>
           <div
-            className="mt-10 ml-6"
+            className="mt-10 ml-6 pr-6"
             dangerouslySetInnerHTML={{ __html: faqData?.answer || "" }}
           />
         </div>
