@@ -38,9 +38,7 @@ const FAQItemPage: NextPage = ({ menuItems, faqData }: IndexProps) => {
   return (
     <>
       <Head>
-        <title>
-          {faqData?.question} - {tCommon("orgName")}
-        </title>
+        <title>{`${faqData?.question} - ${tCommon("orgName")}`}</title>
         <link rel="icon" href="/favicon.svg" />
       </Head>
       <Layout>
