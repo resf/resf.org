@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 // This function allows us to match text with html tags inside.
 // Use in place of TextMatcher
 // For example: screen.getByText(matchInnerContent("Hello World"))

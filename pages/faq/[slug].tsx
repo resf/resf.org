@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Link from "next/link";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import { useTranslation } from "next-i18next";
 import * as faq from "@/config/faq";
@@ -10,16 +11,15 @@ import Footer from "@/components/Footer";
 import {
   projectDropdownItems,
   menuItems,
-  aboutDropdownItems,
   actionItems,
 } from "@/config/menu";
+
+import { ChevronLeftIcon } from "@heroicons/react/24/outline";
 
 import type { GetStaticPaths, GetStaticProps, NextPage } from "next";
 import type { NavItems } from "@/types/navigation/NavItem";
 import type { NavActionItems } from "@/types/navigation/NavActionItem";
 import type { ParsedUrlQuery } from "querystring";
-import Link from "next/link";
-import { ChevronLeftIcon } from "@heroicons/react/24/outline";
 
 export interface IndexProps {
   menuItems?: {
@@ -38,9 +38,7 @@ const FAQItemPage: NextPage = ({ menuItems, faqData }: IndexProps) => {
   return (
     <>
       <Head>
-        <title>
-          {faqData?.question} - {tCommon("orgName")}
-        </title>
+        <title>{`${faqData?.question} - ${tCommon("orgName")}`}</title>
         <link rel="icon" href="/favicon.svg" />
       </Head>
       <Layout>
@@ -56,7 +54,7 @@ const FAQItemPage: NextPage = ({ menuItems, faqData }: IndexProps) => {
             {faqData?.question}
           </h1>
           <div
-            className="mt-10 ml-6"
+            className="mt-10 ml-6 pr-6"
             dangerouslySetInnerHTML={{ __html: faqData?.answer || "" }}
           />
         </div>
@@ -92,7 +90,6 @@ export const getStaticProps: GetStaticProps = async ({ locale, params }) => {
       menuItems: {
         projectItems: projectDropdownItems,
         menuItems: menuItems,
-        aboutItems: aboutDropdownItems,
         actionItems: actionItems,
       },
       faqData,

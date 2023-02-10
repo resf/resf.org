@@ -9,13 +9,13 @@ export interface FAQItemProps {
 const FAQItem = ({ children, slug }: FAQItemProps) => {
   return (
     <li>
-      <Link href={`/faq/${slug}`}>
-        <div className="flex w-full items-start justify-between text-left text-gray-900 hover:text-rockyGreen">
-          <span className="text-base font-semibold leading-7 max-w-2xl">
+      <div className="flex w-full items-start justify-between text-left text-gray-900 max-w-4xl">
+        <Link href={`/faq/${slug}`}>
+          <span className="text-base font-semibold leading-7 hover:text-rockyGreen">
             {children}
           </span>
-        </div>
-      </Link>
+        </Link>
+      </div>
     </li>
   );
 };

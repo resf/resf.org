@@ -10,16 +10,11 @@ import {
 import Charter from "@/components/charter-bylaws/Charter";
 import Bylaws from "@/components/charter-bylaws/Bylaws";
 
-import Header from "../components/Header";
-import Layout from "../components/Layout";
-import Footer from "../components/Footer";
+import Header from "@/components/Header";
+import Layout from "@/components/Layout";
+import Footer from "@/components/Footer";
 
-import {
-  projectDropdownItems,
-  menuItems,
-  aboutDropdownItems,
-  actionItems,
-} from "@/config/menu";
+import { projectDropdownItems, menuItems, actionItems } from "@/config/menu";
 
 import type { GetStaticProps, NextPage } from "next";
 import type { NavItems } from "@/types/navigation/NavItem";
@@ -542,7 +537,6 @@ export const getStaticProps: GetStaticProps = async ({ locale }) => ({
     menuItems: {
       projectItems: projectDropdownItems,
       menuItems: menuItems,
-      aboutItems: aboutDropdownItems,
       actionItems: actionItems,
     },
   },
