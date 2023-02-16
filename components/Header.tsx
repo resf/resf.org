@@ -8,7 +8,6 @@ import type { NavActionItems } from "@/types/navigation/NavActionItem";
 
 export interface HeaderProps {
   menu: {
-    projectItems: NavItems;
     menuItems: NavItems;
     actionItems: NavActionItems;
   };
@@ -18,15 +17,10 @@ export default function Header({ menu }: HeaderProps) {
   return (
     <Popover className="relative bg-white">
       <NavbarDesktop
-        projectItems={menu.projectItems}
         menuItems={menu.menuItems}
         actionItems={menu.actionItems}
       />
-      <NavbarMobile
-        projectItems={menu.projectItems}
-        menuItems={menu.menuItems}
-        actionItems={menu.actionItems}
-      />
+      <NavbarMobile menuItems={menu.menuItems} actionItems={menu.actionItems} />
     </Popover>
   );
 }

@@ -25,11 +25,19 @@ export const menuItems: NavItems = [
     name: "FAQ",
     href: "/faq",
   },
+  {
+    name: "Projects",
+    href: "/projects",
+  },
+  // {
+  //   name: "Sponsors",
+  //   href: "/sponsors",
+  // },
 ];
 
 export const actionItems: NavActionItems = [
   {
     name: "Join Us",
-    href: "https://chat.rockylinux.org/resf",
+    href: "/join-us",
   },
 ];

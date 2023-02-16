@@ -5,10 +5,10 @@ import { useTranslation } from "next-i18next";
 import Header from "@/components/Header";
 import Layout from "@/components/Layout";
 import Hero from "@/components/homepage/Hero";
-import Feature from "@/components/homepage/Feature";
 import Footer from "@/components/Footer";
+import Principles from "@/components/homepage/Principles";
 
-import { projectDropdownItems, menuItems, actionItems } from "@/config/menu";
+import { menuItems, actionItems } from "@/config/menu";
 
 import type { GetStaticProps, NextPage } from "next";
 import type { NavItems } from "@/types/navigation/NavItem";
@@ -16,7 +16,6 @@ import type { NavActionItems } from "@/types/navigation/NavActionItem";
 
 export interface IndexProps {
   menuItems?: {
-    projectItems: NavItems;
     menuItems: NavItems;
     actionItems: NavActionItems;
   };
@@ -34,7 +33,7 @@ const Index: NextPage = ({ menuItems }: IndexProps) => {
       <Layout>
         {menuItems && <Header menu={menuItems} />}
         <Hero />
-        <Feature />
+        <Principles />
         <Footer />
       </Layout>
     </>
@@ -48,7 +47,6 @@ export const getStaticProps: GetStaticProps = async ({ locale }) => ({
       "coming-soon",
     ])),
     menuItems: {
-      projectItems: projectDropdownItems,
       menuItems: menuItems,
       actionItems: actionItems,
     },

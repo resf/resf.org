@@ -14,7 +14,7 @@ import Header from "@/components/Header";
 import Layout from "@/components/Layout";
 import Footer from "@/components/Footer";
 
-import { projectDropdownItems, menuItems, actionItems } from "@/config/menu";
+import { menuItems, actionItems } from "@/config/menu";
 
 import type { GetStaticProps, NextPage } from "next";
 import type { NavItems } from "@/types/navigation/NavItem";
@@ -22,9 +22,7 @@ import type { NavActionItems } from "@/types/navigation/NavActionItem";
 
 export interface AboutProps {
   menuItems?: {
-    projectItems: NavItems;
     menuItems: NavItems;
-    aboutItems: NavItems;
     actionItems: NavActionItems;
   };
 }
@@ -67,7 +65,7 @@ const About: NextPage = ({ menuItems }: AboutProps) => {
             <div className="px-6 lg:px-8">
               <div className="mx-auto divide-y divide-gray-900/10">
                 <dl className="mt-10 space-y-6 divide-y divide-gray-900/10">
-                  <Disclosure as="div" className="pt-6">
+                  <Disclosure defaultOpen as="div" className="pt-6">
                     {({ open }) => (
                       <>
                         <dt>
@@ -535,7 +533,6 @@ export const getStaticProps: GetStaticProps = async ({ locale }) => ({
       "coming-soon",
     ])),
     menuItems: {
-      projectItems: projectDropdownItems,
       menuItems: menuItems,
       actionItems: actionItems,
     },

@@ -3,23 +3,17 @@ import { Popover } from "@headlessui/react";
 import DesktopItem from "./DesktopItem";
 import Logo from "./Logo";
 import MobileMenuOpenButton from "./MobileMenuOpenButton";
-import DesktopDropdownItem from "./DesktopDropdownItem";
 import DesktopActionItem from "./DesktopActionItem";
 
 import type { NavItems } from "@/types/navigation/NavItem";
 import type { NavActionItems } from "@/types/navigation/NavActionItem";
 
 export interface NavbarDesktopProps {
-  projectItems: NavItems;
   menuItems: NavItems;
   actionItems: NavActionItems;
 }
 
-const NavbarDesktop = ({
-  projectItems,
-  menuItems,
-  actionItems,
-}: NavbarDesktopProps) => {
+const NavbarDesktop = ({ menuItems, actionItems }: NavbarDesktopProps) => {
   return (
     <div className="mx-auto max-w-7xl px-4 sm:px-6">
       <div className="flex items-center justify-between border-b-2 border-gray-100 py-6 md:justify-start md:space-x-10">
@@ -35,13 +29,6 @@ const NavbarDesktop = ({
               {item.name}
             </DesktopItem>
           ))}
-          <DesktopDropdownItem
-            items={projectItems}
-            openNewTab={true}
-            isFirstMenuItem={true}
-          >
-            Projects
-          </DesktopDropdownItem>
         </Popover.Group>
         <div className="hidden items-center justify-end md:flex md:flex-1 lg:w-0">
           {actionItems.map((item) => (
