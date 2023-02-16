@@ -12,6 +12,7 @@ import type { GetStaticProps, NextPage } from "next";
 import type { NavItems } from "@/types/navigation/NavItem";
 import type { NavActionItems } from "@/types/navigation/NavActionItem";
 import Feature from "@/components/homepage/Feature";
+import Link from "next/link";
 
 export interface ProjectsProps {
   menuItems?: {
@@ -51,12 +52,12 @@ const Projects: NextPage = ({ menuItems }: ProjectsProps) => {
                   considered is to become a member.
                 </p>
                 <div className="mt-7">
-                  <a
-                    href="https://github.com/rocky-linux/peridot"
-                    className="inline-flex bg-blue-500 px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm ring-1 ring-green-700 hover:bg-green-800 hover:ring-green-800"
+                  <Link
+                    href="/join-us"
+                    className="inline-flex bg-blue-500 px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm ring-1 ring-green-700 hover:bg-blue-800 hover:ring-blue-800"
                   >
                     Become a Member
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
