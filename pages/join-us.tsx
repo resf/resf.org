@@ -1,14 +1,6 @@
 import Head from "next/head";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import { useTranslation } from "next-i18next";
-import { Disclosure } from "@headlessui/react";
-import {
-  ChevronDownIcon,
-  ChevronUpIcon,
-  ChevronRightIcon,
-} from "@heroicons/react/20/solid";
-import Charter from "@/components/charter-bylaws/Charter";
-import Bylaws from "@/components/charter-bylaws/Bylaws";
 
 import Header from "@/components/Header";
 import Layout from "@/components/Layout";
@@ -17,21 +9,10 @@ import Footer from "@/components/Footer";
 import { projectDropdownItems, menuItems, actionItems } from "@/config/menu";
 
 import type { GetStaticProps, NextPage } from "next";
-import type { NavItems } from "@/types/navigation/NavItem";
-import type { NavActionItems } from "@/types/navigation/NavActionItem";
 
-export interface AboutProps {
-  menuItems?: {
-    projectItems: NavItems;
-    menuItems: NavItems;
-    aboutItems: NavItems;
-    actionItems: NavActionItems;
-  };
-}
-
-const About: NextPage = ({ menuItems }: AboutProps) => {
+const JoinUs: NextPage = ({ menuItems }: AboutProps) => {
   const { t: tCommon } = useTranslation("common");
-  // TODO: Create about translation file
+  // TODO: Create join us translation file
   // const { t } = useTranslation("coming-soon");
 
   return (
@@ -155,4 +136,4 @@ export const getStaticProps: GetStaticProps = async ({ locale }) => ({
   },
 });
 
-export default About;
+export default JoinUs;
