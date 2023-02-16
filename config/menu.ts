@@ -25,6 +25,18 @@ export const menuItems: NavItems = [
     name: "FAQ",
     href: "/faq",
   },
+  {
+    name: "Partners",
+    href: "/partners",
+  },
+  {
+    name: "Projects",
+    href: "/projects",
+  },
+  {
+    name: "Sponsors",
+    href: "/sponsors",
+  },
 ];
 
 export const actionItems: NavActionItems = [
