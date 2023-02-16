@@ -5,15 +5,14 @@ import { useTranslation } from "next-i18next";
 import Header from "@/components/Header";
 import Layout from "@/components/Layout";
 import Hero from "@/components/homepage/Hero";
-import Feature from "@/components/homepage/Feature";
 import Footer from "@/components/Footer";
+import Principles from "@/components/homepage/Principles";
 
 import { projectDropdownItems, menuItems, actionItems } from "@/config/menu";
 
 import type { GetStaticProps, NextPage } from "next";
 import type { NavItems } from "@/types/navigation/NavItem";
 import type { NavActionItems } from "@/types/navigation/NavActionItem";
-import Principles from "@/components/homepage/Principles";
 
 export interface IndexProps {
   menuItems?: {

@@ -29,10 +29,10 @@ export const menuItems: NavItems = [
     name: "Projects",
     href: "/projects",
   },
-  {
-    name: "Sponsors",
-    href: "/sponsors",
-  },
+  // {
+  //   name: "Sponsors",
+  //   href: "/sponsors",
+  // },
 ];
 
 export const actionItems: NavActionItems = [
