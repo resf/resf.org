@@ -67,7 +67,7 @@ const About: NextPage = ({ menuItems }: AboutProps) => {
             <div className="px-6 lg:px-8">
               <div className="mx-auto divide-y divide-gray-900/10">
                 <dl className="mt-10 space-y-6 divide-y divide-gray-900/10">
-                  <Disclosure as="div" className="pt-6">
+                  <Disclosure defaultOpen as="div" className="pt-6">
                     {({ open }) => (
                       <>
                         <dt>
