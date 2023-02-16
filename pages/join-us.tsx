@@ -9,10 +9,21 @@ import Footer from "@/components/Footer";
 import { projectDropdownItems, menuItems, actionItems } from "@/config/menu";
 
 import type { GetStaticProps, NextPage } from "next";
+import type { NavItems } from "@/types/navigation/NavItem";
+import type { NavActionItems } from "@/types/navigation/NavActionItem";
 
-const JoinUs: NextPage = ({ menuItems }: AboutProps) => {
+export interface JoinUsProps {
+  menuItems?: {
+    projectItems: NavItems;
+    menuItems: NavItems;
+    aboutItems: NavItems;
+    actionItems: NavActionItems;
+  };
+}
+
+const JoinUs: NextPage = ({ menuItems }: JoinUsProps) => {
   const { t: tCommon } = useTranslation("common");
-  // TODO: Create join us translation file
+  // TODO: Create about translation file
   // const { t } = useTranslation("coming-soon");
 
   return (
