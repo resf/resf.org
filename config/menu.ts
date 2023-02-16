@@ -26,10 +26,6 @@ export const menuItems: NavItems = [
     href: "/faq",
   },
   {
-    name: "Partners",
-    href: "/partners",
-  },
-  {
     name: "Projects",
     href: "/projects",
   },
