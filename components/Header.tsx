@@ -18,9 +18,9 @@ export default function Header({ menu }: HeaderProps) {
   return (
     <Popover className="relative bg-white">
       <NavbarDesktop
-        projectItems={menu.projectItems}
+        // projectItems={menu.projectItems}
         menuItems={menu.menuItems}
-        actionItems={menu.actionItems}
+        // actionItems={menu.actionItems}
       />
       <NavbarMobile
         projectItems={menu.projectItems}
