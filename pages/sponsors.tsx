@@ -86,7 +86,7 @@ const t4sponsors = [
   },
   {
     name: "Seagate Federal",
-    href: "https://www.procomputers.com/",
+    href: "https://www.seagategov.com/",
     logoUrl: "/images/sponsors/seagate.png",
   },
   {
