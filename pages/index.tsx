@@ -13,6 +13,7 @@ import { projectDropdownItems, menuItems, actionItems } from "@/config/menu";
 import type { GetStaticProps, NextPage } from "next";
 import type { NavItems } from "@/types/navigation/NavItem";
 import type { NavActionItems } from "@/types/navigation/NavActionItem";
+import Principles from "@/components/homepage/Principles";
 
 export interface IndexProps {
   menuItems?: {
@@ -34,7 +35,7 @@ const Index: NextPage = ({ menuItems }: IndexProps) => {
       <Layout>
         {menuItems && <Header menu={menuItems} />}
         <Hero />
-        <Feature />
+        <Principles />
         <Footer />
       </Layout>
     </>
