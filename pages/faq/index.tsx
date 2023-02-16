@@ -9,7 +9,7 @@ import BasicPageTitle from "@/components/common/BasicPageTitle";
 import FAQ from "@/components/faq/FAQ";
 import Footer from "@/components/Footer";
 
-import { projectDropdownItems, menuItems, actionItems } from "@/config/menu";
+import { menuItems, actionItems } from "@/config/menu";
 
 import type { GetStaticProps, NextPage } from "next";
 import type { NavItems } from "@/types/navigation/NavItem";
@@ -17,9 +17,7 @@ import type { NavActionItems } from "@/types/navigation/NavActionItem";
 
 export interface IndexProps {
   menuItems?: {
-    projectItems: NavItems;
     menuItems: NavItems;
-    aboutItems: NavItems;
     actionItems: NavActionItems;
   };
 }
@@ -92,7 +90,6 @@ export const getStaticProps: GetStaticProps = async ({ locale }) => ({
       "faq",
     ])),
     menuItems: {
-      projectItems: projectDropdownItems,
       menuItems: menuItems,
       actionItems: actionItems,
     },

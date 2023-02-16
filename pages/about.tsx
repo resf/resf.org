@@ -14,7 +14,7 @@ import Header from "@/components/Header";
 import Layout from "@/components/Layout";
 import Footer from "@/components/Footer";
 
-import { projectDropdownItems, menuItems, actionItems } from "@/config/menu";
+import { menuItems, actionItems } from "@/config/menu";
 
 import type { GetStaticProps, NextPage } from "next";
 import type { NavItems } from "@/types/navigation/NavItem";
@@ -22,9 +22,7 @@ import type { NavActionItems } from "@/types/navigation/NavActionItem";
 
 export interface AboutProps {
   menuItems?: {
-    projectItems: NavItems;
     menuItems: NavItems;
-    aboutItems: NavItems;
     actionItems: NavActionItems;
   };
 }
@@ -535,7 +533,6 @@ export const getStaticProps: GetStaticProps = async ({ locale }) => ({
       "coming-soon",
     ])),
     menuItems: {
-      projectItems: projectDropdownItems,
       menuItems: menuItems,
       actionItems: actionItems,
     },

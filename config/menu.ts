@@ -38,6 +38,6 @@ export const menuItems: NavItems = [
 export const actionItems: NavActionItems = [
   {
     name: "Join Us",
-    href: "https://chat.rockylinux.org/resf",
+    href: "/join-us",
   },
 ];

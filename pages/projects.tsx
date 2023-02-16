@@ -6,23 +6,21 @@ import Header from "@/components/Header";
 import Layout from "@/components/Layout";
 import Footer from "@/components/Footer";
 
-import { projectDropdownItems, menuItems, actionItems } from "@/config/menu";
+import { menuItems, actionItems } from "@/config/menu";
 
 import type { GetStaticProps, NextPage } from "next";
 import type { NavItems } from "@/types/navigation/NavItem";
 import type { NavActionItems } from "@/types/navigation/NavActionItem";
 import Feature from "@/components/homepage/Feature";
-import BasicPageTitle from "@/components/common/BasicPageTitle";
 
-export interface IndexProps {
+export interface ProjectsProps {
   menuItems?: {
-    projectItems: NavItems;
     menuItems: NavItems;
     actionItems: NavActionItems;
   };
 }
 
-const Projects: NextPage = ({ menuItems }: IndexProps) => {
+const Projects: NextPage = ({ menuItems }: ProjectsProps) => {
   const { t: tCommon } = useTranslation("common");
 
   return (
@@ -83,7 +81,6 @@ export const getStaticProps: GetStaticProps = async ({ locale }) => ({
       "coming-soon",
     ])),
     menuItems: {
-      projectItems: projectDropdownItems,
       menuItems: menuItems,
       actionItems: actionItems,
     },
