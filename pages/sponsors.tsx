@@ -24,6 +24,7 @@ export interface SponsorsProps {
 const t1sponsors = [
   {
     name: "CIQ",
+    founding: true,
     description:
       "We believe in helping people do great things. This is why CIQ is a founding sponsor of the RESF. We provide commercial support and services for Rocky Linux to customers in research, academia, government, enterprise, partners, and everyone in between.",
     href: "https://ciq.co",
@@ -179,9 +180,18 @@ const Sponsors: NextPage = ({ menuItems }: SponsorsProps) => {
                                   </div>
                                   <div className="flex flex-1 flex-col justify-between bg-white p-6">
                                     <div className="flex-1">
-                                      <p className="text-xl font-semibold text-gray-900">
-                                        {sponsor.name}
-                                      </p>
+                                      <span className="flex items-center gap-x-3">
+                                        <p className="text-xl font-semibold text-gray-900">
+                                          {sponsor.name}
+                                        </p>
+                                        {sponsor.founding && (
+                                          <div>
+                                            <span className="text-xs border border-green-600 bg-rockyGreen text-white rounded-lg px-2 py-0.5">
+                                              Founding Sponsor
+                                            </span>
+                                          </div>
+                                        )}
+                                      </span>
                                       <p className="mt-3 text-base text-gray-500">
                                         {sponsor.description}
                                       </p>
