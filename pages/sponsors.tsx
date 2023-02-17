@@ -27,7 +27,7 @@ const t1sponsors = [
     founding: true,
     description:
       "We believe in helping people do great things. This is why CIQ is a founding sponsor of the RESF. We provide commercial support and services for Rocky Linux to customers in research, academia, government, enterprise, partners, and everyone in between.",
-    href: "https://ciq.co",
+    href: "https://ciq.co/products/rocky-linux/",
     logoUrl: "/images/sponsors/ciq.png",
   },
   {
