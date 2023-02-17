@@ -86,11 +86,6 @@ const t4sponsors = [
     logoUrl: "/images/sponsors/procomputers.png",
   },
   {
-    name: "Seagate Federal",
-    href: "https://www.seagategov.com/",
-    logoUrl: "/images/sponsors/seagate.png",
-  },
-  {
     name: "Stromasys",
     href: "https://stromasys.com/",
     logoUrl: "/images/sponsors/stromasys.png",
