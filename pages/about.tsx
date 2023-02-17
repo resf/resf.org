@@ -477,14 +477,14 @@ const About: NextPage = ({ menuItems }: AboutProps) => {
                                     href="https://github.com/resf/board-minutes/raw/main/2023/01-16.pdf"
                                     className="block hover:bg-gray-50"
                                   >
-                                    <div className="flex items-center px-4 py-4 sm:px-6">
+                                    <div className="flex flex-col gap-y-3 md:flex-row items-center px-4 py-4 sm:px-6">
                                       <div className="flex min-w-0 flex-1 items-center">
-                                        <div className="min-w-0 flex-1 px-2 md:grid md:grid-cols-2 md:gap-4">
+                                        <div className="min-w-0 flex-1 px-2">
                                           <div>
-                                            <p className="truncate text-sm font-medium text-blue-600">
+                                            <p className="truncate text-base font-medium text-blue-600">
                                               January 16, 2023
                                             </p>
-                                            <p className="mt-2 flex items-center text-sm text-gray-500">
+                                            <p className="mt-2 flex items-center text-base text-gray-500">
                                               <span>
                                                 The initial meeting commenced,
                                                 introductions were made between
@@ -496,7 +496,7 @@ const About: NextPage = ({ menuItems }: AboutProps) => {
                                           </div>
                                         </div>
                                       </div>
-                                      <div className="flex items-center justify-center">
+                                      <div className="self-right flex items-center justify-center">
                                         <p className="text-blue-500 font-semibold">
                                           Download{" "}
                                         </p>
