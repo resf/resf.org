@@ -134,7 +134,7 @@ const Sponsors: NextPage = ({ menuItems }: SponsorsProps) => {
                   <Disclosure defaultOpen as="div" className="pt-6">
                     {({ open }) => (
                       <>
-                        <dt>
+                        <dt className="sticky top-0 bg-white bg-opacity-90">
                           <Disclosure.Button className="flex w-full items-start justify-between text-left text-gray-900">
                             <span className="text-2xl font-bold leading-7 font-display ml-4 lg:ml-7">
                               Tier 1 - Principal Sponsors
@@ -203,7 +203,7 @@ const Sponsors: NextPage = ({ menuItems }: SponsorsProps) => {
                   <Disclosure defaultOpen as="div" className="pt-6">
                     {({ open }) => (
                       <>
-                        <dt>
+                        <dt className="sticky top-0 bg-white bg-opacity-90">
                           <Disclosure.Button className="flex w-full items-start justify-between text-left text-gray-900">
                             <span className="text-2xl font-bold leading-7 font-display ml-4 lg:ml-7">
                               Tier 4
