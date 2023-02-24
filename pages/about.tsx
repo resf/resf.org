@@ -477,7 +477,7 @@ const About: NextPage = ({ menuItems }: AboutProps) => {
                                     href="https://github.com/resf/board-minutes/raw/main/2023/01-16.pdf"
                                     className="block hover:bg-gray-50"
                                   >
-                                    <div className="flex flex-col gap-y-3 md:flex-row items-center px-4 py-4 sm:px-6">
+                                    <div className="flex flex-col gap-3 md:gap-10 md:flex-row items-center px-4 pt-4 pb-6 sm:px-6">
                                       <div className="flex min-w-0 flex-1 items-center">
                                         <div className="min-w-0 flex-1 px-2">
                                           <div>
@@ -496,7 +496,7 @@ const About: NextPage = ({ menuItems }: AboutProps) => {
                                           </div>
                                         </div>
                                       </div>
-                                      <div className="self-right flex items-center justify-center">
+                                      <div className="self-end md:self-auto flex items-center justify-center">
                                         <p className="text-blue-500 font-semibold">
                                           Download{" "}
                                         </p>

@@ -15,7 +15,7 @@ export interface HeaderProps {
 
 export default function Header({ menu }: HeaderProps) {
   return (
-    <Popover className="relative bg-white">
+    <Popover className="relative bg-white pb-24">
       <NavbarDesktop
         menuItems={menu.menuItems}
         actionItems={menu.actionItems}
