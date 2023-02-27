@@ -1,4 +1,3 @@
-import classNames from "@/utils/classNames";
 import type { ReactNode } from "react";
 
 export interface BasicPageTitleProps {
@@ -9,21 +8,19 @@ export interface BasicPageTitleProps {
 
 const BasicPageTitle = ({
   children,
-  className,
   subtext,
 }: BasicPageTitleProps) => {
   return (
-    <div className="my-6 ml-6">
-      <h1
-        className={classNames(
-          className ? className : "",
-          "text-2xl font-bold tracking-tight text-gray-900 font-display"
-        )}
-      >
-        {children}
-      </h1>
-      {subtext && <p className="mt-2">{subtext}</p>}
-    </div>
+      <div className="bg-white">
+          <div className="pt-12 pb-8 px-6 sm:pt-16 sm:pb-12 lg:flex lg:justify-between lg:px-8">
+              <div>
+                  <h2 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl lg:text-6xl font-display">
+                      {children}
+                  </h2>
+                  {subtext && <p className="mt-5 text-xl text-gray-500">{subtext}</p> }
+              </div>
+          </div>
+      </div>
   );
 };
 

@@ -14,7 +14,7 @@ class MyDocument extends Document {
 
   render() {
     return (
-      <Html className="w-screen">
+      <Html>
         <Head />
         <body>
           <Main />

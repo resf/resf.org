@@ -13,7 +13,7 @@ export type FAQComponent = ReactElement & {
 };
 
 const FAQ = ({ children }: FAQProps): FAQComponent => {
-  return <div className="flex flex-col">{children}</div>;
+  return <div className="flex flex-col ml-4">{children}</div>;
 };
 
 FAQ.Group = FAQGroup;
