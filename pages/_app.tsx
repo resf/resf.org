@@ -6,7 +6,7 @@ import type { AppProps } from "next/app";
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
-      <PlausibleProvider domain="resf.org">
+      <PlausibleProvider trackOutboundLinks domain="resf.org">
         <Component {...pageProps} />
       </PlausibleProvider>
   );
