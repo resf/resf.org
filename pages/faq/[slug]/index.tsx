@@ -8,11 +8,7 @@ import Header from "@/components/Header";
 import Layout from "@/components/Layout";
 import Footer from "@/components/Footer";
 
-import {
-  projectDropdownItems,
-  menuItems,
-  actionItems,
-} from "@/config/menu";
+import { projectDropdownItems, menuItems, actionItems } from "@/config/menu";
 
 import { ChevronLeftIcon } from "@heroicons/react/24/outline";
 
@@ -65,9 +61,13 @@ const FAQItemPage: NextPage = ({ menuItems, faqData }: IndexProps) => {
 };
 
 export const getStaticPaths: GetStaticPaths = async () => {
+  const slugs = faq.slugs;
+
+  console.log("Slugs", slugs);
+
   return {
     fallback: "blocking",
-    paths: faq.slugs.map((slug) => ({ params: { slug } })),
+    paths: slugs.map((slug) => ({ params: { slug } })),
   };
 };
 
@@ -79,6 +79,12 @@ export const getStaticProps: GetStaticProps = async ({ locale, params }) => {
   const { slug } = params as IParams;
 
   const faqData = faq.allFaq.find((item) => item.slug === slug);
+
+  if (!faqData) {
+    return {
+      notFound: true,
+    };
+  }
 
   return {
     props: {
