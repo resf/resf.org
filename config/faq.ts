@@ -142,18 +142,7 @@ export const byLaws = [
 ];
 
 export const BOD = [
-  {
-    slug: "board-structure",
-    question: "What does the RESF board structure look like?",
-    answer: `
-    <div class="flex flex-col gap-y-5 max-w-4xl">
-      <p>There is a structure of boards, with a summary as depicted in this image:</p>
-      <div>
-        <img alt="Board Structure" src="/board-structure.png" />
-      </div>
-      <p>All board seats are voted by peers based only on merit. No board seats are ever purchased or bought, and no single company can represent more than 1/3rd of any voting board.</p>
-    </div>`,
-  },
+  // slug: board-structure (static page)
   {
     slug: "board-of-directors",
     question: "Who is on the board of directors?",
