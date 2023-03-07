@@ -50,7 +50,7 @@ const FAQItemPage: NextPage = ({ menuItems, faqData }: IndexProps) => {
             {faqData?.question}
           </h1>
           <div
-            className="mt-10 ml-6 pr-6"
+            className="mt-10 ml-6 max-w-full pr-6 prose prose-a:text-rockyGreen"
             dangerouslySetInnerHTML={{ __html: faqData?.answer || "" }}
           />
         </div>

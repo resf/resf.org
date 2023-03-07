@@ -50,7 +50,7 @@ const FAQBoardStructure: NextPage = ({ menuItems }: IndexProps) => {
           <h1 className="text-2xl font-bold tracking-tight text-gray-900 font-display ml-6">
             What does the RESF board structure look like?
           </h1>
-          <div className="mt-10 ml-6 pr-6">
+          <div className="mt-10 ml-6 max-w-full pr-6 prose prose-a:text-rockyGreen">
             <div className="flex flex-col gap-y-5 max-w-4xl">
               <p>
                 There is a structure of boards, with a summary as depicted in
