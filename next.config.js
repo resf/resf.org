@@ -7,4 +7,18 @@ const nextConfig = {
   i18n,
 };
 
-module.exports = nextConfig;
+module.exports = {
+  async rewrites() {
+    return [
+      {
+        source: "/pa/script.js",
+        destination: "https://plausible.io/js/script.outbound-links.js",
+      },
+      {
+        source: "/pa/event",
+        destination: "https://plausible.io/api/event",
+      },
+    ];
+  },
+  nextConfig,
+};
