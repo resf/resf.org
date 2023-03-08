@@ -19,8 +19,8 @@ class MyDocument extends Document {
           <script
             defer
             data-domain="resf.org"
-            data-api="/stats/api/event"
-            src="/stats/js/script.js"
+            data-api="https://img.resf.workers.dev/img/event"
+            src="https://img.resf.workers.dev/js/script.outbound-links.js"
           ></script>
         </Head>
         <body>
