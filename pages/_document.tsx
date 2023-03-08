@@ -15,7 +15,14 @@ class MyDocument extends Document {
   render() {
     return (
       <Html>
-        <Head />
+        <Head>
+          <script
+            defer
+            data-domain="resf.org"
+            data-api="/pa/api/event"
+            src="/pa/js/script.js"
+          ></script>
+        </Head>
         <body>
           <Main />
           <NextScript />
