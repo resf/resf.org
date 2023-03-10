@@ -34,6 +34,7 @@ module.exports = {
           900: "#031125",
         },
         rockyGreen: "#10B981",
+        rockyBlue: "#1054B9",
       },
       fontFamily: {
         display: ["Red Hat Display", "sans-serif"],

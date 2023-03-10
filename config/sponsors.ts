@@ -45,7 +45,7 @@ export const sponsors: SponsorsConfig = {
           logoUrl: "/images/sponsors/opendrives.png",
         },
         {
-          name: "Rakutan Symphony",
+          name: "Rakuten Symphony",
           description:
             "Rakuten Symphony is a strong believer that open source communities encourage innovation through collaboration. Deployment of Rocky Linux represents a return to true open-source principles, powered by open communities. Rakuten Symphony is working closely with a broad spectrum of third-party vendors and technology partners within the telecom industry to make Rocky Linux the standard operating system for running large networks.",
           href: "https://symphony.rakuten.com/",
