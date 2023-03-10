@@ -4,6 +4,8 @@ import { useTranslation } from "next-i18next";
 
 import Header from "@/components/Header";
 import Layout from "@/components/Layout";
+import JoinUsColoredBox from "@/components/join-us/JoinUsColoredBox";
+import JoinUsBox from "@/components/join-us/JoinUsBox";
 import Footer from "@/components/Footer";
 
 import { menuItems, actionItems } from "@/config/menu";
@@ -35,51 +37,54 @@ const JoinUs: NextPage = ({ menuItems }: JoinUsProps) => {
         {menuItems && <Header menu={menuItems} />}
         <div className="max-w-7xl mx-auto">
           <div className="bg-white">
-            <div className="pt-16 px-6 sm:pt-24 lg:flex lg:justify-between lg:px-8">
+            <div className="pt-16 px-6 sm:pt-24 lg:px-8">
               <div>
                 <h2 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl lg:text-6xl font-display">
                   Join Us
                 </h2>
-                <h3 className="mt-10 text-xl font-bold tracking-tight text-gray-900 sm:text-2xl lg:text-3xl font-display">
-                  Be in the know and have a say
-                </h3>
-                <p className="mt-2 text-base">
-                  You get to take part in leadership decisions and presentations
-                  on what is happening, see what is on the horizon, be aware of
-                  new things that are coming with other Projects, and have a
-                  formal voice with the RESF.
-                </p>
-                <h3 className="mt-4 text-xl font-bold tracking-tight text-gray-900 sm:text-2xl lg:text-3xl font-display">
-                  Choose your role
-                </h3>
-                <p className="mt-2 text-base">
-                  Have a direct path to become a Team Lead/Deputy, Officer,
-                  Project Board Member, RESF Board Member, or a Board Chair.
-                  Every level of the organization is available to Members.
-                </p>
-                <h3 className="mt-4 text-xl font-bold tracking-tight text-gray-900 sm:text-2xl lg:text-3xl font-display">
-                  Bragging rights
-                </h3>
-                <p className="mt-2 text-base">
-                  You can put on your resume, CV, or LinkedIn that you are part
-                  of one of the fastest growing initiatives that most large
-                  organizations worldwide are aware of.
-                </p>
-                <h3 className="mt-4 text-xl font-bold tracking-tight text-gray-900 sm:text-2xl lg:text-3xl font-display">
-                  SWAG!
-                </h3>
-                <p className="mt-2 text-base">
-                  You will have access to specific Membership swag (stickers,
-                  T-shirts, hats, etc.)
-                </p>
-                <h3 className="mt-4 text-xl font-bold tracking-tight text-gray-900 sm:text-2xl lg:text-3xl font-display">
-                  Community
-                </h3>
-                <p className="mt-2 text-base">
-                  You will be invited to take part in conferences, user groups,
-                  and meetups to represent the RESF and Projects officially to
-                  the greater community.
-                </p>
+                <JoinUsColoredBox>
+                  <JoinUsBox
+                    title="Be in the know and have a say"
+                    icon="/images/join-us/InTheKnow.svg"
+                  >
+                    You get to take part in leadership decisions and
+                    presentations on what is happening, see what is on the
+                    horizon, be aware of new things that are coming with other
+                    Projects, and have a formal voice with the RESF.
+                  </JoinUsBox>
+                  <JoinUsBox
+                    title="Choose your role"
+                    icon="/images/join-us/ChooseYourRole.svg"
+                  >
+                    Have a direct path to become a Team Lead/Deputy, Officer,
+                    Project Board Member, RESF Board Member, or a Board Chair.
+                    Every level of the organization is available to Members.
+                  </JoinUsBox>
+                  <JoinUsBox
+                    title="Bragging rights"
+                    icon="/images/join-us/BraggingRights.svg"
+                  >
+                    You can put on your resume, CV, or LinkedIn that you are
+                    part of one of the fastest growing initiatives that most
+                    large organizations worldwide are aware of.
+                  </JoinUsBox>
+                  <JoinUsBox title="SWAG!" icon="/images/join-us/Swag.svg">
+                    You will have access to specific Membership swag (stickers,
+                    T-shirts, hats, etc.)
+                  </JoinUsBox>
+                  <JoinUsBox
+                    title="Community"
+                    icon="/images/join-us/Community.svg"
+                    className="md:px-32"
+                    innerPadding
+                    larger
+                    spanRow
+                  >
+                    You will be invited to take part in conferences, user
+                    groups, and meetups to represent the RESF and Projects
+                    officially to the greater community.
+                  </JoinUsBox>
+                </JoinUsColoredBox>
               </div>
             </div>
             <div className="py-8 px-6 sm:py-12 lg:flex lg:justify-between lg:px-8">
@@ -87,39 +92,49 @@ const JoinUs: NextPage = ({ menuItems }: JoinUsProps) => {
                 <h2 className="text-2xl font-bold tracking-tight text-gray-900 sm:text-3xl lg:text-4xl font-display">
                   Steps to become a member
                 </h2>
-                <ol className="mt-4 list-decimal list-inside">
+                <ol className="mt-4 list-decimal list-inside marker:font-bold marker:text-[1.375rem]">
                   <li>
-                    Get on IRC or Mattermost (
-                    <a
-                      className="font-semibold text-blue-500"
-                      href="https://chat.rockylinux.org"
-                    >
-                      https://chat.rockylinux.org
-                    </a>
-                    ) and/or our Discourse forum (
-                    <a
-                      className="font-semibold text-blue-500"
-                      href="https://forums.rockylinux.org"
-                    >
-                      https://forums.rockylinux.org
-                    </a>
-                    ).
+                    <span className="pl-2">
+                      Get on IRC or Mattermost (
+                      <a
+                        className="font-semibold text-blue-500"
+                        href="https://chat.rockylinux.org"
+                      >
+                        https://chat.rockylinux.org
+                      </a>
+                      ) and/or our Discourse forum (
+                      <a
+                        className="font-semibold text-blue-500"
+                        href="https://forums.rockylinux.org"
+                      >
+                        https://forums.rockylinux.org
+                      </a>
+                      ).
+                    </span>
                   </li>
                   <li>
-                    Participate in discussions in channels that interest you.
+                    <span className="pl-2">
+                      Participate in discussions in channels that interest you.
+                    </span>
                   </li>
                   <li>
-                    Become an active contributor to a Project or Project Team by
-                    interacting and helping others.
+                    <span className="pl-2">
+                      Become an active contributor to a Project or Project Team
+                      by interacting and helping others.
+                    </span>
                   </li>
                   <li>
-                    Complete an application form for the Project or Project
-                    Team.
+                    <span className="pl-2">
+                      Complete an application form for the Project or Project
+                      Team.
+                    </span>
                   </li>
                   <li>
-                    The Project Board will review the application and either
-                    approve or disapprove the application based on a majority
-                    vote of the Project Board.
+                    <span className="pl-2">
+                      The Project Board will review the application and either
+                      approve or disapprove the application based on a majority
+                      vote of the Project Board.
+                    </span>
                   </li>
                 </ol>
               </div>
