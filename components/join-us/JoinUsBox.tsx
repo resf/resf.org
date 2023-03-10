@@ -25,7 +25,7 @@ const JoinUsBox = ({
       className={classNames(
         className ? className : "",
         `px-2 py-5 text-center bg-white`,
-        spanRow ? "col-span-2" : ""
+        spanRow ? "md:col-span-2" : "md:col-span-1"
       )}
     >
       <div

@@ -37,7 +37,7 @@ const JoinUs: NextPage = ({ menuItems }: JoinUsProps) => {
         {menuItems && <Header menu={menuItems} />}
         <div className="max-w-7xl mx-auto">
           <div className="bg-white">
-            <div className="pt-16 px-6 sm:pt-24 lg:flex lg:justify-between lg:px-8">
+            <div className="pt-16 px-6 sm:pt-24 lg:px-8">
               <div>
                 <h2 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl lg:text-6xl font-display">
                   Join Us
@@ -75,7 +75,7 @@ const JoinUs: NextPage = ({ menuItems }: JoinUsProps) => {
                   <JoinUsBox
                     title="Community"
                     icon="/images/join-us/Community.svg"
-                    className="px-32"
+                    className="md:px-32"
                     innerPadding
                     larger
                     spanRow
