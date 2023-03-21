@@ -7,6 +7,8 @@ import {
   ChevronUpIcon,
   ChevronRightIcon,
 } from "@heroicons/react/20/solid";
+
+import Image from "next/image";
 import Charter from "@/components/charter-bylaws/Charter";
 import Bylaws from "@/components/charter-bylaws/Bylaws";
 
@@ -96,13 +98,14 @@ const About: NextPage = ({ menuItems }: AboutProps) => {
                             >
                               <li>
                                 <div className="space-y-6">
-                                  <picture>
-                                    <img
-                                      className="mx-auto h-32 w-32 rounded-full xl:h-32 xl:w-32"
-                                      src="/gregk.jpeg"
-                                      alt=""
-                                    />
-                                  </picture>
+                                  <Image
+                                    className="mx-auto h-32 w-32 rounded-full xl:h-32 xl:w-32"
+                                    src="/gregk.jpeg"
+                                    width="128"
+                                    height="128"
+                                    alt=""
+                                  />
+
                                   <div className="space-y-2">
                                     <div className="space-y-1 text-lg font-medium leading-6">
                                       <h3>Gregory Kurtzer</h3>
@@ -143,13 +146,14 @@ const About: NextPage = ({ menuItems }: AboutProps) => {
 
                               <li>
                                 <div className="space-y-6">
-                                  <picture>
-                                    <img
-                                      className="mx-auto h-32 w-32 rounded-full xl:h-32 xl:w-32"
-                                      src="/brianc.jpg"
-                                      alt=""
-                                    />
-                                  </picture>
+                                  <Image
+                                    className="mx-auto h-32 w-32 rounded-full xl:h-32 xl:w-32"
+                                    src="/brianc.jpg"
+                                    width="128"
+                                    height="128"
+                                    alt=""
+                                  />
+
                                   <div className="space-y-2">
                                     <div className="space-y-1 text-lg font-medium leading-6">
                                       <h3>Brian Clemens</h3>
@@ -190,13 +194,14 @@ const About: NextPage = ({ menuItems }: AboutProps) => {
 
                               <li>
                                 <div className="space-y-6">
-                                  <picture>
-                                    <img
-                                      className="mx-auto h-32 w-32 rounded-full xl:h-32 xl:w-32"
-                                      src="/christophers.jpg"
-                                      alt=""
-                                    />
-                                  </picture>
+                                  <Image
+                                    className="mx-auto h-32 w-32 rounded-full xl:h-32 xl:w-32"
+                                    src="/christophers.jpg"
+                                    width="128"
+                                    height="128"
+                                    alt=""
+                                  />
+
                                   <div className="space-y-2">
                                     <div className="space-y-1 text-lg font-medium leading-6">
                                       <h3>Christopher Stackpole</h3>
@@ -208,8 +213,7 @@ const About: NextPage = ({ menuItems }: AboutProps) => {
                                       role="list"
                                       className="flex justify-center space-x-5"
                                     >
-                                      <li>
-                                      </li>
+                                      <li></li>
                                     </ul>
                                   </div>
                                 </div>
@@ -217,13 +221,14 @@ const About: NextPage = ({ menuItems }: AboutProps) => {
 
                               <li>
                                 <div className="space-y-6">
-                                  <picture>
-                                    <img
-                                      className="mx-auto h-32 w-32 rounded-full xl:h-32 xl:w-32"
-                                      src="/louisa.jpg"
-                                      alt=""
-                                    />
-                                  </picture>
+                                  <Image
+                                    className="mx-auto h-32 w-32 rounded-full xl:h-32 xl:w-32"
+                                    src="/louisa.jpg"
+                                    width="128"
+                                    height="128"
+                                    alt=""
+                                  />
+
                                   <div className="space-y-2">
                                     <div className="space-y-1 text-lg font-medium leading-6">
                                       <h3>Louis Abel</h3>
@@ -264,13 +269,14 @@ const About: NextPage = ({ menuItems }: AboutProps) => {
 
                               <li>
                                 <div className="space-y-6">
-                                  <picture>
-                                    <img
-                                      className="mx-auto h-32 w-32 rounded-full xl:h-32 xl:w-32"
-                                      src="/mustafag.jpg"
-                                      alt=""
-                                    />
-                                  </picture>
+                                  <Image
+                                    className="mx-auto h-32 w-32 rounded-full xl:h-32 xl:w-32"
+                                    src="/mustafag.jpg"
+                                    width="128"
+                                    height="128"
+                                    alt=""
+                                  />
+
                                   <div className="space-y-2">
                                     <div className="space-y-1 text-lg font-medium leading-6">
                                       <h3>Mustafa Gezen</h3>
@@ -311,13 +317,14 @@ const About: NextPage = ({ menuItems }: AboutProps) => {
 
                               <li>
                                 <div className="space-y-6">
-                                  <picture>
-                                    <img
-                                      className="mx-auto h-32 w-32 rounded-full xl:h-32 xl:w-32"
-                                      src="/sherifn.jpeg"
-                                      alt=""
-                                    />
-                                  </picture>
+                                  <Image
+                                    className="mx-auto h-32 w-32 rounded-full xl:h-32 xl:w-32"
+                                    src="/sherifn.jpeg"
+                                    width="128"
+                                    height="128"
+                                    alt=""
+                                  />
+
                                   <div className="space-y-2">
                                     <div className="space-y-1 text-lg font-medium leading-6">
                                       <h3>Sherif Nagy</h3>
@@ -358,13 +365,14 @@ const About: NextPage = ({ menuItems }: AboutProps) => {
 
                               <li>
                                 <div className="space-y-6">
-                                  <picture>
-                                    <img
-                                      className="mx-auto h-32 w-32 rounded-full xl:h-32 xl:w-32"
-                                      src="/taylorg.jpg"
-                                      alt=""
-                                    />
-                                  </picture>
+                                  <Image
+                                    className="mx-auto h-32 w-32 rounded-full xl:h-32 xl:w-32"
+                                    src="/taylorg.jpg"
+                                    width="128"
+                                    height="128"
+                                    alt=""
+                                  />
+
                                   <div className="space-y-2">
                                     <div className="space-y-1 text-lg font-medium leading-6">
                                       <h3>Taylor Goodwill</h3>
@@ -405,13 +413,14 @@ const About: NextPage = ({ menuItems }: AboutProps) => {
 
                               <li>
                                 <div className="space-y-6">
-                                  <picture>
-                                    <img
-                                      className="mx-auto h-32 w-32 rounded-full xl:h-32 xl:w-32"
-                                      src="/wales.png"
-                                      alt=""
-                                    />
-                                  </picture>
+                                  <Image
+                                    className="mx-auto h-32 w-32 rounded-full xl:h-32 xl:w-32"
+                                    src="/wales.png"
+                                    width="128"
+                                    height="128"
+                                    alt=""
+                                  />
+
                                   <div className="space-y-2">
                                     <div className="space-y-1 text-lg font-medium leading-6">
                                       <h3>Wale Soyinka</h3>
@@ -423,8 +432,7 @@ const About: NextPage = ({ menuItems }: AboutProps) => {
                                       role="list"
                                       className="flex justify-center space-x-5"
                                     >
-                                      <li>
-                                      </li>
+                                      <li></li>
                                     </ul>
                                   </div>
                                 </div>
@@ -432,13 +440,14 @@ const About: NextPage = ({ menuItems }: AboutProps) => {
 
                               <li>
                                 <div className="space-y-6">
-                                  <picture>
-                                    <img
-                                      className="mx-auto h-32 w-32 rounded-full xl:h-32 xl:w-32"
-                                      src="/gregh.jpg"
-                                      alt="Greg Kroah-Hartman"
-                                    />
-                                  </picture>
+                                  <Image
+                                    className="mx-auto h-32 w-32 rounded-full xl:h-32 xl:w-32"
+                                    src="/gregh.jpg"
+                                    width="128"
+                                    height="128"
+                                    alt="Greg Kroah-Hartman"
+                                  />
+
                                   <div className="space-y-2">
                                     <div className="space-y-1 text-lg font-medium leading-6">
                                       <h3>Greg Kroah-Hartman</h3>
@@ -479,13 +488,14 @@ const About: NextPage = ({ menuItems }: AboutProps) => {
 
                               <li>
                                 <div className="space-y-6">
-                                  <picture>
-                                    <img
-                                      className="mx-auto h-32 w-32 rounded-full xl:h-32 xl:w-32"
-                                      src="/markw.png"
-                                      alt=""
-                                    />
-                                  </picture>
+                                  <Image
+                                    className="mx-auto h-32 w-32 rounded-full xl:h-32 xl:w-32"
+                                    src="/markw.png"
+                                    width="128"
+                                    height="128"
+                                    alt=""
+                                  />
+
                                   <div className="space-y-2">
                                     <div className="space-y-1 text-lg font-medium leading-6">
                                       <h3>Mark Watson</h3>
@@ -526,13 +536,14 @@ const About: NextPage = ({ menuItems }: AboutProps) => {
 
                               <li>
                                 <div className="space-y-6">
-                                  <picture>
-                                    <img
-                                      className="mx-auto h-32 w-32 rounded-full xl:h-32 xl:w-32"
-                                      src="/christopherd.jpg"
-                                      alt=""
-                                    />
-                                  </picture>
+                                  <Image
+                                    className="mx-auto h-32 w-32 rounded-full xl:h-32 xl:w-32"
+                                    src="/christopherd.jpg"
+                                    width="128"
+                                    height="128"
+                                    alt=""
+                                  />
+
                                   <div className="space-y-2">
                                     <div className="space-y-1 text-lg font-medium leading-6">
                                       <h3>Christopher DiBona</h3>
@@ -573,13 +584,14 @@ const About: NextPage = ({ menuItems }: AboutProps) => {
 
                               <li>
                                 <div className="space-y-6">
-                                  <picture>
-                                    <img
-                                      className="mx-auto h-32 w-32 rounded-full xl:h-32 xl:w-32"
-                                      src="/benjamina.jpg"
-                                      alt=""
-                                    />
-                                  </picture>
+                                  <Image
+                                    className="mx-auto h-32 w-32 rounded-full xl:h-32 xl:w-32"
+                                    src="/benjamina.jpg"
+                                    width="128"
+                                    height="128"
+                                    alt=""
+                                  />
+
                                   <div className="space-y-2">
                                     <div className="space-y-1 text-lg font-medium leading-6">
                                       <h3>Benjamin Agner</h3>
