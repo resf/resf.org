@@ -63,67 +63,81 @@ export default function Hero() {
               </p>
               <div className="mt-6 grid grid-cols-2 gap-8 md:grid-cols-6 lg:grid-cols-7">
                 <div className="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
-                  <picture>
-                    <img
-                      className="h-12"
-                      src="/images/sponsors/ciq.png"
-                      alt="CIQ"
-                    />
-                  </picture>
+                  <a href="https://ciq.co/products/rocky-linux/">
+                    <picture>
+                      <img
+                        className="h-12"
+                        src="/images/sponsors/ciq.png"
+                        alt="CIQ"
+                      />
+                    </picture>
+                  </a>
                 </div>
                 <div className="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
-                  <picture>
-                    <img
-                      className="h-12"
-                      src="/images/sponsors/45drives.png"
-                      alt="45Drives"
-                    />
-                  </picture>
+                  <a href="https://45drives.com/">
+                    <picture>
+                      <img
+                        className="h-12"
+                        src="/images/sponsors/45drives.png"
+                        alt="45Drives"
+                      />
+                    </picture>
+                  </a>
                 </div>
                 <div className="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
-                  <picture>
-                    <img
-                      className="h-12"
-                      src="/images/sponsors/aws.png"
-                      alt="AWS"
-                    />
-                  </picture>
+                  <a href="https://aws.com/">
+                    <picture>
+                      <img
+                        className="h-12"
+                        src="/images/sponsors/aws.png"
+                        alt="AWS"
+                      />
+                    </picture>
+                  </a>
                 </div>
                 <div className="col-span-1 flex justify-center md:col-span-2 md:col-start-2 lg:col-span-1">
-                  <picture>
-                    <img
-                      className="h-12"
-                      src="/images/sponsors/gcp.png"
-                      alt="Google Cloud"
-                    />
-                  </picture>
+                  <a href="https://cloud.google.com/">
+                    <picture>
+                      <img
+                        className="h-12"
+                        src="/images/sponsors/gcp.png"
+                        alt="Google Cloud"
+                      />
+                    </picture>
+                  </a>
                 </div>
                 <div className="col-span-1 flex justify-center md:col-span-2 md:col-start-4 lg:col-span-1">
-                  <picture>
-                    <img
-                      className="h-12"
-                      src="/images/sponsors/opendrives.png"
-                      alt="OpenDrives"
-                    />
-                  </picture>
+                  <a href="https://opendrives.com/">
+                    <picture>
+                      <img
+                        className="h-12"
+                        src="/images/sponsors/opendrives.png"
+                        alt="OpenDrives"
+                      />
+                    </picture>
+                  </a>
                 </div>
                 <div className="col-span-1 flex justify-center md:col-span-2 md:col-start-4 lg:col-span-1">
-                  <picture>
-                    <img
-                      className="h-12"
-                      src="/images/sponsors/rakutan-symphony.png"
-                      alt="Rakutan Symphony"
-                    />
-                  </picture>
+                  <a href="https://symphony.rakuten.com/">
+                    <picture>
+                      <img
+                        className="h-12"
+                        src="/images/sponsors/rakutan-symphony.png"
+                        alt="Rakutan Symphony"
+                      />
+                    </picture>
+                  </a>
                 </div>
                 <div className="col-span-1 flex justify-center md:col-span-2 md:col-start-4 lg:col-span-1">
-                  <picture>
-                    <img
-                      className="h-12"
-                      src="/images/sponsors/vmware.png"
-                      alt="vmware"
-                    />
-                  </picture>
+                  <a href="https://vmware.com/">
+                    <picture>
+                      <img
+                        className="h-12"
+                        src="/images/sponsors/vmware.png"
+                        alt="vmware"
+                      />
+                    </picture>
+                  </a>
                 </div>
               </div>
             </div>
