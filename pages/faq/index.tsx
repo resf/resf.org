@@ -53,6 +53,9 @@ const FAQPage: NextPage = ({ menuItems }: IndexProps) => {
                 ))}
               </FAQ.Group>
               <FAQ.Group title={t("board-of-directors")}>
+                <FAQ.Item key="board-structure" slug="board-structure">
+                  What does the RESF board structure look like?
+                </FAQ.Item>
                 {faq.BOD.map((faq) => (
                   <FAQ.Item key={faq.slug} slug={faq.slug}>
                     {faq.question}
