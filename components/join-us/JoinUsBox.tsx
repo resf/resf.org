@@ -33,7 +33,7 @@ const JoinUsBox = ({
           "bg-white bg-center bg-no-repeat min-w-full min-h-full",
           innerPadding ? "py-5" : "py-2"
         )}
-        style={{ backgroundImage: `url(${icon})` }}
+        style={{ backgroundImage: `url(${icon})`, backgroundSize: 100 }}
       >
         <h3
           className={classNames(
