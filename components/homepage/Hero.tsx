@@ -61,7 +61,7 @@ export default function Hero() {
               <p className="text-center text-base font-semibold text-gray-500 font-display">
                 BACKED BY
               </p>
-              <div className="mt-6 grid grid-cols-2 gap-8 md:grid-cols-6 lg:grid-cols-7">
+              <div className="mt-6 grid grid-cols-2 gap-8 md:grid-cols-6 lg:grid-cols-7 md:justify-center">
                 <div className="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
                   <a href="https://ciq.co/products/rocky-linux/">
                     <picture>
@@ -95,7 +95,7 @@ export default function Hero() {
                     </picture>
                   </a>
                 </div>
-                <div className="col-span-1 flex justify-center md:col-span-2 md:col-start-2 lg:col-span-1">
+                <div className="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
                   <a href="https://cloud.google.com/">
                     <picture>
                       <img
@@ -106,7 +106,7 @@ export default function Hero() {
                     </picture>
                   </a>
                 </div>
-                <div className="col-span-1 flex justify-center md:col-span-2 md:col-start-4 lg:col-span-1">
+                <div className="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
                   <a href="https://opendrives.com/">
                     <picture>
                       <img
@@ -117,7 +117,7 @@ export default function Hero() {
                     </picture>
                   </a>
                 </div>
-                <div className="col-span-1 flex justify-center md:col-span-2 md:col-start-4 lg:col-span-1">
+                <div className="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
                   <a href="https://symphony.rakuten.com/">
                     <picture>
                       <img
@@ -128,7 +128,9 @@ export default function Hero() {
                     </picture>
                   </a>
                 </div>
-                <div className="col-span-1 flex justify-center md:col-span-2 md:col-start-4 lg:col-span-1">
+                <div className="md:col-span-1 md:block hidden lg:hidden"></div>
+                <div className="md:col-span-1 md:block hidden lg:hidden"></div>
+                <div className="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
                   <a href="https://vmware.com/">
                     <picture>
                       <img
