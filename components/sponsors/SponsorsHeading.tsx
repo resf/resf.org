@@ -8,8 +8,7 @@ const SponsorsHeading = () => {
               Sponsors
             </h2>
             <p className="mt-7 text-lg">
-              We would like to thank our sponsors for their support thus far on
-              the Projects.
+
             </p>
             <div className="mt-7">
               <a
