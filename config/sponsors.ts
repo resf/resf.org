@@ -3,7 +3,7 @@ import type { SponsorsConfig } from "@/types/sponsors/SponsorsConfig";
 export const sponsors: SponsorsConfig = {
   tiers: [
     {
-      name: "Tier 1 - Principal Sponsors",
+      name: "Tier 1 - Principal Sponsor",
       order: 0,
       hasLogo: true,
       hasDescription: true,
@@ -62,7 +62,7 @@ export const sponsors: SponsorsConfig = {
     },
     {
       name: "Tier 4",
-      order: 1,
+      order: 3,
       hasLogo: false,
       hasDescription: false,
       sponsors: [
