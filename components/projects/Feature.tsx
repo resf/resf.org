@@ -9,7 +9,7 @@ export default function Feature() {
           Current Projects
         </h2>
         {projects.map((project, index) => (
-          <div className={`${index === 0 ? "relative" : "mt-16 relative"}`}>
+          <div key={index} className={`${index === 0 ? "relative" : "mt-16 relative"}`}>
             <div className="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-flow-col-dense lg:grid-cols-2 lg:gap-24 lg:px-8">
               <div className="mx-auto max-w-xl px-6 lg:mx-0 lg:max-w-none lg:py-16 lg:px-0">
                 <div>
