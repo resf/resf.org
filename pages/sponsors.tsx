@@ -18,6 +18,7 @@ import type { GetStaticProps, NextPage } from "next";
 import type { NavItems } from "@/types/navigation/NavItem";
 import type { NavActionItems } from "@/types/navigation/NavActionItem";
 import type { SponsorsConfig } from "@/types/sponsors/SponsorsConfig";
+import PageTitle from "@/components/common/PageTitle";
 
 export interface SponsorsProps {
   menuItems?: {
@@ -38,7 +39,7 @@ const Sponsors: NextPage = ({ menuItems, sponsorsConfig }: SponsorsProps) => {
       </Head>
       <Layout>
         {menuItems && <Header menu={menuItems} />}
-        <SponsorsHeading />
+        <PageTitle title="Sponsors" description="We would like to thank our sponsors for their support thus far on the Projects." link="/become-sponsor" linkTitle="Learn More" />
         <TierList>
           {sponsorsConfig?.tiers
             .sort(sponsorsUtils.sortTiers("ASC"))
