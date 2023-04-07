@@ -19,7 +19,7 @@ const BecomeSponsor: NextPage = ({ menuItems }: any) => {
     return (
         <>
             <Head>
-                <title>{tCommon("orgName")}</title>
+                <title>Become a Sponsor | {tCommon("orgName")}</title>
                 <link rel="icon" href="/favicon.svg" />
             </Head>
             <Layout>
