@@ -10,31 +10,22 @@ export interface TierProps {
 
 const TierItem = ({ name, children }: TierProps) => {
   return (
-    <Disclosure key={name} defaultOpen as="div" className="pt-6">
-      {({ open }) => (
+    <div key={name} className="pt-6">
         <>
-          <dt className="sticky top-24 bg-white bg-opacity-90">
-            <Disclosure.Button className="flex w-full items-start justify-between text-left text-gray-900">
+          <div className="sticky top-24 bg-white bg-opacity-90">
+            <div className="flex w-full items-start justify-between text-left text-gray-900">
               <span className="text-2xl font-bold leading-7 font-display ml-4 lg:ml-7">
                 {name}
               </span>
-              <span className="ml-6 flex h-7 items-center mr-4 lg:mr-7">
-                {open ? (
-                  <ChevronUpIcon className="h-6 w-6" aria-hidden="true" />
-                ) : (
-                  <ChevronDownIcon className="h-6 w-6" aria-hidden="true" />
-                )}
-              </span>
-            </Disclosure.Button>
-          </dt>
-          <Disclosure.Panel as="dd" className="mt-2 pr-12">
-            <div className="mx-auto mt-12 grid max-w-lg gap-5 lg:max-w-none lg:grid-cols-3">
+            </div>
+          </div>
+          <div className="mt-2 pr-12">
+            <div className="mt-12 mx-auto grid max-w-lg gap-5 lg:max-w-none lg:grid-cols-3">
               {children}
             </div>
-          </Disclosure.Panel>
+          </div>
         </>
-      )}
-    </Disclosure>
+    </div>
   );
 };
 
