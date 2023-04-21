@@ -1,12 +1,13 @@
 import useSWR from "swr";
 import { RESFAPIFetcher } from "@/utils/fetcher";
 
-import type { Sponsor } from "@/types/sponsors/Sponsor";
+import type { SponsorWithTierPerks } from "@/types/sponsors/Sponsor";
 
-export const useSponsor = (slug: string) => {
-  const { data, error, isLoading } = useSWR<Sponsor>(
+export const useSponsor = (slug: string, staleData?: SponsorWithTierPerks) => {
+  const { data, error, isLoading } = useSWR<SponsorWithTierPerks>(
     `/api/sponsors/${slug}`,
-    RESFAPIFetcher
+    RESFAPIFetcher,
+    { fallbackData: staleData }
   );
 
   return {

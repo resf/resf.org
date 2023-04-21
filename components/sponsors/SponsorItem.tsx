@@ -1,6 +1,13 @@
+import { useSponsor } from "@/hooks/useSponsor";
 import type { SponsorWithTierPerks } from "@/types/sponsors/Sponsor";
 
-const SponsorItem = (sponsor: SponsorWithTierPerks) => {
+const SponsorItem = (staleSponsor: SponsorWithTierPerks) => {
+  const { sponsor } = useSponsor(staleSponsor.slug);
+
+  if (!sponsor) {
+    return null;
+  }
+
   return (
     <a href={sponsor.href} key={sponsor.name} target="_blank" rel="noreferrer">
       <div className="flex flex-col overflow-hidden ml-7">

@@ -2,8 +2,8 @@ import Head from "next/head";
 import PageTitle from "@/components/common/PageTitle";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import { useTranslation } from "next-i18next";
-import { sponsors } from "@/config/sponsors";
 import { useSponsorTiers } from "@/hooks/useSponsorTiers";
+import * as sponsorTiersLib from "@/lib/sponsorTiersLib";
 
 import Header from "@/components/Header";
 import Layout from "@/components/Layout";
@@ -16,19 +16,22 @@ import { menuItems, actionItems } from "@/config/menu";
 import type { GetStaticProps, NextPage } from "next";
 import type { NavItems } from "@/types/navigation/NavItem";
 import type { NavActionItems } from "@/types/navigation/NavActionItem";
-import type { SponsorsConfig } from "@/types/sponsors/SponsorsConfig";
+import type { Tiers } from "@/types/sponsors/Tier";
 
 export interface SponsorsProps {
   menuItems?: {
     menuItems: NavItems;
     actionItems: NavActionItems;
   };
-  sponsorsConfig?: SponsorsConfig;
+  staleSponsorTiers?: Tiers | null;
 }
 
-const Sponsors: NextPage = ({ menuItems, sponsorsConfig }: SponsorsProps) => {
+const Sponsors: NextPage = ({
+  menuItems,
+  staleSponsorTiers,
+}: SponsorsProps) => {
   const { t: tCommon } = useTranslation("common");
-  const { allSponsors } = useSponsorTiers();
+  const { allSponsors } = useSponsorTiers(staleSponsorTiers);
 
   return (
     <>
@@ -67,7 +70,7 @@ export const getStaticProps: GetStaticProps<SponsorsProps> = async ({
       menuItems: menuItems,
       actionItems: actionItems,
     },
-    sponsorsConfig: sponsors,
+    staleSponsorTiers: (await sponsorTiersLib.getSponsorTiersServer()) ?? null,
   },
 });
 
