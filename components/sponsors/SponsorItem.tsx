@@ -1,44 +1,46 @@
-import type { Sponsor } from "@/types/sponsors/Sponsor";
+import { useSponsor } from "@/hooks/useSponsor";
+import type { SponsorWithTierPerks } from "@/types/sponsors/Sponsor";
 
-export type SponsorType = Sponsor & {
-  hasLogo: boolean;
-  hasDescription: boolean;
-};
+const SponsorItem = (staleSponsor: SponsorWithTierPerks) => {
+  const { sponsor } = useSponsor(staleSponsor.slug);
 
-const SponsorItem = (sponsor: SponsorType) => {
+  if (!sponsor) {
+    return null;
+  }
+
   return (
     <a href={sponsor.href} key={sponsor.name} target="_blank" rel="noreferrer">
       <div className="flex flex-col overflow-hidden ml-7">
         {sponsor.hasLogo && (
           <div className="flex-shrink-0">
-              {sponsor.hasDescription ? (
-                <picture>
+            {sponsor.hasDescription ? (
+              <picture>
                 <img
                   className="p-10 object-fit pointer-events-none bg-gray-50"
                   src={sponsor.logoUrl}
                   alt={sponsor.name}
                 />
+              </picture>
+            ) : (
+              <div className="p-10 bg-gray-50 flex justify-center">
+                <picture>
+                  <img
+                    className="w-48 pointer-events-none"
+                    src={sponsor.logoUrl}
+                    alt={sponsor.name}
+                  />
                 </picture>
-              ) : (
-                <div className="p-10 bg-gray-50 flex justify-center">
-                  <picture>
-                    <img
-                      className="w-48 pointer-events-none"
-                      src={sponsor.logoUrl}
-                      alt={sponsor.name}
-                    />
-                  </picture>
-                </div>
-              )}
+              </div>
+            )}
           </div>
         )}
         {sponsor.hasLogo ? (
           <div className="flex flex-1 flex-col justify-between bg-white p-6">
             <span className="flex items-center gap-x-3">
               {sponsor.hasDescription && (
-              <p className="text-xl font-semibold text-gray-900">
+                <p className="text-xl font-semibold text-gray-900">
                   {sponsor.name}
-              </p>
+                </p>
               )}
               {sponsor.founding && (
                 <div>
@@ -58,7 +60,7 @@ const SponsorItem = (sponsor: SponsorType) => {
           <div className="flex flex-1 flex-col justify-between bg-white">
             <span className="flex items-center justify-center gap-x-3">
               <p className="text-xl font-semibold text-gray-900 bg-gray-50 py-8 px-32">
-                  {sponsor.name}
+                {sponsor.name}
               </p>
             </span>
           </div>

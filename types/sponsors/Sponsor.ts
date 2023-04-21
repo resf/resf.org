@@ -1,5 +1,8 @@
+import { Tier } from "./Tier";
+
 export interface Sponsor {
   name: string;
+  slug: string;
   founding?: boolean;
   description?: string;
   href: string;
@@ -7,3 +10,8 @@ export interface Sponsor {
 }
 
 export type Sponsors = Sponsor[];
+
+export type SponsorWithTierPerks = Sponsor &
+  Pick<Tier, "hasDescription" | "hasLogo">;
+
+export type SponsorsWithTierPerks = SponsorWithTierPerks[];

@@ -6,6 +6,8 @@
     "paths": {
       "@/components/*": ["./components/*"],
       "@/config/*": ["./config/*"],
+      "@/hooks/*": ["./hooks/*"],
+      "@/lib/*": ["./lib/*"],
       "@/pages/*": ["./pages/*"],
       "@/public/*": ["./public/*"],
       "@/styles/*": ["./styles/*"],

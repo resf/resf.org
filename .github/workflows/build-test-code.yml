@@ -12,7 +12,8 @@ jobs:
     defaults:
       run:
         shell: bash
-
+    env:
+      NEXT_PUBLIC_RESF_API: https://dev-feedapi.vercel.app/
     steps:
       - name: Checkout Code
         uses: actions/checkout@v3
