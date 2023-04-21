@@ -1,13 +1,13 @@
 import Head from "next/head";
+import PageTitle from "@/components/common/PageTitle";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import { useTranslation } from "next-i18next";
 import { sponsors } from "@/config/sponsors";
-import * as sponsorsUtils from "@/utils/sponsorsUtils";
+import { useSponsorTiers } from "@/hooks/useSponsorTiers";
 
 import Header from "@/components/Header";
 import Layout from "@/components/Layout";
-import TierList from "@/components/sponsors/TierList";
-import TierItem from "@/components/sponsors/TierItem";
+import SponsorsList from "@/components/sponsors/SponsorsList";
 import SponsorItem from "@/components/sponsors/SponsorItem";
 import Footer from "@/components/Footer";
 
@@ -17,7 +17,6 @@ import type { GetStaticProps, NextPage } from "next";
 import type { NavItems } from "@/types/navigation/NavItem";
 import type { NavActionItems } from "@/types/navigation/NavActionItem";
 import type { SponsorsConfig } from "@/types/sponsors/SponsorsConfig";
-import PageTitle from "@/components/common/PageTitle";
 
 export interface SponsorsProps {
   menuItems?: {
@@ -29,6 +28,7 @@ export interface SponsorsProps {
 
 const Sponsors: NextPage = ({ menuItems, sponsorsConfig }: SponsorsProps) => {
   const { t: tCommon } = useTranslation("common");
+  const { allSponsors } = useSponsorTiers();
 
   return (
     <>
@@ -44,24 +44,11 @@ const Sponsors: NextPage = ({ menuItems, sponsorsConfig }: SponsorsProps) => {
           link="/become-sponsor"
           linkTitle="Learn More"
         />
-        <TierList>
-          {sponsorsConfig?.tiers
-            .sort(sponsorsUtils.sortTiers("ASC"))
-            .map((tier) => (
-              <TierItem key={tier.name} name={tier.name}>
-                {tier.sponsors.map((sponsor) => {
-                  return (
-                    <SponsorItem
-                      key={sponsor.name}
-                      {...sponsor}
-                      hasLogo={tier.hasLogo}
-                      hasDescription={tier.hasDescription}
-                    />
-                  );
-                })}
-              </TierItem>
-            ))}
-        </TierList>
+        <SponsorsList>
+          {allSponsors.map((sponsor) => (
+            <SponsorItem key={sponsor.name} {...sponsor} />
+          ))}
+        </SponsorsList>
         <Footer />
       </Layout>
     </>
