@@ -8,7 +8,6 @@ import Header from "@/components/Header";
 import Layout from "@/components/Layout";
 import TierList from "@/components/sponsors/TierList";
 import TierItem from "@/components/sponsors/TierItem";
-import SponsorsHeading from "@/components/sponsors/SponsorsHeading";
 import SponsorItem from "@/components/sponsors/SponsorItem";
 import Footer from "@/components/Footer";
 
@@ -39,7 +38,12 @@ const Sponsors: NextPage = ({ menuItems, sponsorsConfig }: SponsorsProps) => {
       </Head>
       <Layout>
         {menuItems && <Header menu={menuItems} />}
-        <PageTitle title="Sponsors" description="We would like to thank our sponsors for their support thus far on the Projects." link="/become-sponsor" linkTitle="Learn More" />
+        <PageTitle
+          title="Sponsors"
+          description="We would like to thank our sponsors for their support thus far on the Projects."
+          link="/become-sponsor"
+          linkTitle="Learn More"
+        />
         <TierList>
           {sponsorsConfig?.tiers
             .sort(sponsorsUtils.sortTiers("ASC"))
