@@ -2,11 +2,7 @@ import Head from "next/head";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import { useTranslation } from "next-i18next";
 import { Disclosure } from "@headlessui/react";
-import {
-  ChevronDownIcon,
-  ChevronUpIcon,
-  ChevronRightIcon,
-} from "@heroicons/react/20/solid";
+import { ChevronDownIcon, ChevronUpIcon } from "@heroicons/react/20/solid";
 
 import Image from "next/image";
 import Charter from "@/components/charter-bylaws/Charter";
@@ -17,6 +13,7 @@ import Layout from "@/components/Layout";
 import Footer from "@/components/Footer";
 
 import { menuItems, actionItems } from "@/config/menu";
+import { board } from "@/config/board";
 
 import type { GetStaticProps, NextPage } from "next";
 import type { NavItems } from "@/types/navigation/NavItem";
@@ -96,491 +93,58 @@ const About: NextPage = ({ menuItems }: AboutProps) => {
                               role="list"
                               className="mx-auto space-y-16 sm:grid sm:grid-cols-2 sm:gap-20 sm:space-y-0 lg:max-w-5xl lg:grid-cols-4"
                             >
-                              <li>
-                                <div className="space-y-6">
-                                  <Image
-                                    className="mx-auto h-32 w-32 rounded-full xl:h-32 xl:w-32"
-                                    src="/gregk.jpeg"
-                                    width="128"
-                                    height="128"
-                                    alt=""
-                                  />
-
-                                  <div className="space-y-2">
-                                    <div className="space-y-1 text-lg font-medium leading-6">
-                                      <h3>Gregory Kurtzer</h3>
-                                      <p className="text-blue-600">
-                                        Board Member
-                                      </p>
-                                    </div>
-                                    <ul
-                                      role="list"
-                                      className="flex justify-center space-x-5"
-                                    >
-                                      <li>
-                                        <a
-                                          href="https://www.linkedin.com/in/gmkurtzer/"
-                                          className="text-gray-400 hover:text-gray-500"
+                              {board.map((member) => (
+                                <li key={member.name}>
+                                  <div className="space-y-6">
+                                    <Image
+                                      className="mx-auto h-32 w-32 rounded-full xl:h-32 xl:w-32"
+                                      src={member.image}
+                                      width="128"
+                                      height="128"
+                                      alt=""
+                                    />
+                                    <div className="space-y-2">
+                                      <div className="space-y-1 text-lg font-medium leading-6">
+                                        <h3>{member.name}</h3>
+                                        <p className="text-blue-600">
+                                          {member.role}
+                                        </p>
+                                      </div>
+                                      {member.socials ? (
+                                        <ul
+                                          role="list"
+                                          className="flex justify-center space-x-5"
                                         >
-                                          <span className="sr-only">
-                                            LinkedIn
-                                          </span>
-                                          <svg
-                                            className="h-5 w-5"
-                                            aria-hidden="true"
-                                            fill="currentColor"
-                                            viewBox="0 0 20 20"
-                                          >
-                                            <path
-                                              fillRule="evenodd"
-                                              d="M16.338 16.338H13.67V12.16c0-.995-.017-2.277-1.387-2.277-1.39 0-1.601 1.086-1.601 2.207v4.248H8.014v-8.59h2.559v1.174h.037c.356-.675 1.227-1.387 2.526-1.387 2.703 0 3.203 1.778 3.203 4.092v4.711zM5.005 6.575a1.548 1.548 0 11-.003-3.096 1.548 1.548 0 01.003 3.096zm-1.337 9.763H6.34v-8.59H3.667v8.59zM17.668 1H2.328C1.595 1 1 1.581 1 2.298v15.403C1 18.418 1.595 19 2.328 19h15.34c.734 0 1.332-.582 1.332-1.299V2.298C19 1.581 18.402 1 17.668 1z"
-                                              clipRule="evenodd"
-                                            />
-                                          </svg>
-                                        </a>
-                                      </li>
-                                    </ul>
-                                  </div>
-                                </div>
-                              </li>
-
-                              <li>
-                                <div className="space-y-6">
-                                  <Image
-                                    className="mx-auto h-32 w-32 rounded-full xl:h-32 xl:w-32"
-                                    src="/brianc.jpg"
-                                    width="128"
-                                    height="128"
-                                    alt=""
-                                  />
-
-                                  <div className="space-y-2">
-                                    <div className="space-y-1 text-lg font-medium leading-6">
-                                      <h3>Brian Clemens</h3>
-                                      <p className="text-blue-600">
-                                        Board Member
-                                      </p>
+                                          <li>
+                                            <a
+                                              href={member.socials.linkedIn}
+                                              className="text-gray-400 hover:text-gray-500"
+                                            >
+                                              <span className="sr-only">
+                                                LinkedIn
+                                              </span>
+                                              <svg
+                                                className="h-5 w-5"
+                                                aria-hidden="true"
+                                                fill="currentColor"
+                                                viewBox="0 0 20 20"
+                                              >
+                                                <path
+                                                  fillRule="evenodd"
+                                                  d="M16.338 16.338H13.67V12.16c0-.995-.017-2.277-1.387-2.277-1.39 0-1.601 1.086-1.601 2.207v4.248H8.014v-8.59h2.559v1.174h.037c.356-.675 1.227-1.387 2.526-1.387 2.703 0 3.203 1.778 3.203 4.092v4.711zM5.005 6.575a1.548 1.548 0 11-.003-3.096 1.548 1.548 0 01.003 3.096zm-1.337 9.763H6.34v-8.59H3.667v8.59zM17.668 1H2.328C1.595 1 1 1.581 1 2.298v15.403C1 18.418 1.595 19 2.328 19h15.34c.734 0 1.332-.582 1.332-1.299V2.298C19 1.581 18.402 1 17.668 1z"
+                                                  clipRule="evenodd"
+                                                />
+                                              </svg>
+                                            </a>
+                                          </li>
+                                        </ul>
+                                      ) : (
+                                        ""
+                                      )}
                                     </div>
-                                    <ul
-                                      role="list"
-                                      className="flex justify-center space-x-5"
-                                    >
-                                      <li>
-                                        <a
-                                          href="https://www.linkedin.com/in/brianfclemens/"
-                                          className="text-gray-400 hover:text-gray-500"
-                                        >
-                                          <span className="sr-only">
-                                            LinkedIn
-                                          </span>
-                                          <svg
-                                            className="h-5 w-5"
-                                            aria-hidden="true"
-                                            fill="currentColor"
-                                            viewBox="0 0 20 20"
-                                          >
-                                            <path
-                                              fillRule="evenodd"
-                                              d="M16.338 16.338H13.67V12.16c0-.995-.017-2.277-1.387-2.277-1.39 0-1.601 1.086-1.601 2.207v4.248H8.014v-8.59h2.559v1.174h.037c.356-.675 1.227-1.387 2.526-1.387 2.703 0 3.203 1.778 3.203 4.092v4.711zM5.005 6.575a1.548 1.548 0 11-.003-3.096 1.548 1.548 0 01.003 3.096zm-1.337 9.763H6.34v-8.59H3.667v8.59zM17.668 1H2.328C1.595 1 1 1.581 1 2.298v15.403C1 18.418 1.595 19 2.328 19h15.34c.734 0 1.332-.582 1.332-1.299V2.298C19 1.581 18.402 1 17.668 1z"
-                                              clipRule="evenodd"
-                                            />
-                                          </svg>
-                                        </a>
-                                      </li>
-                                    </ul>
                                   </div>
-                                </div>
-                              </li>
-
-                              <li>
-                                <div className="space-y-6">
-                                  <Image
-                                    className="mx-auto h-32 w-32 rounded-full xl:h-32 xl:w-32"
-                                    src="/christophers.jpg"
-                                    width="128"
-                                    height="128"
-                                    alt=""
-                                  />
-
-                                  <div className="space-y-2">
-                                    <div className="space-y-1 text-lg font-medium leading-6">
-                                      <h3>Christopher Stackpole</h3>
-                                      <p className="text-blue-600">
-                                        Board Member
-                                      </p>
-                                    </div>
-                                    <ul
-                                      role="list"
-                                      className="flex justify-center space-x-5"
-                                    >
-                                      <li></li>
-                                    </ul>
-                                  </div>
-                                </div>
-                              </li>
-
-                              <li>
-                                <div className="space-y-6">
-                                  <Image
-                                    className="mx-auto h-32 w-32 rounded-full xl:h-32 xl:w-32"
-                                    src="/louisa.jpg"
-                                    width="128"
-                                    height="128"
-                                    alt=""
-                                  />
-
-                                  <div className="space-y-2">
-                                    <div className="space-y-1 text-lg font-medium leading-6">
-                                      <h3>Louis Abel</h3>
-                                      <p className="text-blue-600">
-                                        Board Member
-                                      </p>
-                                    </div>
-                                    <ul
-                                      role="list"
-                                      className="flex justify-center space-x-5"
-                                    >
-                                      <li>
-                                        <a
-                                          href="https://www.linkedin.com/in/louis-abel/"
-                                          className="text-gray-400 hover:text-gray-500"
-                                        >
-                                          <span className="sr-only">
-                                            LinkedIn
-                                          </span>
-                                          <svg
-                                            className="h-5 w-5"
-                                            aria-hidden="true"
-                                            fill="currentColor"
-                                            viewBox="0 0 20 20"
-                                          >
-                                            <path
-                                              fillRule="evenodd"
-                                              d="M16.338 16.338H13.67V12.16c0-.995-.017-2.277-1.387-2.277-1.39 0-1.601 1.086-1.601 2.207v4.248H8.014v-8.59h2.559v1.174h.037c.356-.675 1.227-1.387 2.526-1.387 2.703 0 3.203 1.778 3.203 4.092v4.711zM5.005 6.575a1.548 1.548 0 11-.003-3.096 1.548 1.548 0 01.003 3.096zm-1.337 9.763H6.34v-8.59H3.667v8.59zM17.668 1H2.328C1.595 1 1 1.581 1 2.298v15.403C1 18.418 1.595 19 2.328 19h15.34c.734 0 1.332-.582 1.332-1.299V2.298C19 1.581 18.402 1 17.668 1z"
-                                              clipRule="evenodd"
-                                            />
-                                          </svg>
-                                        </a>
-                                      </li>
-                                    </ul>
-                                  </div>
-                                </div>
-                              </li>
-
-                              <li>
-                                <div className="space-y-6">
-                                  <Image
-                                    className="mx-auto h-32 w-32 rounded-full xl:h-32 xl:w-32"
-                                    src="/mustafag.jpg"
-                                    width="128"
-                                    height="128"
-                                    alt=""
-                                  />
-
-                                  <div className="space-y-2">
-                                    <div className="space-y-1 text-lg font-medium leading-6">
-                                      <h3>Mustafa Gezen</h3>
-                                      <p className="text-blue-600">
-                                        Board Member
-                                      </p>
-                                    </div>
-                                    <ul
-                                      role="list"
-                                      className="flex justify-center space-x-5"
-                                    >
-                                      <li>
-                                        <a
-                                          href="https://www.linkedin.com/in/mustafa-gezen/"
-                                          className="text-gray-400 hover:text-gray-500"
-                                        >
-                                          <span className="sr-only">
-                                            LinkedIn
-                                          </span>
-                                          <svg
-                                            className="h-5 w-5"
-                                            aria-hidden="true"
-                                            fill="currentColor"
-                                            viewBox="0 0 20 20"
-                                          >
-                                            <path
-                                              fillRule="evenodd"
-                                              d="M16.338 16.338H13.67V12.16c0-.995-.017-2.277-1.387-2.277-1.39 0-1.601 1.086-1.601 2.207v4.248H8.014v-8.59h2.559v1.174h.037c.356-.675 1.227-1.387 2.526-1.387 2.703 0 3.203 1.778 3.203 4.092v4.711zM5.005 6.575a1.548 1.548 0 11-.003-3.096 1.548 1.548 0 01.003 3.096zm-1.337 9.763H6.34v-8.59H3.667v8.59zM17.668 1H2.328C1.595 1 1 1.581 1 2.298v15.403C1 18.418 1.595 19 2.328 19h15.34c.734 0 1.332-.582 1.332-1.299V2.298C19 1.581 18.402 1 17.668 1z"
-                                              clipRule="evenodd"
-                                            />
-                                          </svg>
-                                        </a>
-                                      </li>
-                                    </ul>
-                                  </div>
-                                </div>
-                              </li>
-
-                              <li>
-                                <div className="space-y-6">
-                                  <Image
-                                    className="mx-auto h-32 w-32 rounded-full xl:h-32 xl:w-32"
-                                    src="/sherifn.jpeg"
-                                    width="128"
-                                    height="128"
-                                    alt=""
-                                  />
-
-                                  <div className="space-y-2">
-                                    <div className="space-y-1 text-lg font-medium leading-6">
-                                      <h3>Sherif Nagy</h3>
-                                      <p className="text-blue-600">
-                                        Board Member
-                                      </p>
-                                    </div>
-                                    <ul
-                                      role="list"
-                                      className="flex justify-center space-x-5"
-                                    >
-                                      <li>
-                                        <a
-                                          href="https://www.linkedin.com/in/sherifn/"
-                                          className="text-gray-400 hover:text-gray-500"
-                                        >
-                                          <span className="sr-only">
-                                            LinkedIn
-                                          </span>
-                                          <svg
-                                            className="h-5 w-5"
-                                            aria-hidden="true"
-                                            fill="currentColor"
-                                            viewBox="0 0 20 20"
-                                          >
-                                            <path
-                                              fillRule="evenodd"
-                                              d="M16.338 16.338H13.67V12.16c0-.995-.017-2.277-1.387-2.277-1.39 0-1.601 1.086-1.601 2.207v4.248H8.014v-8.59h2.559v1.174h.037c.356-.675 1.227-1.387 2.526-1.387 2.703 0 3.203 1.778 3.203 4.092v4.711zM5.005 6.575a1.548 1.548 0 11-.003-3.096 1.548 1.548 0 01.003 3.096zm-1.337 9.763H6.34v-8.59H3.667v8.59zM17.668 1H2.328C1.595 1 1 1.581 1 2.298v15.403C1 18.418 1.595 19 2.328 19h15.34c.734 0 1.332-.582 1.332-1.299V2.298C19 1.581 18.402 1 17.668 1z"
-                                              clipRule="evenodd"
-                                            />
-                                          </svg>
-                                        </a>
-                                      </li>
-                                    </ul>
-                                  </div>
-                                </div>
-                              </li>
-
-                              <li>
-                                <div className="space-y-6">
-                                  <Image
-                                    className="mx-auto h-32 w-32 rounded-full xl:h-32 xl:w-32"
-                                    src="/taylorg.jpg"
-                                    width="128"
-                                    height="128"
-                                    alt=""
-                                  />
-
-                                  <div className="space-y-2">
-                                    <div className="space-y-1 text-lg font-medium leading-6">
-                                      <h3>Taylor Goodwill</h3>
-                                      <p className="text-blue-600">
-                                        Board Member
-                                      </p>
-                                    </div>
-                                    <ul
-                                      role="list"
-                                      className="flex justify-center space-x-5"
-                                    >
-                                      <li>
-                                        <a
-                                          href="https://www.linkedin.com/in/taylorgoodwill/"
-                                          className="text-gray-400 hover:text-gray-500"
-                                        >
-                                          <span className="sr-only">
-                                            LinkedIn
-                                          </span>
-                                          <svg
-                                            className="h-5 w-5"
-                                            aria-hidden="true"
-                                            fill="currentColor"
-                                            viewBox="0 0 20 20"
-                                          >
-                                            <path
-                                              fillRule="evenodd"
-                                              d="M16.338 16.338H13.67V12.16c0-.995-.017-2.277-1.387-2.277-1.39 0-1.601 1.086-1.601 2.207v4.248H8.014v-8.59h2.559v1.174h.037c.356-.675 1.227-1.387 2.526-1.387 2.703 0 3.203 1.778 3.203 4.092v4.711zM5.005 6.575a1.548 1.548 0 11-.003-3.096 1.548 1.548 0 01.003 3.096zm-1.337 9.763H6.34v-8.59H3.667v8.59zM17.668 1H2.328C1.595 1 1 1.581 1 2.298v15.403C1 18.418 1.595 19 2.328 19h15.34c.734 0 1.332-.582 1.332-1.299V2.298C19 1.581 18.402 1 17.668 1z"
-                                              clipRule="evenodd"
-                                            />
-                                          </svg>
-                                        </a>
-                                      </li>
-                                    </ul>
-                                  </div>
-                                </div>
-                              </li>
-
-                              <li>
-                                <div className="space-y-6">
-                                  <Image
-                                    className="mx-auto h-32 w-32 rounded-full xl:h-32 xl:w-32"
-                                    src="/wales.png"
-                                    width="128"
-                                    height="128"
-                                    alt=""
-                                  />
-
-                                  <div className="space-y-2">
-                                    <div className="space-y-1 text-lg font-medium leading-6">
-                                      <h3>Wale Soyinka</h3>
-                                      <p className="text-blue-600">
-                                        Board Member
-                                      </p>
-                                    </div>
-                                    <ul
-                                      role="list"
-                                      className="flex justify-center space-x-5"
-                                    >
-                                      <li></li>
-                                    </ul>
-                                  </div>
-                                </div>
-                              </li>
-
-                              <li>
-                                <div className="space-y-6">
-                                  <Image
-                                    className="mx-auto h-32 w-32 rounded-full xl:h-32 xl:w-32"
-                                    src="/markw.png"
-                                    width="128"
-                                    height="128"
-                                    alt=""
-                                  />
-
-                                  <div className="space-y-2">
-                                    <div className="space-y-1 text-lg font-medium leading-6">
-                                      <h3>Mark Watson</h3>
-                                      <p className="text-blue-600">
-                                        Independent
-                                      </p>
-                                    </div>
-                                    <ul
-                                      role="list"
-                                      className="flex justify-center space-x-5"
-                                    >
-                                      <li>
-                                        <a
-                                          href="https://www.linkedin.com/in/mark-a-watson-9035b59/"
-                                          className="text-gray-400 hover:text-gray-500"
-                                        >
-                                          <span className="sr-only">
-                                            LinkedIn
-                                          </span>
-                                          <svg
-                                            className="h-5 w-5"
-                                            aria-hidden="true"
-                                            fill="currentColor"
-                                            viewBox="0 0 20 20"
-                                          >
-                                            <path
-                                              fillRule="evenodd"
-                                              d="M16.338 16.338H13.67V12.16c0-.995-.017-2.277-1.387-2.277-1.39 0-1.601 1.086-1.601 2.207v4.248H8.014v-8.59h2.559v1.174h.037c.356-.675 1.227-1.387 2.526-1.387 2.703 0 3.203 1.778 3.203 4.092v4.711zM5.005 6.575a1.548 1.548 0 11-.003-3.096 1.548 1.548 0 01.003 3.096zm-1.337 9.763H6.34v-8.59H3.667v8.59zM17.668 1H2.328C1.595 1 1 1.581 1 2.298v15.403C1 18.418 1.595 19 2.328 19h15.34c.734 0 1.332-.582 1.332-1.299V2.298C19 1.581 18.402 1 17.668 1z"
-                                              clipRule="evenodd"
-                                            />
-                                          </svg>
-                                        </a>
-                                      </li>
-                                    </ul>
-                                  </div>
-                                </div>
-                              </li>
-
-                              <li>
-                                <div className="space-y-6">
-                                  <Image
-                                    className="mx-auto h-32 w-32 rounded-full xl:h-32 xl:w-32"
-                                    src="/christopherd.jpg"
-                                    width="128"
-                                    height="128"
-                                    alt=""
-                                  />
-
-                                  <div className="space-y-2">
-                                    <div className="space-y-1 text-lg font-medium leading-6">
-                                      <h3>Christopher DiBona</h3>
-                                      <p className="text-blue-600">
-                                        Independent
-                                      </p>
-                                    </div>
-                                    <ul
-                                      role="list"
-                                      className="flex justify-center space-x-5"
-                                    >
-                                      <li>
-                                        <a
-                                          href="https://www.linkedin.com/in/cdibona/"
-                                          className="text-gray-400 hover:text-gray-500"
-                                        >
-                                          <span className="sr-only">
-                                            LinkedIn
-                                          </span>
-                                          <svg
-                                            className="h-5 w-5"
-                                            aria-hidden="true"
-                                            fill="currentColor"
-                                            viewBox="0 0 20 20"
-                                          >
-                                            <path
-                                              fillRule="evenodd"
-                                              d="M16.338 16.338H13.67V12.16c0-.995-.017-2.277-1.387-2.277-1.39 0-1.601 1.086-1.601 2.207v4.248H8.014v-8.59h2.559v1.174h.037c.356-.675 1.227-1.387 2.526-1.387 2.703 0 3.203 1.778 3.203 4.092v4.711zM5.005 6.575a1.548 1.548 0 11-.003-3.096 1.548 1.548 0 01.003 3.096zm-1.337 9.763H6.34v-8.59H3.667v8.59zM17.668 1H2.328C1.595 1 1 1.581 1 2.298v15.403C1 18.418 1.595 19 2.328 19h15.34c.734 0 1.332-.582 1.332-1.299V2.298C19 1.581 18.402 1 17.668 1z"
-                                              clipRule="evenodd"
-                                            />
-                                          </svg>
-                                        </a>
-                                      </li>
-                                    </ul>
-                                  </div>
-                                </div>
-                              </li>
-
-                              <li>
-                                <div className="space-y-6">
-                                  <Image
-                                    className="mx-auto h-32 w-32 rounded-full xl:h-32 xl:w-32"
-                                    src="/benjamina.jpg"
-                                    width="128"
-                                    height="128"
-                                    alt=""
-                                  />
-
-                                  <div className="space-y-2">
-                                    <div className="space-y-1 text-lg font-medium leading-6">
-                                      <h3>Benjamin Agner</h3>
-                                      <p className="text-blue-600">
-                                        Independent
-                                      </p>
-                                    </div>
-                                    <ul
-                                      role="list"
-                                      className="flex justify-center space-x-5"
-                                    >
-                                      <li>
-                                        <a
-                                          href="https://www.linkedin.com/in/benjaminagner/"
-                                          className="text-gray-400 hover:text-gray-500"
-                                        >
-                                          <span className="sr-only">
-                                            LinkedIn
-                                          </span>
-                                          <svg
-                                            className="h-5 w-5"
-                                            aria-hidden="true"
-                                            fill="currentColor"
-                                            viewBox="0 0 20 20"
-                                          >
-                                            <path
-                                              fillRule="evenodd"
-                                              d="M16.338 16.338H13.67V12.16c0-.995-.017-2.277-1.387-2.277-1.39 0-1.601 1.086-1.601 2.207v4.248H8.014v-8.59h2.559v1.174h.037c.356-.675 1.227-1.387 2.526-1.387 2.703 0 3.203 1.778 3.203 4.092v4.711zM5.005 6.575a1.548 1.548 0 11-.003-3.096 1.548 1.548 0 01.003 3.096zm-1.337 9.763H6.34v-8.59H3.667v8.59zM17.668 1H2.328C1.595 1 1 1.581 1 2.298v15.403C1 18.418 1.595 19 2.328 19h15.34c.734 0 1.332-.582 1.332-1.299V2.298C19 1.581 18.402 1 17.668 1z"
-                                              clipRule="evenodd"
-                                            />
-                                          </svg>
-                                        </a>
-                                      </li>
-                                    </ul>
-                                  </div>
-                                </div>
-                              </li>
+                                </li>
+                              ))}
                             </ul>
                           </div>
                         </Disclosure.Panel>
@@ -680,36 +244,71 @@ const About: NextPage = ({ menuItems }: AboutProps) => {
                               >
                                 <li>
                                   <a
-                                    href="https://github.com/resf/board-minutes/raw/main/2023/01-16.pdf"
+                                    href="https://github.com/resf/board/raw/main/meeting_minutes/2023-01-16.pdf"
                                     className="block hover:bg-gray-50"
                                   >
-                                    <div className="flex flex-col gap-3 md:gap-10 md:flex-row items-center px-4 pt-4 pb-6 sm:px-6">
+                                    <div className="flex flex-col gap-3 md:gap-10 md:flex-row items-center px-4 pt-4 pb-4 sm:px-6">
                                       <div className="flex min-w-0 flex-1 items-center">
                                         <div className="min-w-0 flex-1 px-2">
                                           <div>
                                             <p className="truncate text-base font-medium text-blue-600">
                                               January 16, 2023
                                             </p>
-                                            <p className="mt-2 flex items-center text-base text-gray-500">
-                                              <span>
-                                                The initial meeting commenced,
-                                                introductions were made between
-                                                directors, and the board put
-                                                forth their first vote regarding
-                                                project structure.
-                                              </span>
+                                          </div>
+                                        </div>
+                                      </div>
+                                      <div className="self-auto flex items-center justify-center">
+                                        <p className="text-rockyBlue font-semibold underline">
+                                          Download{" "}
+                                        </p>
+                                      </div>
+                                    </div>
+                                  </a>
+                                </li>
+
+                                <li>
+                                  <a
+                                    href="https://github.com/resf/board/raw/main/meeting_minutes/2023-02-23.pdf"
+                                    className="block hover:bg-gray-50"
+                                  >
+                                    <div className="flex flex-col gap-3 md:gap-10 md:flex-row items-center px-4 pt-4 pb-4 sm:px-6">
+                                      <div className="flex min-w-0 flex-1 items-center">
+                                        <div className="min-w-0 flex-1 px-2">
+                                          <div>
+                                            <p className="truncate text-base font-medium text-blue-600">
+                                              February 23, 2023
                                             </p>
                                           </div>
                                         </div>
                                       </div>
-                                      <div className="self-end md:self-auto flex items-center justify-center">
-                                        <p className="text-blue-500 font-semibold">
+                                      <div className="self-auto flex items-center justify-center">
+                                        <p className="text-rockyBlue font-semibold underline">
                                           Download{" "}
                                         </p>
-                                        <ChevronRightIcon
-                                          className="h-5 w-5 text-gray-400"
-                                          aria-hidden="true"
-                                        />
+                                      </div>
+                                    </div>
+                                  </a>
+                                </li>
+
+                                <li>
+                                  <a
+                                    href="https://github.com/resf/board/raw/main/meeting_minutes/2023-03-08.pdf"
+                                    className="block hover:bg-gray-50"
+                                  >
+                                    <div className="flex flex-col gap-3 md:gap-10 md:flex-row items-center px-4 pt-4 pb-4 sm:px-6">
+                                      <div className="flex min-w-0 flex-1 items-center">
+                                        <div className="min-w-0 flex-1 px-2">
+                                          <div>
+                                            <p className="truncate text-base font-medium text-blue-600">
+                                              March 8, 2023
+                                            </p>
+                                          </div>
+                                        </div>
+                                      </div>
+                                      <div className="self-auto flex items-center justify-center">
+                                        <p className="text-rockyBlue font-semibold underline">
+                                          Download{" "}
+                                        </p>
                                       </div>
                                     </div>
                                   </a>

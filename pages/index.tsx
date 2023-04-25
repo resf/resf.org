@@ -45,6 +45,7 @@ export const getStaticProps: GetStaticProps = async ({ locale }) => ({
     ...(await serverSideTranslations(locale ? locale : "en", [
       "common",
       "coming-soon",
+      "home",
     ])),
     menuItems: {
       menuItems: menuItems,
