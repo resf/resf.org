@@ -157,7 +157,6 @@ export const BOD = [
     <li>Mustafa Gezen (PERIDOT)</li>
     <li>Taylor Goodwill (ROCKY LINUX)</li>
     <li>Neil Hanlon (ROCKY LINUX)</li>
-    <li>Greg Kroah-Hartman (INDEPENDENT)</li>
     <li>Gregory Kurtzer (RESF)</li>
     <li>Sherif Nagy (ROCKY LINUX)</li>
     <li>Christopher "Stack" Stackpole (ROCKY LINUX)</li>
