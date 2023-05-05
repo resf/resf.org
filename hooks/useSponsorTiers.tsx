@@ -6,9 +6,6 @@ import type { Tiers } from "@/types/sponsors/Tier";
 import type { SponsorWithTierPerks } from "@/types/sponsors/Sponsor";
 
 export const useSponsorTiers = (staleData?: Tiers | null) => {
-  useEffect(() => {
-    console.log("staleData", staleData);
-  }, [staleData]);
   const { data, error, isLoading } = useSWR<Tiers>(
     "/api/sponsors/tiers",
     RESFAPIFetcher,
