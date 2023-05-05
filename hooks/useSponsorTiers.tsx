@@ -1,5 +1,5 @@
 import useSWR from "swr";
-import { useEffect, useMemo } from "react";
+import { useMemo } from "react";
 import { RESFAPIFetcher } from "@/utils/fetcher";
 
 import type { Tiers } from "@/types/sponsors/Tier";
