@@ -37,6 +37,14 @@ export const board = [
 		},
 	},
 	{
+		name: "Neil Hanlon",
+		image: "/neilh.png",
+		role: "Board Member",
+		socials: {
+			linkedIn: "https://www.linkedin.com/in/hanlonneil/",
+		}
+	},
+	{
 		name: "Sherif Nagy",
 		image: "/sherifn.jpeg",
 		role: "Board Member",
@@ -51,11 +59,6 @@ export const board = [
 		socials: {
 			linkedIn: "https://www.linkedin.com/in/taylorgoodwill/",
 		},
-	},
-	{
-		name: "Wale Soyinka",
-		image: "/wales.png",
-		role: "Board Member",
 	},
 	{
 		name: "Mark Watson",
