@@ -84,4 +84,12 @@ export const board = [
 			linkedIn: "https://www.linkedin.com/in/benjaminagner/",
 		},
 	},
+	{
+		name: "Theodore Ts'o",
+		image: "/theodoret.jpg",
+		role: "Independent",
+		socials: {
+			linkedIn: "https://www.linkedin.com/in/tytso/",
+		},
+	},
 ];
