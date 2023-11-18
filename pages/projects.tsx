@@ -34,7 +34,7 @@ const Projects: NextPage = ({ menuItems }: ProjectsProps) => {
         {menuItems && <Header menu={menuItems} />}
         <PageTitle
           title="Projects"
-          description="The RESF was created for more than just Rocky Linux. No association is necessary to join the RESF and new Projects are in formation. Projects do not even need to be Linux-related, but they must be open-source under an OSI approved license with a preference towards non-copyleft. The RESF welcomes any open-source projects that needs a neutral ground to operate. The first step to having a project considered is to become a member."
+          description="The Rocky Enterprise Software Foundation (RESF) was created for more than just Rocky Linux. No association is necessary to join the RESF and new Projects are in formation. Projects do not even need to be Linux-related, but they must be open-source under an OSI approved license with a preference towards non-copyleft. The RESF welcomes any open-source projects that needs a neutral ground to operate. The first step to having a project considered is to become a member."
           link="https://www.resf.org/join-us"
           linkTitle="Become a Member"
         />
