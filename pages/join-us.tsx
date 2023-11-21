@@ -30,7 +30,9 @@ const JoinUs: NextPage = ({ menuItems }: JoinUsProps) => {
   return (
     <>
       <Head>
-        <title>{`Join Us | ${tCommon("orgName")}`}</title>
+        <title>{`Join the Rocky Enterprise Software Foundation (RESF) | ${tCommon(
+          "orgName"
+        )}`}</title>
         <link rel="icon" href="/favicon.svg" />
       </Head>
       <Layout>
@@ -40,7 +42,7 @@ const JoinUs: NextPage = ({ menuItems }: JoinUsProps) => {
             <div className="pt-16 px-6 sm:pt-24 lg:px-8">
               <div>
                 <h2 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl lg:text-6xl font-display">
-                  Join Us
+                  Join the Rocky Enterprise Software Foundation (RESF)
                 </h2>
                 <JoinUsColoredBox>
                   <JoinUsBox
