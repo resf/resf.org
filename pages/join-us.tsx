@@ -1,6 +1,6 @@
 import Head from "next/head";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
-// import { useTranslation } from "next-i18next";
+import { useTranslation } from "next-i18next";
 
 import Header from "@/components/Header";
 import Layout from "@/components/Layout";
@@ -23,9 +23,9 @@ export interface JoinUsProps {
 }
 
 const JoinUs: NextPage = ({ menuItems }: JoinUsProps) => {
-  // const { t: tCommon } = useTranslation("common");
+  const { t: tCommon } = useTranslation("common");
   // TODO: Create about translation file
-  // const { t } = useTranslation("coming-soon");
+  // const { t } = useTranslation("join-us");
 
   return (
     <>
