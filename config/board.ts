@@ -12,7 +12,7 @@ export const board = [
 		image: "/brianc.jpg",
 		role: "Vice President",
 		socials: {
-			linkedIn: "https://www.linkedin.com/in/brianfclemens/",
+			linkedIn: "https://tiuxo.com",
 		},
 	},
 	{

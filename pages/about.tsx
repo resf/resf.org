@@ -313,6 +313,126 @@ const About: NextPage = ({ menuItems }: AboutProps) => {
                                     </div>
                                   </a>
                                 </li>
+
+                                <li>
+                                  <a
+                                    href="https://github.com/resf/board/raw/main/meeting_minutes/2023-04-12.pdf"
+                                    className="block hover:bg-gray-50"
+                                  >
+                                    <div className="flex flex-col gap-3 md:gap-10 md:flex-row items-center px-4 pt-4 pb-4 sm:px-6">
+                                      <div className="flex min-w-0 flex-1 items-center">
+                                        <div className="min-w-0 flex-1 px-2">
+                                          <div>
+                                            <p className="truncate text-base font-medium text-blue-600">
+                                              April 12, 2023
+                                            </p>
+                                          </div>
+                                        </div>
+                                      </div>
+                                      <div className="self-auto flex items-center justify-center">
+                                        <p className="text-rockyBlue font-semibold underline">
+                                          Download{" "}
+                                        </p>
+                                      </div>
+                                    </div>
+                                  </a>
+                                </li>
+
+                                <li>
+                                  <a
+                                    href="https://github.com/resf/board/raw/main/meeting_minutes/2023-05-23.pdf"
+                                    className="block hover:bg-gray-50"
+                                  >
+                                    <div className="flex flex-col gap-3 md:gap-10 md:flex-row items-center px-4 pt-4 pb-4 sm:px-6">
+                                      <div className="flex min-w-0 flex-1 items-center">
+                                        <div className="min-w-0 flex-1 px-2">
+                                          <div>
+                                            <p className="truncate text-base font-medium text-blue-600">
+                                              May 23, 2023
+                                            </p>
+                                          </div>
+                                        </div>
+                                      </div>
+                                      <div className="self-auto flex items-center justify-center">
+                                        <p className="text-rockyBlue font-semibold underline">
+                                          Download{" "}
+                                        </p>
+                                      </div>
+                                    </div>
+                                  </a>
+                                </li>
+
+                                <li>
+                                  <a
+                                    href="https://github.com/resf/board/raw/main/meeting_minutes/2023-06-14.pdf"
+                                    className="block hover:bg-gray-50"
+                                  >
+                                    <div className="flex flex-col gap-3 md:gap-10 md:flex-row items-center px-4 pt-4 pb-4 sm:px-6">
+                                      <div className="flex min-w-0 flex-1 items-center">
+                                        <div className="min-w-0 flex-1 px-2">
+                                          <div>
+                                            <p className="truncate text-base font-medium text-blue-600">
+                                              June 14, 2023
+                                            </p>
+                                          </div>
+                                        </div>
+                                      </div>
+                                      <div className="self-auto flex items-center justify-center">
+                                        <p className="text-rockyBlue font-semibold underline">
+                                          Download{" "}
+                                        </p>
+                                      </div>
+                                    </div>
+                                  </a>
+                                </li>
+
+                                <li>
+                                  <a
+                                    href="https://github.com/resf/board/raw/main/meeting_minutes/2023-08-09.pdf"
+                                    className="block hover:bg-gray-50"
+                                  >
+                                    <div className="flex flex-col gap-3 md:gap-10 md:flex-row items-center px-4 pt-4 pb-4 sm:px-6">
+                                      <div className="flex min-w-0 flex-1 items-center">
+                                        <div className="min-w-0 flex-1 px-2">
+                                          <div>
+                                            <p className="truncate text-base font-medium text-blue-600">
+                                              August 9, 2023
+                                            </p>
+                                          </div>
+                                        </div>
+                                      </div>
+                                      <div className="self-auto flex items-center justify-center">
+                                        <p className="text-rockyBlue font-semibold underline">
+                                          Download{" "}
+                                        </p>
+                                      </div>
+                                    </div>
+                                  </a>
+                                </li>
+
+                                <li>
+                                  <a
+                                    href="https://github.com/resf/board/raw/main/meeting_minutes/2023-09-13.pdf"
+                                    className="block hover:bg-gray-50"
+                                  >
+                                    <div className="flex flex-col gap-3 md:gap-10 md:flex-row items-center px-4 pt-4 pb-4 sm:px-6">
+                                      <div className="flex min-w-0 flex-1 items-center">
+                                        <div className="min-w-0 flex-1 px-2">
+                                          <div>
+                                            <p className="truncate text-base font-medium text-blue-600">
+                                              September 13, 2023
+                                            </p>
+                                          </div>
+                                        </div>
+                                      </div>
+                                      <div className="self-auto flex items-center justify-center">
+                                        <p className="text-rockyBlue font-semibold underline">
+                                          Download{" "}
+                                        </p>
+                                      </div>
+                                    </div>
+                                  </a>
+                                </li>
                               </ul>
                             </div>
                           </div>
