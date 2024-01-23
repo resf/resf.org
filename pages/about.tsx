@@ -436,6 +436,30 @@ const About: NextPage = ({ menuItems }: AboutProps) => {
 
                                 <li>
                                   <a
+                                    href="https://github.com/resf/board/raw/main/meeting_minutes/2023-11-08.pdf"
+                                    className="block hover:bg-gray-50"
+                                  >
+                                    <div className="flex flex-col gap-3 md:gap-10 md:flex-row items-center px-4 pt-4 pb-4 sm:px-6">
+                                      <div className="flex min-w-0 flex-1 items-center">
+                                        <div className="min-w-0 flex-1 px-2">
+                                          <div>
+                                            <p className="truncate text-base font-medium text-blue-600">
+                                              November 8, 2023
+                                            </p>
+                                          </div>
+                                        </div>
+                                      </div>
+                                      <div className="self-auto flex items-center justify-center">
+                                        <p className="text-rockyBlue font-semibold underline">
+                                          Download{" "}
+                                        </p>
+                                      </div>
+                                    </div>
+                                  </a>
+                                </li>
+
+                                <li>
+                                  <a
                                     href="https://github.com/resf/board/raw/main/meeting_minutes/2023-12-13.pdf"
                                     className="block hover:bg-gray-50"
                                   >
