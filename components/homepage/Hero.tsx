@@ -60,7 +60,7 @@ export default function Hero() {
               </p>
               <div className="mt-6 grid grid-cols-2 gap-8 md:grid-cols-6 lg:grid-cols-7 md:justify-center">
                 <div className="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
-                  <a href="https://ciq.co/products/rocky-linux/">
+                  <a href="https://ciq.com/products/rocky-linux/">
                     <picture>
                       <img
                         className="h-12"
