@@ -134,7 +134,7 @@ export const byLaws = [
   {
     slug: "where-can-read",
     question: "Where can I read the RESF bylaws and charter?",
-    answer: `You can read the bylaws <a href="https://www.resf.org/about#bylaws">here</a> and the charter <a href="https://www.resf.org/about#charter">here</a>.
+    answer: `You can read the bylaws <a href="/about#bylaws">here</a> and the charter <a href="/about#charter">here</a>.
     `,
   },
 ];
