@@ -152,7 +152,7 @@ const About: NextPage = ({ menuItems }: AboutProps) => {
                     )}
                   </Disclosure>
 
-                  <Disclosure as="div" className="pt-6">
+                  <Disclosure as="div" id="charter" className="pt-6">
                     {({ open }) => (
                       <>
                         <dt>
@@ -182,7 +182,7 @@ const About: NextPage = ({ menuItems }: AboutProps) => {
                     )}
                   </Disclosure>
 
-                  <Disclosure as="div" className="pt-6">
+                  <Disclosure as="div" id="bylaws" className="pt-6">
                     {({ open }) => (
                       <>
                         <dt>
