@@ -97,7 +97,7 @@ const About: NextPage = ({ menuItems }: AboutProps) => {
                                 <li key={member.name}>
                                   <div className="space-y-6 bg-white rounded-lg border border-gray-200 shadow-sm hover:shadow-md transition-shadow p-6">
                                     <Image
-                                      className="mx-auto h-32 w-32 rounded-full xl:h-32 xl:w-32"
+                                      className="mx-auto h-32 w-32 rounded-full xl:h-32 xl:w-32 border-4 border-gray-300"
                                       src={member.image}
                                       width="128"
                                       height="128"
@@ -252,7 +252,7 @@ const About: NextPage = ({ menuItems }: AboutProps) => {
                                 <li key={member.name}>
                                   <div className="space-y-6 bg-white rounded-lg border border-gray-200 shadow-sm hover:shadow-md transition-shadow p-6">
                                     <Image
-                                      className="mx-auto h-32 w-32 rounded-full xl:h-32 xl:w-32"
+                                      className="mx-auto h-32 w-32 rounded-full xl:h-32 xl:w-32 border-4 border-gray-300"
                                       src={member.image}
                                       width="128"
                                       height="128"
