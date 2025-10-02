@@ -129,7 +129,7 @@ export const board = [
 		role: "Independent",
 		active: false,
 		socials: {
-			website: "https://www.kroah.com/log",
+			website: "http://www.kroah.com/log",
 			mastodon: "https://social.kernel.org/users/gregkh",
 			linkedIn: "https://www.linkedin.com/in/greg-kroah-hartman/",
 		},
