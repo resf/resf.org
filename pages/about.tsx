@@ -91,11 +91,11 @@ const About: NextPage = ({ menuItems }: AboutProps) => {
                           <div className="text-center py-4">
                             <ul
                               role="list"
-                              className="mx-auto space-y-16 sm:grid sm:grid-cols-2 sm:gap-20 sm:space-y-0 lg:max-w-5xl lg:grid-cols-4"
+                              className="mx-auto space-y-16 sm:grid sm:grid-cols-2 sm:gap-8 sm:space-y-0 lg:max-w-5xl lg:grid-cols-4"
                             >
                               {board.filter((member) => member.active).map((member) => (
                                 <li key={member.name}>
-                                  <div className="space-y-6">
+                                  <div className="space-y-6 bg-white rounded-lg border border-gray-200 shadow-sm hover:shadow-md transition-shadow p-6">
                                     <Image
                                       className="mx-auto h-32 w-32 rounded-full xl:h-32 xl:w-32"
                                       src={member.image}
@@ -246,11 +246,11 @@ const About: NextPage = ({ menuItems }: AboutProps) => {
                           <div className="text-center py-4">
                             <ul
                               role="list"
-                              className="mx-auto space-y-16 sm:grid sm:grid-cols-2 sm:gap-20 sm:space-y-0 lg:max-w-5xl lg:grid-cols-4"
+                              className="mx-auto space-y-16 sm:grid sm:grid-cols-2 sm:gap-8 sm:space-y-0 lg:max-w-5xl lg:grid-cols-4"
                             >
                               {board.filter((member) => !member.active).map((member) => (
                                 <li key={member.name}>
-                                  <div className="space-y-6">
+                                  <div className="space-y-6 bg-white rounded-lg border border-gray-200 shadow-sm hover:shadow-md transition-shadow p-6">
                                     <Image
                                       className="mx-auto h-32 w-32 rounded-full xl:h-32 xl:w-32"
                                       src={member.image}
