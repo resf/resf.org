@@ -5,6 +5,7 @@ export const board = [
 		role: "President, Chair",
 		country: "USA",
 		active: true,
+		bio: "Founder of CentOS, Rocky Linux, and other open source projects. Dedicated to creating sustainable enterprise open source communities.",
 		socials: {
 			linkedIn: "https://www.linkedin.com/in/gmkurtzer/",
 			bluesky: "https://bsky.app/profile/gmkurtzer.bsky.social",
