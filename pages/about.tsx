@@ -102,6 +102,7 @@ const About: NextPage = ({ menuItems }: AboutProps) => {
                                       width="128"
                                       height="128"
                                       alt=""
+                                      title={member.hoverText}
                                     />
                                     <div className="space-y-2">
                                       <div className="space-y-1 text-lg font-medium leading-6">
@@ -109,7 +110,15 @@ const About: NextPage = ({ menuItems }: AboutProps) => {
                                         <p className="text-blue-600">
                                           {member.role}
                                         </p>
+                                        <p className="text-gray-500 text-sm">
+                                          {member.country}
+                                        </p>
                                       </div>
+                                      {member.bio && (
+                                        <p className="text-sm text-gray-600 leading-relaxed">
+                                          {member.bio}
+                                        </p>
+                                      )}
                                       {member.socials ? (
                                         <ul
                                           role="list"
@@ -199,6 +208,31 @@ const About: NextPage = ({ menuItems }: AboutProps) => {
                                                     fillRule="evenodd"
                                                     d="M10 18a8 8 0 100-16 8 8 0 000 16zM4.332 8.027a6.012 6.012 0 011.912-2.706C6.512 5.73 6.974 6 7.5 6A1.5 1.5 0 019 7.5V8a2 2 0 004 0 2 2 0 011.523-1.943A5.977 5.977 0 0116 10c0 .34-.028.675-.083 1H15a2 2 0 00-2 2v2.197A5.973 5.973 0 0110 16v-2a2 2 0 00-2-2 2 2 0 01-2-2 2 2 0 00-1.668-1.973z"
                                                     clipRule="evenodd"
+                                                  />
+                                                </svg>
+                                              </a>
+                                            </li>
+                                          )}
+                                          {member.socials.email && (
+                                            <li>
+                                              <a
+                                                href={member.socials.email}
+                                                className="text-gray-400 hover:text-gray-500"
+                                              >
+                                                <span className="sr-only">
+                                                  Email
+                                                </span>
+                                                <svg
+                                                  className="h-5 w-5"
+                                                  aria-hidden="true"
+                                                  fill="currentColor"
+                                                  viewBox="0 0 20 20"
+                                                >
+                                                  <path
+                                                    d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"
+                                                  />
+                                                  <path
+                                                    d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"
                                                   />
                                                 </svg>
                                               </a>
@@ -257,6 +291,7 @@ const About: NextPage = ({ menuItems }: AboutProps) => {
                                       width="128"
                                       height="128"
                                       alt=""
+                                      title={member.hoverText}
                                     />
                                     <div className="space-y-2">
                                       <div className="space-y-1 text-lg font-medium leading-6">
@@ -264,7 +299,15 @@ const About: NextPage = ({ menuItems }: AboutProps) => {
                                         <p className="text-blue-600">
                                           {member.role}
                                         </p>
+                                        <p className="text-gray-500 text-sm">
+                                          {member.country}
+                                        </p>
                                       </div>
+                                      {member.bio && (
+                                        <p className="text-sm text-gray-600 leading-relaxed">
+                                          {member.bio}
+                                        </p>
+                                      )}
                                       {member.socials ? (
                                         <ul
                                           role="list"
@@ -354,6 +397,31 @@ const About: NextPage = ({ menuItems }: AboutProps) => {
                                                     fillRule="evenodd"
                                                     d="M10 18a8 8 0 100-16 8 8 0 000 16zM4.332 8.027a6.012 6.012 0 011.912-2.706C6.512 5.73 6.974 6 7.5 6A1.5 1.5 0 019 7.5V8a2 2 0 004 0 2 2 0 011.523-1.943A5.977 5.977 0 0116 10c0 .34-.028.675-.083 1H15a2 2 0 00-2 2v2.197A5.973 5.973 0 0110 16v-2a2 2 0 00-2-2 2 2 0 01-2-2 2 2 0 00-1.668-1.973z"
                                                     clipRule="evenodd"
+                                                  />
+                                                </svg>
+                                              </a>
+                                            </li>
+                                          )}
+                                          {member.socials.email && (
+                                            <li>
+                                              <a
+                                                href={member.socials.email}
+                                                className="text-gray-400 hover:text-gray-500"
+                                              >
+                                                <span className="sr-only">
+                                                  Email
+                                                </span>
+                                                <svg
+                                                  className="h-5 w-5"
+                                                  aria-hidden="true"
+                                                  fill="currentColor"
+                                                  viewBox="0 0 20 20"
+                                                >
+                                                  <path
+                                                    d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"
+                                                  />
+                                                  <path
+                                                    d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"
                                                   />
                                                 </svg>
                                               </a>
