@@ -7,7 +7,7 @@ import Header from "@/components/Header";
 import Layout from "@/components/Layout";
 import Footer from "@/components/Footer";
 
-import { projectDropdownItems, menuItems, actionItems } from "@/config/menu";
+import { menuItems, actionItems } from "@/config/menu";
 
 import type { GetStaticPaths, GetStaticProps, NextPage } from "next";
 import type { ParsedUrlQuery } from "querystring";
@@ -19,19 +19,16 @@ import { MDXRemote } from "next-mdx-remote";
 
 export interface NewsPageProps {
   menuItems?: {
-    projectItems: NavItems;
     menuItems: NavItems;
-    aboutItems: NavItems;
     actionItems: NavActionItems;
   };
   slug?: string;
   newsData?: NewsItem;
 }
 
-const NewsPage: NextPage = ({ menuItems, slug, newsData }: NewsPageProps) => {
+const NewsPage: NextPage<NewsPageProps> = ({ menuItems, slug, newsData }) => {
   const { t: tCommon } = useTranslation("common");
-  const { newsItem, newsItemError, newsItemIsLoading, newsItemContent } =
-    useNewsItem(slug!);
+  const { newsItem, newsItemContent } = useNewsItem(slug ?? "");
 
   return (
     <>
@@ -83,14 +80,13 @@ export const getStaticProps: GetStaticProps = async ({ locale, params }) => {
 
   const newsItem = await newsLib.getNewsItem(slug);
 
-  const props: any = {
+  const props: NewsPageProps & Record<string, unknown> = {
     ...(await serverSideTranslations(locale ? locale : "en", [
       "common",
       "coming-soon",
       "faq",
     ])),
     menuItems: {
-      projectItems: projectDropdownItems,
       menuItems: menuItems,
       actionItems: actionItems,
     },

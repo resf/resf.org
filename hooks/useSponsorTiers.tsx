@@ -1,5 +1,5 @@
 import useSWR from "swr";
-import { useMemo } from "react";
+import { useCallback, useMemo } from "react";
 import { RESFAPIFetcher } from "@/utils/fetcher";
 
 import type { Tiers } from "@/types/sponsors/Tier";
@@ -14,14 +14,17 @@ export const useSponsorTiers = (staleData?: Tiers | null) => {
     }
   );
 
-  const processSponsorPerks = (data: Tiers) =>
-    data.flatMap<SponsorWithTierPerks>((t) =>
-      t.sponsors!.map((sponsor) => ({
-        ...sponsor,
-        hasDescription: t.hasDescription,
-        hasLogo: t.hasLogo,
-      }))
-    );
+  const processSponsorPerks = useCallback(
+    (tiers: Tiers): SponsorWithTierPerks[] =>
+      tiers.flatMap<SponsorWithTierPerks>((t) =>
+        (t.sponsors ?? []).map((sponsor) => ({
+          ...sponsor,
+          hasDescription: t.hasDescription,
+          hasLogo: t.hasLogo,
+        }))
+      ),
+    []
+  );
 
   const allSponsors = useMemo(() => {
     if (data) {
@@ -32,7 +35,7 @@ export const useSponsorTiers = (staleData?: Tiers | null) => {
       return processSponsorPerks(staleData);
     }
     return [];
-  }, [data, staleData]);
+  }, [data, staleData, processSponsorPerks]);
 
   return {
     sponsorTiers: data,
