@@ -1,4 +1,4 @@
-export default function Bylaws() {
+export default function CommunityOperatingPrinciples() {
   return (
     <div className="relative overflow-hidden bg-white py-4">
       <div className="relative px-4 sm:px-6 lg:px-8">
@@ -8,19 +8,20 @@ export default function Bylaws() {
           </p>
           <ol>
             <li>
-              <strong>Members</strong>. Members (“<strong>Members</strong>”) of
-              The Rocky Enterprise Software Foundation (the “
-              <strong>Foundation</strong>”) are persons who are involved and
+              <strong>Members</strong>. Members ("<strong>Members</strong>") of
+              The Rocky Enterprise Software Foundation (the "
+              <strong>Foundation</strong>") are persons who are involved and
               active participants on one or more Project Team(s). A person must
-              be a member of at least one of the Foundation’s projects (each, a
-              “Project”) to be a Member of the Foundation. Members will have the
-              rights as set forth in these Foundation Bylaws (these “
-              <strong>Bylaws</strong>”) and an obligation to act in accordance
-              with the Foundation’s Charter.
+              be a member of at least one of the Foundation's projects (each, a
+              "Project") to be a Member of the Foundation. Members will have the
+              rights as set forth in these Foundation Community Operating
+              Principles (these "<strong>Community Operating Principles</strong>
+              ") and an obligation to act in accordance with the Foundation's
+              Charter.
             </li>
             <li>
               <strong>Admission of Members</strong>. The initial members of the
-              Foundation (the “<strong>Initial Members</strong>”) were admitted
+              Foundation (the "<strong>Initial Members</strong>") were admitted
               by the Project Boards (defined below). Members may be admitted as
               Members of the Foundation in accordance with the following
               procedures:
@@ -32,7 +33,7 @@ export default function Bylaws() {
                 <li>
                   Next, the person must complete the written membership
                   application form in the form adopted by the applicable Project
-                  Board (the “<strong>Application Form</strong>”).
+                  Board (the "<strong>Application Form</strong>").
                 </li>
                 <li>
                   Next, the Project Board will review and either approve or
@@ -99,7 +100,7 @@ export default function Bylaws() {
               receive a Foundation or Project Team email address at the
               discretion of the Foundation Board; and (vi) such other rights as
               the Board may determine from time to time. Members are expected to
-              actively participate in their Project Team’s activities and be a
+              actively participate in their Project Team's activities and be a
               community advocate for the Foundation and its projects. As a
               condition to being admitted as a Member of the Foundation or any
               Project Team, the person will be required to sign the Membership
@@ -111,14 +112,14 @@ export default function Bylaws() {
             </li>
             <li>
               <strong>List of Members</strong>. The Board will maintain a list
-              of Members (the “<strong>Member List</strong>”). Only those
+              of Members (the "<strong>Member List</strong>"). Only those
               Members who are included on the Member List will have the right to
               vote as Members (provided the Board acts in good faith and
               promptly fixes any errors in the Member List).
             </li>
             <li>
-              <strong>Emeritus Members</strong>. An “
-              <strong>Emeritus Member</strong>” of the Foundation is a former
+              <strong>Emeritus Members</strong>. An "
+              <strong>Emeritus Member</strong>" of the Foundation is a former
               Member whose membership status has been converted to Emeritus
               Status. An Emeritus Member forfeits all membership rights,
               including the right to vote and the right to be counted for the
@@ -128,27 +129,29 @@ export default function Bylaws() {
               Foundation may choose at any time for any reason to elect Emeritus
               Status conversion with approval of the Foundation Board. An
               Emeritus Member can be reinstated as a full member only in
-              accordance with Section 1.2 of these Bylaws.
+              accordance with Section 1.2 of these Community Operating
+              Principles.
             </li>
             <li>
-              <strong>Termination of Membership</strong>. A Person’s status as a
+              <strong>Termination of Membership</strong>. A Person's status as a
               member of a Project Team may be terminated by the affirmative vote
-              of 2/3rds of the applicable Project Team Members. A person’s
+              of 2/3rds of the applicable Project Team Members. A person's
               status as a Member of the Foundation may be terminated by the
               Board for Cause. To be terminated for Cause, a majority of the
               Board must (i) determine Cause for termination exists, and (ii)
-              vote to terminate such person’s status as a Member. “
-              <strong>Cause</strong>” means: (a) a Member’s unauthorized misuse
-              or disclosure of the Foundation’s trade secrets or proprietary
-              information, (b) a Member’s conviction of or plea of nolo
+              vote to terminate such person's status as a Member. "
+              <strong>Cause</strong>" means: (a) a Member's unauthorized misuse
+              or disclosure of the Foundation's trade secrets or proprietary
+              information, (b) a Member's conviction of or plea of nolo
               contendere to a felony or a crime involving moral turpitude, (c) a
               Member committing an act of fraud against the Foundation; (d) a
-              Member’s gross negligence or willful misconduct in the performance
+              Member's gross negligence or willful misconduct in the performance
               of their duties that has had or will have a material adverse
-              effect on the Foundation’s reputation or business; (e) a Member’s
-              violation of the Foundation’s Charter or the Foundation Bylaws; or
-              (f) a Member’s inactivity with the Project for a consecutive
-              period of 6 months without the Project Board’s approval.
+              effect on the Foundation's reputation or business; (e) a Member's
+              violation of the Foundation's Charter or the Foundation Community
+              Operating Principles; or (f) a Member's inactivity with the
+              Project for a consecutive period of 6 months without the Project
+              Board's approval.
             </li>
           </ol>
 
@@ -157,9 +160,9 @@ export default function Bylaws() {
           </p>
           <ol>
             <li>
-              <strong>General Powers</strong>. The Foundation Board (the “
-              <strong>Board</strong>” or the “<strong>Foundation Board</strong>
-              ”) will be responsible for managing the Foundation’s budget,
+              <strong>General Powers</strong>. The Foundation Board (the "
+              <strong>Board</strong>" or the "<strong>Foundation Board</strong>
+              ") will be responsible for managing the Foundation's budget,
               general oversight of the Foundation and Project Boards, and
               Foundation project portfolio administration. The Board does not
               make technical decisions for the Foundation unless specifically
@@ -167,19 +170,19 @@ export default function Bylaws() {
             </li>
             <li>
               <strong>Eligibility</strong>. The Board will be made up of
-              directors (each, a “<strong>Director</strong>”). To be a Director,
+              directors (each, a "<strong>Director</strong>"). To be a Director,
               a person must be at least 18 years of age and eligible to be a
-              Foundation Director in accordance with these bylaws. Except for
-              the initial Board Chair, to be eligible to be the Board Chair, a
-              person must have previously served at least one full term on the
-              Foundation Board. The Board Chair, Vice Board Chair, and all
-              At-Large Directors may not be Project Board Chairs or Project
-              Board Vice Chairs at the same time they hold the position of Board
-              Chair, Vice Board Chair, or At-Large Director. Except as otherwise
-              provided in these Bylaws, Directors will be elected at the annual
-              meeting of the Members in accordance with Article I, section 1.4.
-              Directors may be elected for any number of consecutive or
-              non-consecutive terms.
+              Foundation Director in accordance with these community operating
+              principles. Except for the initial Board Chair, to be eligible to
+              be the Board Chair, a person must have previously served at least
+              one full term on the Foundation Board. The Board Chair, Vice Board
+              Chair, and all At-Large Directors may not be Project Board Chairs
+              or Project Board Vice Chairs at the same time they hold the
+              position of Board Chair, Vice Board Chair, or At-Large Director.
+              Except as otherwise provided in these Community Operating
+              Principles, Directors will be elected at the annual meeting of the
+              Members in accordance with Article I, section 1.4. Directors may
+              be elected for any number of consecutive or non-consecutive terms.
             </li>
             <li>
               <strong>Nominating Directors</strong>. To be nominated for a seat
@@ -292,9 +295,9 @@ export default function Bylaws() {
               of a majority of the Directors then in office, although less than
               a quorum, or by a sole remaining Director. A Director elected to
               fill a vacancy shall be elected for the unexpired term of such
-              Director’s predecessor in office until the next annual meeting of
+              Director's predecessor in office until the next annual meeting of
               Members and until a successor is elected and qualified, or until
-              such director’s earlier death, resignation or removal.
+              such director's earlier death, resignation or removal.
             </li>
             <li>
               <strong>Actions Without a Meeting</strong>. Any action required or
@@ -325,20 +328,22 @@ export default function Bylaws() {
               management of the business and affairs of the Foundation with
               respect to the matters delegated to the committee, but no
               committee shall have the power or authority in reference to
-              adopting, amending or repealing these Bylaws, or any other matter
-              which has not been expressly delegated to the committee. Each such
-              committee shall keep minutes and make such reports as the Board
-              may from time to time request. Except as the Foundation Board may
-              otherwise determine, any committee may make rules for the conduct
-              of its business, but unless otherwise provided by the directors or
-              in such rules, its business shall be conducted as nearly as
-              possible in the same manner as is provided in these Bylaws for the
-              Board, including the quorum rules. Except as otherwise provided in
-              these Bylaws, or the resolution of the Board designating the
-              committee, a committee may create one or more subcommittees, each
-              subcommittee to consist of one or more members of the committee,
-              and delegate to a subcommittee any or all of the powers and
-              authority of the committee.
+              adopting, amending or repealing these Community Operating
+              Principles, or any other matter which has not been expressly
+              delegated to the committee. Each such committee shall keep minutes
+              and make such reports as the Board may from time to time request.
+              Except as the Foundation Board may otherwise determine, any
+              committee may make rules for the conduct of its business, but
+              unless otherwise provided by the directors or in such rules, its
+              business shall be conducted as nearly as possible in the same
+              manner as is provided in these Community Operating Principles for
+              the Board, including the quorum rules. Except as otherwise
+              provided in these Community Operating Principles, or the
+              resolution of the Board designating the committee, a committee may
+              create one or more subcommittees, each subcommittee to consist of
+              one or more members of the committee, and delegate to a
+              subcommittee any or all of the powers and authority of the
+              committee.
             </li>
             <li>
               <strong>Nomination Committee</strong>. The Board will have a
@@ -350,8 +355,8 @@ export default function Bylaws() {
             </li>
             <li>
               <strong>Advisory Boards; Community Input</strong>. The Board may
-              create one or more advisory boards (each, an “
-              <strong>Advisory Board</strong>”) who will advise the Board on
+              create one or more advisory boards (each, an "
+              <strong>Advisory Board</strong>") who will advise the Board on
               various aspects related to the activities of the Foundation.
               Members of an Advisory Board do not need to be Members of the
               Foundation. An Advisory Board may bring matters to the Foundation
@@ -403,11 +408,11 @@ export default function Bylaws() {
             <li>
               <p>
                 <strong>Officers Generally</strong>. The officers of the
-                Foundation (“<strong>Officers</strong>”) will consist of a Board
-                Chair and Vice Board Chair (“<strong>Elected Officers</strong>
-                ”), and President, Vice President, Secretary, Assistant
+                Foundation ("<strong>Officers</strong>") will consist of a Board
+                Chair and Vice Board Chair ("<strong>Elected Officers</strong>
+                "), and President, Vice President, Secretary, Assistant
                 Secretary (optional), Treasurer, and Assistant Treasurer
-                (optional) (“<strong>Appointed Officers</strong>”).
+                (optional) ("<strong>Appointed Officers</strong>").
               </p>
             </li>
             <li>
@@ -439,7 +444,7 @@ export default function Bylaws() {
                 <strong>Board Chair</strong>. The Board Chair will preside at
                 all meetings of the Board and at all meetings of the Members.
                 The Board Chair will have all the powers of the President in the
-                event of the President’s absence or inability to act, or in the
+                event of the President's absence or inability to act, or in the
                 event of a vacancy in the office of the President and will have
                 such other duties as may be conferred upon the Board Chair by
                 the Board.
@@ -480,16 +485,16 @@ export default function Bylaws() {
                 Secretary will keep or cause to be kept a record of all of the
                 proceedings all meetings of the Board and at all meetings of the
                 Members; cause all notices to be duly given in accordance with
-                the provisions of these Bylaws; be the custodian of the books
-                and records of the Foundation and perform in general all duties
-                incident to the office of Secretary and such other duties as are
-                given by these Bylaws or as from time to time may be assigned by
-                the Board or the President. All minutes of the Board must be
-                approved by the Board at the following meeting of the Board to
-                be inserted in the minute book. The Board may appoint an
-                Assistant Secretary, who will, if one is appointed, render
-                assistance to the Secretary in all the responsibilities
-                described above.
+                the provisions of these Community Operating Principles; be the
+                custodian of the books and records of the Foundation and perform
+                in general all duties incident to the office of Secretary and
+                such other duties as are given by these Community Operating
+                Principles or as from time to time may be assigned by the Board
+                or the President. All minutes of the Board must be approved by
+                the Board at the following meeting of the Board to be inserted
+                in the minute book. The Board may appoint an Assistant
+                Secretary, who will, if one is appointed, render assistance to
+                the Secretary in all the responsibilities described above.
               </p>
             </li>
             <li>
@@ -507,12 +512,12 @@ export default function Bylaws() {
               <p>
                 <strong>Delegation of Authority</strong>. To the extent required
                 to carry out the duties ascribed to the Officers by these
-                Bylaws, the Officers are authorized to bind the Foundation and
-                enter contracts on behalf of the Foundation, provided that the
-                Board may limit the scope of such authority. The Board may, from
-                time to time, delegate the powers or duties of any Officer to
-                any other officer or agent, notwithstanding any provision
-                hereof.
+                Community Operating Principles, the Officers are authorized to
+                bind the Foundation and enter contracts on behalf of the
+                Foundation, provided that the Board may limit the scope of such
+                authority. The Board may, from time to time, delegate the powers
+                or duties of any Officer to any other officer or agent,
+                notwithstanding any provision hereof.
               </p>
             </li>
             <li>
@@ -524,7 +529,7 @@ export default function Bylaws() {
                 indebtedness on behalf of the Foundation in excess of $1,000;
                 (c) waive or discharge any material obligations owed to the
                 Foundation by a third party; (d) license or sell any assets of
-                the Foundation in the ordinary course of the Foundation’s
+                the Foundation in the ordinary course of the Foundation's
                 activities and consistent with past practices; (e) such other
                 acts as are determined by the Board from time to time.
               </p>
@@ -541,7 +546,7 @@ export default function Bylaws() {
             <li>
               <p>
                 <strong>Compensation</strong>. Officers may receive compensation
-                for their services as Officer’s in amounts determined by the
+                for their services as Officer's in amounts determined by the
                 Board.**
               </p>
             </li>
@@ -578,9 +583,9 @@ export default function Bylaws() {
           </p>
           <ol>
             <li>
-              <strong>Project Boards Generally</strong>. The Foundation’s
-              initiatives will be carried out by Project Boards (each, a “
-              <strong>Project Board</strong>”) made up of Members. The number
+              <strong>Project Boards Generally</strong>. The Foundation's
+              initiatives will be carried out by Project Boards (each, a "
+              <strong>Project Board</strong>") made up of Members. The number
               and duties of the Project Boards will be determined by the
               Foundation Board. Subject to oversight by the Foundation Board and
               the general purposes of the applicable Project Board as determined
@@ -589,12 +594,12 @@ export default function Bylaws() {
               to carry out the specific projects and work of the Foundation. It
               is anticipated that each Project Board will create and oversee
               multiple Project Teams that will work on projects related to the
-              applicable Project Board’s areas of responsibility.{" "}
+              applicable Project Board's areas of responsibility.{" "}
             </li>
             <li>
               <strong>Project Board Size; Composition</strong>. Each Project
-              Board will consist of as many directors (“
-              <strong>Project Directors</strong>”) as is determined by the
+              Board will consist of as many directors ("
+              <strong>Project Directors</strong>") as is determined by the
               Foundation Board. Project Directors must be Members of the
               Foundation. A person may be a member of more than one Project
               Board at the same time. A person may only hold the role of Project
@@ -621,10 +626,10 @@ export default function Bylaws() {
               election of the Project Boards, each Project Board will appoint a
               Project Board Chair and Project Board Vice Chair. An eligible
               person may be nominated to a Project Board in accordance with the
-              Project Board’s bylaws. If the Project Board does not have an
-              explicit nomination process, Project Board nominees will be
-              nominated in accordance with the process set forth in Section 2.3
-              of these Bylaws.
+              Project Board's community operating principles. If the Project
+              Board does not have an explicit nomination process, Project Board
+              nominees will be nominated in accordance with the process set
+              forth in Section 2.3 of these Community Operating Principles.
             </li>
             <li>
               <strong>Rules Governing Project Boards</strong>. Each Project
@@ -636,10 +641,11 @@ export default function Bylaws() {
               any Project Board may make rules for the conduct of its business,
               but unless otherwise provided by the Project Directors or in such
               rules, its business shall be conducted as nearly as possible in
-              the same manner as is provided in these Bylaws for the Foundation
-              Board, including the quorum rules. Projects will be encouraged to
-              develop written trademark policies to encourage a level playing
-              field for commercial use of the Project by others.{" "}
+              the same manner as is provided in these Community Operating
+              Principles for the Foundation Board, including the quorum rules.
+              Projects will be encouraged to develop written trademark policies
+              to encourage a level playing field for commercial use of the
+              Project by others.{" "}
             </li>
             <li>
               <strong>Project Team Leadership</strong>. Each Project Team will
@@ -661,9 +667,10 @@ export default function Bylaws() {
             </li>
             <li>
               <strong>Election of Project Team Leadership</strong>. Subject to
-              the applicable Project Board Bylaws, each team will have, at a
-              minimum, one Team Lead and one Team Deputy who will be selected in
-              accordance with the applicable Project Board Bylaws.
+              the applicable Project Board Community Operating Principles, each
+              team will have, at a minimum, one Team Lead and one Team Deputy
+              who will be selected in accordance with the applicable Project
+              Board Community Operating Principles.
             </li>
           </ol>
 
@@ -678,19 +685,19 @@ export default function Bylaws() {
                 </strong>
                 . The Foundation will indemnify and hold harmless, to the
                 fullest extent permitted by applicable law as it presently
-                exists or may hereafter be amended, any person (an “
-                <strong>Indemnified Person</strong>”) who was or is made or is
+                exists or may hereafter be amended, any person (an "
+                <strong>Indemnified Person</strong>") who was or is made or is
                 threatened to be made a party or is otherwise involved in any
                 action, suit or proceeding, whether civil, criminal,
-                administrative or investigative (a “<strong>Proceeding</strong>
-                ”), by reason of the fact that such person, or a person for whom
+                administrative or investigative (a "<strong>Proceeding</strong>
+                "), by reason of the fact that such person, or a person for whom
                 such person is the legal representative, is or was a director or
                 officer of the Foundation or, while a director or officer of the
                 Foundation, is or was serving at the request of the Foundation
                 as a director, officer, employee or agent of another corporation
                 or of a partnership, joint venture, limited liability company,
                 trust, enterprise or nonprofit entity, against all liability and
-                loss suffered and expenses (including attorneys’ fees)
+                loss suffered and expenses (including attorneys' fees)
                 reasonably incurred by such Indemnified Person in such
                 Proceeding. The Foundation shall be required to indemnify an
                 Indemnified Person in connection with a Proceeding (or part
@@ -702,7 +709,7 @@ export default function Bylaws() {
             <li>
               <p>
                 <strong>Prepayment of Expenses</strong>. The Foundation shall
-                pay the expenses (including attorneys’ fees) incurred by an
+                pay the expenses (including attorneys' fees) incurred by an
                 Indemnified Person in defending any Proceeding in advance of its
                 final disposition, provided, however, that, to the extent
                 required by law, such payment of expenses in advance of the
@@ -733,9 +740,9 @@ export default function Bylaws() {
                 <strong>Non-Exclusivity of Rights</strong>. The rights conferred
                 on any person by this Article VI shall not be exclusive of any
                 other rights which such person may have or hereafter acquire
-                under any statute, provision of the Company’s Certificate of
-                Incorporation, these Bylaws, agreement, vote of the Board or
-                otherwise.
+                under any statute, provision of the Company's Certificate of
+                Incorporation, these Community Operating Principles, agreement,
+                vote of the Board or otherwise.
               </p>
             </li>
             <li>
@@ -743,7 +750,7 @@ export default function Bylaws() {
                 <strong>Insurance</strong>. The Board may, to the full extent
                 permitted by applicable law as it presently exists, or may
                 hereafter be amended from time to time, authorize an appropriate
-                officer or officers to purchase and maintain at the Foundation’s
+                officer or officers to purchase and maintain at the Foundation's
                 expense insurance: (a) to indemnify the Foundation for any
                 obligation which it incurs as a result of the indemnification of
                 directors, officers and employees under the provisions of this
@@ -765,15 +772,17 @@ export default function Bylaws() {
           </ol>
           <p>
             <strong>ARTICLE VII</strong> -{" "}
-            <strong>AMENDMENTS TO BYLAWS AND CHARTER</strong>
+            <strong>
+              AMENDMENTS TO COMMUNITY OPERATING PRINCIPLES AND CHARTER
+            </strong>
           </p>
           <ol>
             <li>
               <p>
-                <strong>Amendment to Bylaws</strong>. These Bylaws may be
-                altered, amended, or restated by the vote of 2/3rds of the
-                Directors then serving on the Board or by the Board of Directors
-                of the Company.
+                <strong>Amendment to Community Operating Principles</strong>.
+                These Community Operating Principles may be altered, amended, or
+                restated by the vote of 2/3rds of the Directors then serving on
+                the Board or by the Board of Directors of the Company.
               </p>
             </li>
             <li>
@@ -787,11 +796,13 @@ export default function Bylaws() {
             </li>
             <li>
               <p>
-                <strong>Amendment to Project Board Bylaws</strong>. As part of
-                its role of overseeing the Project Boards, the Foundation Board
-                may alter, amend, or restate any Project Board Bylaws by the
-                vote of 2/3rds of the Directors then serving on the Foundation
-                Board.
+                <strong>
+                  Amendment to Project Board Community Operating Principles
+                </strong>
+                . As part of its role of overseeing the Project Boards, the
+                Foundation Board may alter, amend, or restate any Project Board
+                Community Operating Principles by the vote of 2/3rds of the
+                Directors then serving on the Foundation Board.
               </p>
             </li>
           </ol>
@@ -848,9 +859,9 @@ export default function Bylaws() {
           <p className="text-sm">
             <strong>[1]:</strong> This means the Foundation is a Delaware Public
             Benefit Corporation, with the objectives set forth in this Charter
-            and the Foundation Bylaws. We do not have an objective to make money
-            for shareholders. As of the time of this writing, the Foundation is
-            NOT a 501(c)* US tax-exempt organization.
+            and the Foundation Community Operating Principles. We do not have an
+            objective to make money for shareholders. As of the time of this
+            writing, the Foundation is NOT a 501(c)* US tax-exempt organization.
           </p>
         </div>
       </div>

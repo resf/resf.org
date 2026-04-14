@@ -45,8 +45,8 @@ const FAQPage: NextPage = ({ menuItems }: IndexProps) => {
                   </FAQ.Item>
                 ))}
               </FAQ.Group>
-              <FAQ.Group title={t("bylaws")}>
-                {faq.byLaws.map((faq) => (
+              <FAQ.Group title={t("communityOperatingPrinciples")}>
+                {faq.communityOperatingPrinciples.map((faq) => (
                   <FAQ.Item key={faq.slug} slug={faq.slug}>
                     {faq.question}
                   </FAQ.Item>

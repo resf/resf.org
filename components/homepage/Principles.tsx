@@ -21,7 +21,7 @@ const principles = [
     id: 4,
     title: "Transparency",
     description:
-      "We will remain transparent to the community as defined by our bylaws and bound by our data security policy.",
+      "We will remain transparent to the community as defined by our community operating principles and bound by our data security policy.",
   },
 ];
 

@@ -2,7 +2,7 @@ export const about = [
   {
     slug: "why-does-resf-exist",
     question: "Why does the Rocky Enterprise Software Foundation (RESF) exist?",
-    answer: `<p>What we've created with the RESF is an organizational body designed to help open source projects thrive with a structure that ensures a balanced and fair distribution of community control while specifically enabling enterprise use-cases, vendors, and commercial entities. Our charter and bylaws set forth an inclusive management framework, commitment, and accountability to ensure the longevity and success of our hosted open source projects and their respective communities.</p>
+    answer: `<p>What we've created with the RESF is an organizational body designed to help open source projects thrive with a structure that ensures a balanced and fair distribution of community control while specifically enabling enterprise use-cases, vendors, and commercial entities. Our charter and community operating principles set forth an inclusive management framework, commitment, and accountability to ensure the longevity and success of our hosted open source projects and their respective communities.</p>
 
     <p>Our vision is to create and nurture a community of individuals and organizations that are committed to ensuring the longevity, stewardship, and innovation of enterprise grade/class open source software that is always freely available.</p>
     
@@ -33,7 +33,7 @@ export const about = [
 
     <p>We believe that what truly matters for a successful open source community is: transparency, open leadership, dedication to the community, longevity, community accountability, checks and balances, and growth with equal opportunity for everyone.</p>
 
-    <p>The structure we created was well thought out and designed to align with these goals to benefit the community at-large. The bylaws and charter solidifies our intentions, creates transparency, and the RESF welcomes community scrutiny and to be held accountable.</p>
+    <p>The structure we created was well thought out and designed to align with these goals to benefit the community at-large. The community operating principles and charter solidifies our intentions, creates transparency, and the RESF welcomes community scrutiny and to be held accountable.</p>
     `,
   },
   {
@@ -43,7 +43,7 @@ export const about = [
 
     <p>This is common within the open source community even for large projects. For example Ubuntu, Python, OpenBSD, Slackware, Ruby, Perl, and even the Linux kernel itself, all are (or have been) <a href="https://en.wikipedia.org/wiki/Benevolent_dictator_for_life">owned and/or controlled by a single individual</a>. That does not and should not detract from the value, integrity, or impact of any of those projects.</p>
 
-    <p>By ratifying the bylaws and charter, Greg has turned over the control of the RESF to the structure defined within those documents. There is now no single leadership position and everything is run by elected boards and contributing individuals. This means that if Greg does a good job, he might be elected to a board seat, and if not, or if he is unavailable, others will be elected.</p>
+    <p>By ratifying the community operating principles and charter, Greg has turned over the control of the RESF to the structure defined within those documents. There is now no single leadership position and everything is run by elected boards and contributing individuals. This means that if Greg does a good job, he might be elected to a board seat, and if not, or if he is unavailable, others will be elected.</p>
     `,
   },
   {
@@ -52,7 +52,7 @@ export const about = [
       "But if Gregory Kurtzer owns the RESF, doesn't he still have control over it?",
     answer: `<p>As a member of the foundation, Greg is subject to the same rules and functions as everyone else, but the question is still valid.</p>
 
-    <p>As the owner, Greg could retract the bylaws completely and unilaterally; an action that would essentially shut down the RESF and be a very public signal to the community that something unanticipated has happened which jeopardizes the Projects (e.g. Board manipulation, takeover of control, etc.).</p>
+    <p>As the owner, Greg could retract the community operating principles completely and unilaterally; an action that would essentially shut down the RESF and be a very public signal to the community that something unanticipated has happened which jeopardizes the Projects (e.g. Board manipulation, takeover of control, etc.).</p>
 
     <p>Contingency planning is critical to the long term success of an open source project, and we all take that commitment very seriously. Greg’s role may not always be that of decision making, but he will be there to resolve any unforeseen complications in the RESF and to ensure the long term survival and community control of each of the hosted Projects.</p>
     `,
@@ -71,10 +71,11 @@ export const about = [
   },
 ];
 
-export const byLaws = [
+export const communityOperatingPrinciples = [
   {
-    slug: "when-why-bylaws-charter-written",
-    question: "When and why were the bylaws and charter written?",
+    slug: "when-why-community-operating-principles-charter-written",
+    question:
+      "When and why were the community operating principles and charter written?",
     answer: `<p>When we first began, our goal was to create a new Enterprise Linux derivative, addressing a critical pain point for the community. Now that we’ve done that, and built the infrastructure to facilitate a larger breadth of features and longevity of the project, we refocused to codify the organizational structure for the benefit of the new community which has formed around the vision of stable, collaborative, community focused open source projects.</p>
     <br/>
     <p>We started thinking about this very early on, and as we progressed with building Rocky Linux, our ideas matured into a vision that is much bigger than just a free rebuild of RHEL. The initial drafts started in May 2022 and we worked on it until November 2022, when it was finalized and ratified.</p>
@@ -84,32 +85,35 @@ export const byLaws = [
   },
   {
     slug: "who-voted",
-    question: "Who voted on the RESF bylaws and charter?",
-    answer: `<p>These bylaws have been voted on by the initial charter member group of 29 RESF and Rocky Linux Team Leads and ratified by Gregory Kurtzer.</p>
+    question:
+      "Who voted on the RESF community operating principles and charter?",
+    answer: `<p>These community operating principles have been voted on by the initial charter member group of 29 RESF and Rocky Linux Team Leads and ratified by Gregory Kurtzer.</p>
     `,
   },
   {
-    slug: "who-wrote-bylaws-charter",
-    question: "Who wrote the RESF bylaws and charter?",
-    answer: `<p>The RESF charter and bylaws were written by <a href="https://www.linkedin.com/in/gmkurtzer/">Gregory M. Kurtzer</a>, <a href="https://www.linkedin.com/in/jd-peters-034212b7/">JD Peters</a>, <a href="https://www.linkedin.com/in/heathermeeker/">Heather Meeker</a>, <a href="https://www.linkedin.com/in/benjaminagner/">Benjamin Agner</a>, with contributions from the rest of the Rocky Linux Team Leads: Louis Abel, Brian Clemens, Rob Felsburg, Mustafa Gezen, Taylor Goodwill, Skip Grube, Neil Hanlon, Michael Kinder, Sherif Nagy, Scott Shinn, Wale Soyinka, Steven Spencer, Chris “Stack” Stackpole with feedback and support from many members of the Rocky Linux and RESF community.</p>
+    slug: "who-wrote-community-operating-principles-charter",
+    question: "Who wrote the RESF community operating principles and charter?",
+    answer: `<p>The RESF charter and community operating principles were written by <a href="https://www.linkedin.com/in/gmkurtzer/">Gregory M. Kurtzer</a>, <a href="https://www.linkedin.com/in/jd-peters-034212b7/">JD Peters</a>, <a href="https://www.linkedin.com/in/heathermeeker/">Heather Meeker</a>, <a href="https://www.linkedin.com/in/benjaminagner/">Benjamin Agner</a>, with contributions from the rest of the Rocky Linux Team Leads: Louis Abel, Brian Clemens, Rob Felsburg, Mustafa Gezen, Taylor Goodwill, Skip Grube, Neil Hanlon, Michael Kinder, Sherif Nagy, Scott Shinn, Wale Soyinka, Steven Spencer, Chris “Stack” Stackpole with feedback and support from many members of the Rocky Linux and RESF community.</p>
     `,
   },
   {
     slug: "effective-date",
-    question: "When do the RESF bylaws and charter go into effect?",
-    answer: `<p>Now that these bylaws have been drafted and agreed on, the RESF will be enacting these changes with the expectation that we will be in full compliance on January 1st, 2023.</p>
+    question:
+      "When do the RESF community operating principles and charter go into effect?",
+    answer: `<p>Now that these community operating principles have been drafted and agreed on, the RESF will be enacting these changes with the expectation that we will be in full compliance on January 1st, 2023.</p>
     `,
   },
   {
     slug: "why-this-structure",
     question:
-      "Why has the RESF chosen this structure and bylaws and not simply adopted those from an existing open source foundation like the Apache Software Foundation, Linux Foundation or others?",
+      "Why has the RESF chosen this structure and community operating principles and not simply adopted those from an existing open source foundation like the Apache Software Foundation, Linux Foundation or others?",
     answer: `<p>The RESF structure is different from other open source foundations only in that it takes what we feel is the best of each and brings them together into a unique structure. You will find similarities among all of those listed, and our uniqueness is based on how we mixed everything together and superimposed this structure on top of how we basically operate today while striving to achieve a balance between community and the needs of enterprise organizations.</p>
     `,
   },
   {
-    slug: "can-bylaws-charter-be-modified",
-    question: "Can the bylaws and/or charter be modified?",
+    slug: "can-community-operating-principles-charter-be-modified",
+    question:
+      "Can the community operating principles and/or charter be modified?",
     answer: `<p>Yes, the documents are intended to evolve as needed. Anybody can propose a change to these documents, but the RESF Board would require a 2/3rds positive vote to make any changes.</p>
     `,
   },
@@ -129,12 +133,13 @@ export const byLaws = [
     <li class="pl-2 pt-1"><span class="font-bold">Growth</span>: Projects with many members and voices tend to be more stable and longer lasting</li>
     </ol>
 
-    <p>In short, under our bylaws, it is impossible for any single company or individual (including Kurtzer) to hijack or hold any of the RESF Project(s) hostage. But this is only one facet of what these bylaws do and we believe that now the RESF and all hosted Projects provide what individuals, organizations, and enterprises need to rely on for decades to come.</p>`,
+    <p>In short, under our community operating principles, it is impossible for any single company or individual (including Kurtzer) to hijack or hold any of the RESF Project(s) hostage. But this is only one facet of what these community operating principles do and we believe that now the RESF and all hosted Projects provide what individuals, organizations, and enterprises need to rely on for decades to come.</p>`,
   },
   {
     slug: "where-can-read",
-    question: "Where can I read the RESF bylaws and charter?",
-    answer: `You can read the bylaws <a href="/about#bylaws">here</a> and the charter <a href="/about#charter">here</a>.
+    question:
+      "Where can I read the RESF community operating principles and charter?",
+    answer: `You can read the community operating principles <a href="/about#community-operating-principles">here</a> and the charter <a href="/about#charter">here</a>.
     `,
   },
 ];
@@ -161,7 +166,7 @@ export const BOD = [
     <li>Mark Watson (INDEPENDENT)</li>
     </ul>
 
-    <p><em>note: CIQ is most represented on this board, and per our bylaws, quorum can not be reached with greater than 1/3rd of the Members being from a single company, CIQ is less then that.</em></p>
+    <p><em>note: CIQ is most represented on this board, and per our community operating principles, quorum can not be reached with greater than 1/3rd of the Members being from a single company, CIQ is less then that.</em></p>
     `,
   },
   {
@@ -283,7 +288,7 @@ export const members = [
 
     <p>The process is designed to be inclusive to everyone who wants to join the RESF and/or RESF Projects and will always be based solely on merit and merit alone. If you are not currently an active member but want to be, other members will work to bring you up to speed and mentor you so you can become an active member and be eligible for Membership.</p>
 
-    <p>But while everyone is welcome to be a Member, Members who are no longer active will be removed via the terms of the bylaws.</p>    
+    <p>But while everyone is welcome to be a Member, Members who are no longer active will be removed via the terms of the community operating principles.</p>    
     `,
   },
   {
@@ -294,18 +299,24 @@ export const members = [
 
     <p>Becoming a member isn’t difficult, but it does require being an active contributor to the Foundation and/or one or more Project Teams.</p>
 
-    <p>If you aren’t currently active on any Project Teams, but you want to be, please reach out to any of the Project Team leads, Team Deputies, or existing Members (privately if you wish). Our culture, encouraged by our principles and bylaws, provides value to all existing Members who mentor others by making them eligible for board elections, so reach out to them and make yourself available to be part of the team!</p>
+    <p>If you aren’t currently active on any Project Teams, but you want to be, please reach out to any of the Project Team leads, Team Deputies, or existing Members (privately if you wish). Our culture, encouraged by our principles and community operating principles, provides value to all existing Members who mentor others by making them eligible for board elections, so reach out to them and make yourself available to be part of the team!</p>
 
     <p>We want everyone to feel welcome and be part of the RESF and all Projects!</p>
     `,
   },
 ];
 
-export const allFaq = [...about, ...byLaws, ...BOD, ...projects, ...members];
+export const allFaq = [
+  ...about,
+  ...communityOperatingPrinciples,
+  ...BOD,
+  ...projects,
+  ...members,
+];
 
 export const slugs = [
   ...about.map((item) => item.slug),
-  ...byLaws.map((item) => item.slug),
+  ...communityOperatingPrinciples.map((item) => item.slug),
   ...BOD.map((item) => item.slug),
   ...projects.map((item) => item.slug),
   ...members.map((item) => item.slug),

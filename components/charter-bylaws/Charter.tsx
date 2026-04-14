@@ -22,7 +22,7 @@ export default function Charter() {
             guide the decisions and goals of the Foundation. No action(s) may be
             taken by the Foundation that is contrary to the following principles
             which is both enforced and made transparent by the Foundation
-            Bylaws:
+            Community Operating Principles:
           </p>
           <ol>
             <li>
@@ -32,14 +32,14 @@ export default function Charter() {
                 imposed not-for-profit organization[^1] and thus we will never
                 be driven, motivated, or manipulated by profit or monetary gain.
                 The Foundation is structured and governed via systems of checks
-                and balances (as set forth in the Foundation Bylaws) ensuring
-                that no single entity, organization, corporation, association,
-                or individual is permitted to have a single controlling
-                influence over any assets, the Foundation as a whole, or its
-                Projects. Additionally, the community is to be represented, by
-                the community for the community, with no “pay to play” for
-                control; board and leadership seats are never bought, they are
-                earned.
+                and balances (as set forth in the Foundation Community Operating
+                Principles) ensuring that no single entity, organization,
+                corporation, association, or individual is permitted to have a
+                single controlling influence over any assets, the Foundation as
+                a whole, or its Projects. Additionally, the community is to be
+                represented, by the community for the community, with no “pay to
+                play” for control; board and leadership seats are never bought,
+                they are earned.
               </p>
             </li>
             <li>
@@ -72,11 +72,12 @@ export default function Charter() {
             <li>
               <p>
                 <strong>Transparency</strong>. The Foundation will remain
-                transparent to the community as defined by our bylaws and bound
-                by our data security policy. This means all development
-                processes, discussions, and critical communication, to the
-                fullest extent possible, will always be done in the open with
-                nothing held back from the community or sold for fees.
+                transparent to the community as defined by our community
+                operating principles and bound by our data security policy. This
+                means all development processes, discussions, and critical
+                communication, to the fullest extent possible, will always be
+                done in the open with nothing held back from the community or
+                sold for fees.
               </p>
             </li>
             <li>
@@ -97,11 +98,12 @@ export default function Charter() {
             </li>
           </ol>
           <p>
-            <strong>ARTICLE III</strong> - <strong>BYLAWS</strong>
+            <strong>ARTICLE III</strong> -{" "}
+            <strong>COMMUNITY OPERATING PRINCIPLES</strong>
           </p>
           <p>
             In addition to this Charter, the Foundation is governed by the
-            Foundation Board and the Foundation Bylaws.
+            Foundation Board and the Foundation Community Operating Principles.
           </p>
         </div>
       </div>
