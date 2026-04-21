@@ -154,7 +154,6 @@ export const BOD = [
     <p>As of the current board of director elections, the RESF is composed of 2 RESF Members, 1 RESF Officer (TBD), 3 Independents, and 5 Project Representatives:
 
     <ul>
-    <li>Louis Abel (RESF)</li>
     <li>Benjamin Agner (INDEPENDENT)</li>
     <li>Christopher DiBona (INDEPENDENT)</li>
     <li>Mustafa Gezen (PERIDOT)</li>
