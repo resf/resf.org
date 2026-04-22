@@ -8,20 +8,20 @@ export default function CommunityOperatingPrinciples() {
           </p>
           <ol>
             <li>
-              <strong>Members</strong>. Members ("<strong>Members</strong>") of
-              The Rocky Enterprise Software Foundation (the "
-              <strong>Foundation</strong>") are persons who are involved and
+              <strong>Members</strong>. Members (&quot;<strong>Members</strong>&quot;) of
+              The Rocky Enterprise Software Foundation (the &quot;
+              <strong>Foundation</strong>&quot;) are persons who are involved and
               active participants on one or more Project Team(s). A person must
-              be a member of at least one of the Foundation's projects (each, a
-              "Project") to be a Member of the Foundation. Members will have the
+              be a member of at least one of the Foundation&apos;s projects (each, a
+              &quot;Project&quot;) to be a Member of the Foundation. Members will have the
               rights as set forth in these Foundation Community Operating
-              Principles (these "<strong>Community Operating Principles</strong>
-              ") and an obligation to act in accordance with the Foundation's
+              Principles (these &quot;<strong>Community Operating Principles</strong>
+              &quot;) and an obligation to act in accordance with the Foundation&apos;s
               Charter.
             </li>
             <li>
               <strong>Admission of Members</strong>. The initial members of the
-              Foundation (the "<strong>Initial Members</strong>") were admitted
+              Foundation (the &quot;<strong>Initial Members</strong>&quot;) were admitted
               by the Project Boards (defined below). Members may be admitted as
               Members of the Foundation in accordance with the following
               procedures:
@@ -33,7 +33,7 @@ export default function CommunityOperatingPrinciples() {
                 <li>
                   Next, the person must complete the written membership
                   application form in the form adopted by the applicable Project
-                  Board (the "<strong>Application Form</strong>").
+                  Board (the &quot;<strong>Application Form</strong>&quot;).
                 </li>
                 <li>
                   Next, the Project Board will review and either approve or
@@ -100,7 +100,7 @@ export default function CommunityOperatingPrinciples() {
               receive a Foundation or Project Team email address at the
               discretion of the Foundation Board; and (vi) such other rights as
               the Board may determine from time to time. Members are expected to
-              actively participate in their Project Team's activities and be a
+              actively participate in their Project Team&apos;s activities and be a
               community advocate for the Foundation and its projects. As a
               condition to being admitted as a Member of the Foundation or any
               Project Team, the person will be required to sign the Membership
@@ -112,14 +112,14 @@ export default function CommunityOperatingPrinciples() {
             </li>
             <li>
               <strong>List of Members</strong>. The Board will maintain a list
-              of Members (the "<strong>Member List</strong>"). Only those
+              of Members (the &quot;<strong>Member List</strong>&quot;). Only those
               Members who are included on the Member List will have the right to
               vote as Members (provided the Board acts in good faith and
               promptly fixes any errors in the Member List).
             </li>
             <li>
-              <strong>Emeritus Members</strong>. An "
-              <strong>Emeritus Member</strong>" of the Foundation is a former
+              <strong>Emeritus Members</strong>. An &quot;
+              <strong>Emeritus Member</strong>&quot; of the Foundation is a former
               Member whose membership status has been converted to Emeritus
               Status. An Emeritus Member forfeits all membership rights,
               including the right to vote and the right to be counted for the
@@ -133,25 +133,25 @@ export default function CommunityOperatingPrinciples() {
               Principles.
             </li>
             <li>
-              <strong>Termination of Membership</strong>. A Person's status as a
+              <strong>Termination of Membership</strong>. A Person&apos;s status as a
               member of a Project Team may be terminated by the affirmative vote
-              of 2/3rds of the applicable Project Team Members. A person's
+              of 2/3rds of the applicable Project Team Members. A person&apos;s
               status as a Member of the Foundation may be terminated by the
               Board for Cause. To be terminated for Cause, a majority of the
               Board must (i) determine Cause for termination exists, and (ii)
-              vote to terminate such person's status as a Member. "
-              <strong>Cause</strong>" means: (a) a Member's unauthorized misuse
-              or disclosure of the Foundation's trade secrets or proprietary
-              information, (b) a Member's conviction of or plea of nolo
+              vote to terminate such person&apos;s status as a Member. &quot;
+              <strong>Cause</strong>&quot; means: (a) a Member&apos;s unauthorized misuse
+              or disclosure of the Foundation&apos;s trade secrets or proprietary
+              information, (b) a Member&apos;s conviction of or plea of nolo
               contendere to a felony or a crime involving moral turpitude, (c) a
               Member committing an act of fraud against the Foundation; (d) a
-              Member's gross negligence or willful misconduct in the performance
+              Member&apos;s gross negligence or willful misconduct in the performance
               of their duties that has had or will have a material adverse
-              effect on the Foundation's reputation or business; (e) a Member's
-              violation of the Foundation's Charter or the Foundation Community
-              Operating Principles; or (f) a Member's inactivity with the
+              effect on the Foundation&apos;s reputation or business; (e) a Member&apos;s
+              violation of the Foundation&apos;s Charter or the Foundation Community
+              Operating Principles; or (f) a Member&apos;s inactivity with the
               Project for a consecutive period of 6 months without the Project
-              Board's approval.
+              Board&apos;s approval.
             </li>
           </ol>
 
@@ -160,9 +160,9 @@ export default function CommunityOperatingPrinciples() {
           </p>
           <ol>
             <li>
-              <strong>General Powers</strong>. The Foundation Board (the "
-              <strong>Board</strong>" or the "<strong>Foundation Board</strong>
-              ") will be responsible for managing the Foundation's budget,
+              <strong>General Powers</strong>. The Foundation Board (the &quot;
+              <strong>Board</strong>&quot; or the &quot;<strong>Foundation Board</strong>
+              &quot;) will be responsible for managing the Foundation&apos;s budget,
               general oversight of the Foundation and Project Boards, and
               Foundation project portfolio administration. The Board does not
               make technical decisions for the Foundation unless specifically
@@ -170,7 +170,7 @@ export default function CommunityOperatingPrinciples() {
             </li>
             <li>
               <strong>Eligibility</strong>. The Board will be made up of
-              directors (each, a "<strong>Director</strong>"). To be a Director,
+              directors (each, a &quot;<strong>Director</strong>&quot;). To be a Director,
               a person must be at least 18 years of age and eligible to be a
               Foundation Director in accordance with these community operating
               principles. Except for the initial Board Chair, to be eligible to
@@ -295,9 +295,9 @@ export default function CommunityOperatingPrinciples() {
               of a majority of the Directors then in office, although less than
               a quorum, or by a sole remaining Director. A Director elected to
               fill a vacancy shall be elected for the unexpired term of such
-              Director's predecessor in office until the next annual meeting of
+              Director&apos;s predecessor in office until the next annual meeting of
               Members and until a successor is elected and qualified, or until
-              such director's earlier death, resignation or removal.
+              such director&apos;s earlier death, resignation or removal.
             </li>
             <li>
               <strong>Actions Without a Meeting</strong>. Any action required or
@@ -355,8 +355,8 @@ export default function CommunityOperatingPrinciples() {
             </li>
             <li>
               <strong>Advisory Boards; Community Input</strong>. The Board may
-              create one or more advisory boards (each, an "
-              <strong>Advisory Board</strong>") who will advise the Board on
+              create one or more advisory boards (each, an &quot;
+              <strong>Advisory Board</strong>&quot;) who will advise the Board on
               various aspects related to the activities of the Foundation.
               Members of an Advisory Board do not need to be Members of the
               Foundation. An Advisory Board may bring matters to the Foundation
@@ -408,11 +408,11 @@ export default function CommunityOperatingPrinciples() {
             <li>
               <p>
                 <strong>Officers Generally</strong>. The officers of the
-                Foundation ("<strong>Officers</strong>") will consist of a Board
-                Chair and Vice Board Chair ("<strong>Elected Officers</strong>
-                "), and President, Vice President, Secretary, Assistant
+                Foundation (&quot;<strong>Officers</strong>&quot;) will consist of a Board
+                Chair and Vice Board Chair (&quot;<strong>Elected Officers</strong>
+                &quot;), and President, Vice President, Secretary, Assistant
                 Secretary (optional), Treasurer, and Assistant Treasurer
-                (optional) ("<strong>Appointed Officers</strong>").
+                (optional) (&quot;<strong>Appointed Officers</strong>&quot;).
               </p>
             </li>
             <li>
@@ -444,7 +444,7 @@ export default function CommunityOperatingPrinciples() {
                 <strong>Board Chair</strong>. The Board Chair will preside at
                 all meetings of the Board and at all meetings of the Members.
                 The Board Chair will have all the powers of the President in the
-                event of the President's absence or inability to act, or in the
+                event of the President&apos;s absence or inability to act, or in the
                 event of a vacancy in the office of the President and will have
                 such other duties as may be conferred upon the Board Chair by
                 the Board.
@@ -529,7 +529,7 @@ export default function CommunityOperatingPrinciples() {
                 indebtedness on behalf of the Foundation in excess of $1,000;
                 (c) waive or discharge any material obligations owed to the
                 Foundation by a third party; (d) license or sell any assets of
-                the Foundation in the ordinary course of the Foundation's
+                the Foundation in the ordinary course of the Foundation&apos;s
                 activities and consistent with past practices; (e) such other
                 acts as are determined by the Board from time to time.
               </p>
@@ -546,7 +546,7 @@ export default function CommunityOperatingPrinciples() {
             <li>
               <p>
                 <strong>Compensation</strong>. Officers may receive compensation
-                for their services as Officer's in amounts determined by the
+                for their services as Officer&apos;s in amounts determined by the
                 Board.**
               </p>
             </li>
@@ -583,9 +583,9 @@ export default function CommunityOperatingPrinciples() {
           </p>
           <ol>
             <li>
-              <strong>Project Boards Generally</strong>. The Foundation's
-              initiatives will be carried out by Project Boards (each, a "
-              <strong>Project Board</strong>") made up of Members. The number
+              <strong>Project Boards Generally</strong>. The Foundation&apos;s
+              initiatives will be carried out by Project Boards (each, a &quot;
+              <strong>Project Board</strong>&quot;) made up of Members. The number
               and duties of the Project Boards will be determined by the
               Foundation Board. Subject to oversight by the Foundation Board and
               the general purposes of the applicable Project Board as determined
@@ -594,12 +594,12 @@ export default function CommunityOperatingPrinciples() {
               to carry out the specific projects and work of the Foundation. It
               is anticipated that each Project Board will create and oversee
               multiple Project Teams that will work on projects related to the
-              applicable Project Board's areas of responsibility.{" "}
+              applicable Project Board&apos;s areas of responsibility.{" "}
             </li>
             <li>
               <strong>Project Board Size; Composition</strong>. Each Project
-              Board will consist of as many directors ("
-              <strong>Project Directors</strong>") as is determined by the
+              Board will consist of as many directors (&quot;
+              <strong>Project Directors</strong>&quot;) as is determined by the
               Foundation Board. Project Directors must be Members of the
               Foundation. A person may be a member of more than one Project
               Board at the same time. A person may only hold the role of Project
@@ -626,7 +626,7 @@ export default function CommunityOperatingPrinciples() {
               election of the Project Boards, each Project Board will appoint a
               Project Board Chair and Project Board Vice Chair. An eligible
               person may be nominated to a Project Board in accordance with the
-              Project Board's community operating principles. If the Project
+              Project Board&apos;s community operating principles. If the Project
               Board does not have an explicit nomination process, Project Board
               nominees will be nominated in accordance with the process set
               forth in Section 2.3 of these Community Operating Principles.
@@ -685,19 +685,19 @@ export default function CommunityOperatingPrinciples() {
                 </strong>
                 . The Foundation will indemnify and hold harmless, to the
                 fullest extent permitted by applicable law as it presently
-                exists or may hereafter be amended, any person (an "
-                <strong>Indemnified Person</strong>") who was or is made or is
+                exists or may hereafter be amended, any person (an &quot;
+                <strong>Indemnified Person</strong>&quot;) who was or is made or is
                 threatened to be made a party or is otherwise involved in any
                 action, suit or proceeding, whether civil, criminal,
-                administrative or investigative (a "<strong>Proceeding</strong>
-                "), by reason of the fact that such person, or a person for whom
+                administrative or investigative (a &quot;<strong>Proceeding</strong>
+                &quot;), by reason of the fact that such person, or a person for whom
                 such person is the legal representative, is or was a director or
                 officer of the Foundation or, while a director or officer of the
                 Foundation, is or was serving at the request of the Foundation
                 as a director, officer, employee or agent of another corporation
                 or of a partnership, joint venture, limited liability company,
                 trust, enterprise or nonprofit entity, against all liability and
-                loss suffered and expenses (including attorneys' fees)
+                loss suffered and expenses (including attorneys&apos; fees)
                 reasonably incurred by such Indemnified Person in such
                 Proceeding. The Foundation shall be required to indemnify an
                 Indemnified Person in connection with a Proceeding (or part
@@ -709,7 +709,7 @@ export default function CommunityOperatingPrinciples() {
             <li>
               <p>
                 <strong>Prepayment of Expenses</strong>. The Foundation shall
-                pay the expenses (including attorneys' fees) incurred by an
+                pay the expenses (including attorneys&apos; fees) incurred by an
                 Indemnified Person in defending any Proceeding in advance of its
                 final disposition, provided, however, that, to the extent
                 required by law, such payment of expenses in advance of the
@@ -740,7 +740,7 @@ export default function CommunityOperatingPrinciples() {
                 <strong>Non-Exclusivity of Rights</strong>. The rights conferred
                 on any person by this Article VI shall not be exclusive of any
                 other rights which such person may have or hereafter acquire
-                under any statute, provision of the Company's Certificate of
+                under any statute, provision of the Company&apos;s Certificate of
                 Incorporation, these Community Operating Principles, agreement,
                 vote of the Board or otherwise.
               </p>
@@ -750,7 +750,7 @@ export default function CommunityOperatingPrinciples() {
                 <strong>Insurance</strong>. The Board may, to the full extent
                 permitted by applicable law as it presently exists, or may
                 hereafter be amended from time to time, authorize an appropriate
-                officer or officers to purchase and maintain at the Foundation's
+                officer or officers to purchase and maintain at the Foundation&apos;s
                 expense insurance: (a) to indemnify the Foundation for any
                 obligation which it incurs as a result of the indemnification of
                 directors, officers and employees under the provisions of this
