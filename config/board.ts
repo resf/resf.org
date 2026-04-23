@@ -27,6 +27,18 @@ export const board = [
 		},
 	},
 	{
+		name: "Louis Abel",
+		image: "/louisa.jpg",
+		role: "Vice Chair",
+		country: "USA",
+		active: false,
+		socials: {
+			linkedIn: "https://www.linkedin.com/in/louis-abel/",
+			bluesky: "https://bsky.app/profile/angelsofclockwork.net",
+			email: "mailto:label@rockylinux.org",
+		},
+	},
+	{
 		name: "Christopher Stackpole",
 		image: "/christophers.jpg",
 		role: "Board Member",
