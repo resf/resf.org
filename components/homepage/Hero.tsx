@@ -64,7 +64,7 @@ export default function Hero() {
                     <picture>
                       <img
                         className="h-12"
-                        src="/images/sponsors/ciq.png"
+                        src="/images/sponsors/ciq.svg"
                         alt="CIQ"
                       />
                     </picture>
