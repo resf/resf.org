@@ -35,7 +35,6 @@ export const board = [
 		socials: {
 			linkedIn: "https://www.linkedin.com/in/louis-abel/",
 			bluesky: "https://bsky.app/profile/angelsofclockwork.net",
-			email: "mailto:label@rockylinux.org",
 		},
 	},
 	{
@@ -65,12 +64,11 @@ export const board = [
 		image: "/neilh.png",
 		role: "Board Member",
 		country: "USA",
-		active: true,
+		active: false,
 		socials: {
 			website: "https://shrug.pw",
 			linkedIn: "https://www.linkedin.com/in/hanlonneil/",
 			bluesky: "https://bsky.app/profile/shrug.pw",
-			email: "mailto:neil@resf.org",
 		}
 	},
 	{
