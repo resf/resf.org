@@ -158,4 +158,14 @@ export const board = [
 			linkedIn: "https://www.linkedin.com/in/greg-kroah-hartman/",
 		},
 	},
+	{
+		name: "Wale Soyinka",
+		image: "/wales.png",
+		role: "Board Member",
+		country: "Canada",
+		active: true,
+		socials: {
+			email: "mailto:wale@rockylinux.org",
+		},
+	},
 ];
