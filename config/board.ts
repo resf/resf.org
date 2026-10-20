@@ -50,7 +50,7 @@ export const board = [
 	{
 		name: "Mustafa Gezen",
 		image: "/mustafag.jpg",
-		role: "Board Member",
+		role: "Lead Architect (Rocky Linux)",
 		country: "Norway",
 		active: true,
 		socials: {
@@ -179,6 +179,19 @@ export const board = [
 			mastodon: "https://wandering.shop/@semioticstandard",
 			website: "https://www.semioticstandard.com/",
 			email: "mailto:rlh@resf.org",
+		},
+	},
+	{
+		name: "Jonathan Dieter",
+		image: "/jdieter.png",
+		role: "Engineering Lead (Rocky Linux)",
+		country: "Ireland",
+		active: true,
+		socials: {
+			linkedIn: "https://ie.linkedin.com/in/jonathandieter",
+			bluesky: "https://bsky.app/profile/jonathan.dieter.ie",
+			website: "https://www.jdieter.net/",
+			email: "mailto:jdieter@resf.org",
 		},
 	},
 ];
