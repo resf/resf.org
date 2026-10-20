@@ -143,6 +143,7 @@ export const board = [
 		country: "USA",
 		active: true,
 		socials: {
+			website: "https://thunk.org/tytso/",
 			linkedIn: "https://www.linkedin.com/in/tytso/",
 		},
 	},
