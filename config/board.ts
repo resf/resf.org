@@ -168,4 +168,17 @@ export const board = [
 			email: "mailto:wale@rockylinux.org",
 		},
 	},
+	{
+		name: "R. Leigh Hennig",
+		image: "/rlh.jpg",
+		role: "Operations Lead",
+		country: "USA",
+		active: true,
+		socials: {
+			linkedIn: "https://www.linkedin.com/in/rlhennig",
+			mastodon: "https://wandering.shop/@semioticstandard",
+			website: "https://www.semioticstandard.com/",
+			email: "mailto:rlh@resf.org",
+		},
+	},
 ];
