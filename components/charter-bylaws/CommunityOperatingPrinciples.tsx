@@ -4,154 +4,190 @@ export default function CommunityOperatingPrinciples() {
       <div className="relative px-4 sm:px-6 lg:px-8">
         <div className="max-w-full prose prose-lg prose-indigo mx-auto text-gray-500">
           <p>
+            <strong>PREAMBLE</strong>
+          </p>
+          <p>
+            These Community Operating Principles (these &quot;
+            <strong>Community Operating Principles</strong>&quot;) define the
+            roles, responsibilities, and governance structure of The Rocky
+            Enterprise Software Foundation (the &quot;
+            <strong>Foundation</strong>&quot;), a Delaware Public Benefit
+            Corporation. They operate together with, and subject to, the
+            Foundation&apos;s Charter.
+          </p>
+          <p>
+            The Foundation is governed by a single, unified Foundation Board.
+            The Board holds responsibility for the Foundation&apos;s mission,
+            finances, and oversight, while the Rocky Linux Project Teams perform
+            the day-to-day work of the project. The Foundation&apos;s current and
+            sole project is Rocky Linux.
+          </p>
+          <p>
+            These Community Operating Principles enforce and give effect to the
+            Foundation Charter set out above. Where these Community Operating
+            Principles establish checks and balances — including merit-based
+            seats that are earned and never bought, the related-party
+            restrictions of Article II, and the transparency and representation
+            provisions throughout — they do so in furtherance of the
+            fundamental, immutable principles of Charter Article II. No
+            provision of these Community Operating Principles may be applied in
+            a manner contrary to those Charter principles.
+          </p>
+
+          <p>
             <strong>ARTICLE I</strong> - <strong>MEMBERS</strong>
           </p>
           <ol>
             <li>
-              <strong>Members</strong>. Members (&quot;<strong>Members</strong>&quot;) of
-              The Rocky Enterprise Software Foundation (the &quot;
-              <strong>Foundation</strong>&quot;) are persons who are involved and
-              active participants on one or more Project Team(s). A person must
-              be a member of at least one of the Foundation&apos;s projects (each, a
-              &quot;Project&quot;) to be a Member of the Foundation. Members will have the
-              rights as set forth in these Foundation Community Operating
-              Principles (these &quot;<strong>Community Operating Principles</strong>
-              &quot;) and an obligation to act in accordance with the Foundation&apos;s
-              Charter.
+              <strong>Members</strong>. Members (&quot;<strong>Members</strong>
+              &quot;) of the Foundation are persons who are involved and active
+              participants on one or more Rocky Linux Project Team(s). A person
+              must be an active participant in the Rocky Linux project to be a
+              Member. Members have the rights set forth in these Community
+              Operating Principles and an obligation to act in accordance with
+              the Foundation&apos;s Charter.
             </li>
             <li>
-              <strong>Admission of Members</strong>. The initial members of the
-              Foundation (the &quot;<strong>Initial Members</strong>&quot;) were admitted
-              by the Project Boards (defined below). Members may be admitted as
-              Members of the Foundation in accordance with the following
-              procedures:
+              <strong>Admission of Members</strong>. A person may be admitted as
+              a Member in accordance with the following procedure:
               <ol>
                 <li>
-                  To be eligible to become a Member, a person must be an active
-                  member of a given Project or Project Team (as defined below).
+                  the person must be an active participant on a Rocky Linux
+                  Project Team;
                 </li>
                 <li>
-                  Next, the person must complete the written membership
-                  application form in the form adopted by the applicable Project
-                  Board (the &quot;<strong>Application Form</strong>&quot;).
+                  the person must complete the written membership application
+                  form adopted by the Foundation Board (the &quot;
+                  <strong>Application Form</strong>&quot;); and
                 </li>
                 <li>
-                  Next, the Project Board will review and either approve or
-                  disapprove the admission of the person as a Member by a
-                  majority vote of the Project Board in accordance with the
-                  criteria that the Project Board adopts from time to time.
+                  the Foundation Board (or a Membership Committee designated by
+                  it) will review and either approve or disapprove admission by
+                  majority vote, in accordance with criteria the Board adopts
+                  from time to time.
                 </li>
               </ol>
             </li>
             <li>
-              <strong>Voting</strong>. Each Member will have one vote on all
-              matters presented to the Members for a vote. The presence of a
-              majority of the then current Members, either in person, or by
-              means of remote communication, will constitute a quorum for the
-              transaction of business.
+              <strong>Voting</strong>. Each Member has one vote on all matters
+              presented to the Members for a vote. The presence of a majority of
+              the then-current Members, in person or by means of remote
+              communication, constitutes a quorum for the transaction of
+              business.
             </li>
             <li>
               <strong>Annual Meeting</strong>. An annual meeting of the Members
-              will be held annually on such date and time as is designated by
-              the Board. At the annual meeting, the Board Chair, Vice Board
-              Chair and At-Large Directors will be elected by the Members, and
-              such other matters will be discussed and/or put to a vote as
-              determined by the Board. The Project Board Chairs and Project
-              Board Vice Chairs will also be elected at the annual meeting. The
-              President will preside over all annual meetings. The President
-              will also designate a person to act as the secretary and vote
-              counter at each annual meeting. The Board may adopt such rules and
-              procedures for the annual meeting as it deems prudent.
+              will be held each year on a date and time designated by the Board.
+              At that meeting, the Members elect the Board Chair, the Vice Board
+              Chair, and the At-Large Directors. The leadership-role ex-officio
+              seats described in Section 2.15 are not subject to election by the
+              Members; those seats are filled by the Board&apos;s assignment of
+              the underlying leadership roles under Section 3.5. Such other
+              matters will be addressed as the Board determines. The President
+              presides and designates a secretary and vote counter. The Board
+              may adopt rules and procedures for the meeting as it deems
+              prudent.
             </li>
             <li>
               <strong>Special Meetings of Members</strong>. Special meetings of
               the Members may be called by the Board or the Board Chair. Notice
-              of a special meeting of the Members must be given to the Members
-              not less than 10 days nor more than 60 days before the date of
-              such meeting. The location (online conference or physical
-              location), date, and time of the meeting will be determined by the
-              Board and set forth in the notice to the Members. The notice of
-              the special meeting will include a description of the business to
-              be addressed at the special meeting, and the business to be
-              transacted at such special meeting will be limited to such matters
-              as are set forth in the notice. The Board Chair will preside over
-              all special meetings. The Board Chair will also designate a person
-              to act as the secretary and vote counter at each special meeting.
-              The Board may adopt such rules and procedures for the special
-              meetings as it deems prudent.
+              must be given not less than 10 nor more than 60 days before the
+              meeting, stating the location (online or physical), date, time,
+              and the business to be addressed; business is limited to the
+              matters in the notice. The Board Chair presides and designates a
+              secretary and vote counter. The Board may adopt rules and
+              procedures as it deems prudent.
             </li>
             <li>
               <strong>Action Without a Meeting</strong>. Any action required or
-              permitted to be taken at any annual or special meeting of the
-              Members, may be taken without a meeting, without prior notice and
-              without a vote, if a consent or consents in writing, setting forth
-              the action so taken, will be delivered to the Foundation signed by
-              the Members representing not less than the minimum number of votes
-              that would be necessary to authorize or take such action at a
-              meeting at which all Members entitled to vote thereon were present
-              and voted.
+              permitted at any annual or special meeting of the Members may be
+              taken without a meeting, without prior notice, and without a vote,
+              if written consents setting forth the action are delivered to the
+              Foundation by Members representing not less than the minimum
+              number of votes that would be necessary to authorize the action at
+              a meeting at which all Members entitled to vote were present and
+              voted.
             </li>
             <li>
-              <strong>Rights and Obligations of Members</strong>. Members will
-              have the right to (i) vote for the Board at the annual meeting;
-              (ii) attend meetings of the Members and the Foundation; (iii)
+              <strong>Rights and Obligations of Members</strong>. Members have
+              the right to (i) vote for the Board at the annual meeting; (ii)
+              attend meetings of the Members and the Foundation; (iii)
               participate in Project Teams; (iv) receive communications from the
-              Foundation regarding the Foundation and its activities; (v)
-              receive a Foundation or Project Team email address at the
-              discretion of the Foundation Board; and (vi) such other rights as
-              the Board may determine from time to time. Members are expected to
-              actively participate in their Project Team&apos;s activities and be a
-              community advocate for the Foundation and its projects. As a
-              condition to being admitted as a Member of the Foundation or any
-              Project Team, the person will be required to sign the Membership
-              Agreement as adopted by the Foundation Board from time to time and
-              assign any trademark rights related to the Foundation or its
-              Projects to the Foundation, and license any required patents,
-              artwork, or IP to the Foundation, but such person may retain any
-              copyright rights in its work for the Foundation.
+              Foundation; (v) receive a Foundation or Project Team email address
+              at the discretion of the Board; and (vi) such other rights as the
+              Board may determine. Members are expected to actively participate
+              in their Project Team and to be community advocates for the
+              Foundation and Rocky Linux. As a condition of admission, a person
+              must sign the Membership Agreement adopted by the Board, assign
+              trademark rights related to the Foundation or Rocky Linux to the
+              Foundation, and license any required patents, artwork, or IP to
+              the Foundation, while retaining copyright in their own work.
+              <p>
+                <strong>Member responsibilities.</strong> In addition to the
+                above, each Member is expected to act in the interest of the
+                Foundation, its mission, and Rocky Linux; to conduct themselves
+                consistently with the principles of the Charter; and to support
+                the Foundation&apos;s relationships with its sponsors and
+                partners, raising any concerns through an appropriate internal
+                channel rather than through public disparagement. A Member who
+                becomes aware of a serious threat, risk, or problem affecting
+                the Foundation, Rocky Linux, its security, or its community is
+                expected to report it promptly through an appropriate channel —
+                the Board, the Board Chair, the President, or a reporting
+                mechanism the Board designates. Members are expected to respect
+                and support decisions duly made by the Foundation&apos;s
+                governing bodies, while remaining free to advocate for different
+                positions through the Foundation&apos;s open processes.
+              </p>
             </li>
             <li>
               <strong>List of Members</strong>. The Board will maintain a list
-              of Members (the &quot;<strong>Member List</strong>&quot;). Only those
-              Members who are included on the Member List will have the right to
-              vote as Members (provided the Board acts in good faith and
-              promptly fixes any errors in the Member List).
+              of Members (the &quot;<strong>Member List</strong>&quot;). Only
+              Members on the Member List have the right to vote (provided the
+              Board acts in good faith and promptly corrects errors). The
+              Secretary will reconcile and publish the Member List of record in
+              advance of any meeting at which Members vote.
             </li>
             <li>
               <strong>Emeritus Members</strong>. An &quot;
-              <strong>Emeritus Member</strong>&quot; of the Foundation is a former
-              Member whose membership status has been converted to Emeritus
-              Status. An Emeritus Member forfeits all membership rights,
-              including the right to vote and the right to be counted for the
-              purposes of quorum. An Emeritus Member retains the right to attend
-              any meetings held by the Foundation and may elect to continue to
-              receive communications from the Foundation. Any Member of the
-              Foundation may choose at any time for any reason to elect Emeritus
-              Status conversion with approval of the Foundation Board. An
-              Emeritus Member can be reinstated as a full member only in
-              accordance with Section 1.2 of these Community Operating
-              Principles.
+              <strong>Emeritus Member</strong>&quot; is a former Member whose
+              status has been converted to Emeritus Status. An Emeritus Member
+              forfeits all membership rights, including voting and being counted
+              for quorum, but retains the right to attend Foundation meetings
+              and may elect to continue receiving communications. Any Member may
+              elect Emeritus Status at any time with Board approval, and may be
+              reinstated only in accordance with Section 1.2.
             </li>
             <li>
-              <strong>Termination of Membership</strong>. A Person&apos;s status as a
-              member of a Project Team may be terminated by the affirmative vote
-              of 2/3rds of the applicable Project Team Members. A person&apos;s
-              status as a Member of the Foundation may be terminated by the
-              Board for Cause. To be terminated for Cause, a majority of the
-              Board must (i) determine Cause for termination exists, and (ii)
-              vote to terminate such person&apos;s status as a Member. &quot;
-              <strong>Cause</strong>&quot; means: (a) a Member&apos;s unauthorized misuse
-              or disclosure of the Foundation&apos;s trade secrets or proprietary
-              information, (b) a Member&apos;s conviction of or plea of nolo
-              contendere to a felony or a crime involving moral turpitude, (c) a
-              Member committing an act of fraud against the Foundation; (d) a
-              Member&apos;s gross negligence or willful misconduct in the performance
-              of their duties that has had or will have a material adverse
-              effect on the Foundation&apos;s reputation or business; (e) a Member&apos;s
-              violation of the Foundation&apos;s Charter or the Foundation Community
-              Operating Principles; or (f) a Member&apos;s inactivity with the
-              Project for a consecutive period of 6 months without the Project
+              <strong>Termination of Membership</strong>. A person&apos;s status
+              as a Project Team member may be terminated by a 2/3 vote of the
+              applicable Project Team. A person&apos;s status as a Member of the
+              Foundation may be terminated by the Board for Cause, where a
+              majority of the Board (i) determines Cause exists and (ii) votes
+              to terminate. &quot;<strong>Cause</strong>&quot; means: (a)
+              unauthorized misuse or disclosure of the Foundation&apos;s trade
+              secrets or proprietary information; (b) conviction of or plea of
+              nolo contendere to a felony or crime involving moral turpitude;
+              (c) an act of fraud against the Foundation; (d) gross negligence
+              or willful misconduct in performing duties that materially harms
+              the Foundation&apos;s reputation or business; (e) violation of the
+              Charter or these Community Operating Principles, including
+              sustained opposition to or action against the Foundation&apos;s
+              mission or any fundamental principle of Charter Article II; (f)
+              refusal to implement, or deliberate efforts to undermine, a
+              decision duly made by the Foundation&apos;s governing bodies; (g)
+              public disparagement of, or bad-faith failure to support, the
+              Foundation&apos;s sponsors or partners; or (h) inactivity with the
+              Project for a consecutive period of six months without the
               Board&apos;s approval.
+              <p>
+                <strong>Protected conduct.</strong> Advocacy for any position
+                through the Foundation&apos;s open and deliberative processes,
+                good-faith disagreement, and decisions made in the genuine best
+                interest of the Foundation are protected and do not constitute
+                Cause, even where they are contrary to the preferences of a
+                sponsor, partner, or other Member.
+              </p>
             </li>
           </ol>
 
@@ -161,396 +197,429 @@ export default function CommunityOperatingPrinciples() {
           <ol>
             <li>
               <strong>General Powers</strong>. The Foundation Board (the &quot;
-              <strong>Board</strong>&quot; or the &quot;<strong>Foundation Board</strong>
-              &quot;) will be responsible for managing the Foundation&apos;s budget,
-              general oversight of the Foundation and Project Boards, and
-              Foundation project portfolio administration. The Board does not
-              make technical decisions for the Foundation unless specifically
-              requested to do so by the applicable Project Board.
+              <strong>Board</strong>&quot;) is responsible for managing the
+              Foundation&apos;s budget and the general oversight and
+              administration of the Foundation and of Rocky Linux. The Board
+              does not make technical decisions for Rocky Linux except through,
+              or upon the recommendation of, the Technical Steering Committee
+              established under Section 2.16.
             </li>
             <li>
-              <strong>Eligibility</strong>. The Board will be made up of
-              directors (each, a &quot;<strong>Director</strong>&quot;). To be a Director,
-              a person must be at least 18 years of age and eligible to be a
-              Foundation Director in accordance with these community operating
-              principles. Except for the initial Board Chair, to be eligible to
-              be the Board Chair, a person must have previously served at least
-              one full term on the Foundation Board. The Board Chair, Vice Board
-              Chair, and all At-Large Directors may not be Project Board Chairs
-              or Project Board Vice Chairs at the same time they hold the
-              position of Board Chair, Vice Board Chair, or At-Large Director.
-              Except as otherwise provided in these Community Operating
-              Principles, Directors will be elected at the annual meeting of the
-              Members in accordance with Article I, section 1.4. Directors may
-              be elected for any number of consecutive or non-consecutive terms.
+              <strong>Eligibility</strong>. The Board is made up of directors
+              (each, a &quot;<strong>Director</strong>&quot;). To be a Director,
+              a person must be at least 18 years of age and otherwise eligible
+              under these Community Operating Principles. Except for the initial
+              Board Chair, to be eligible as Board Chair a person must have
+              previously served at least one full term on the Foundation Board.
+              Except as otherwise provided, Directors are elected at the annual
+              meeting of the Members in accordance with Section 1.4. Directors
+              may serve any number of consecutive or non-consecutive terms.
             </li>
             <li>
               <strong>Nominating Directors</strong>. To be nominated for a seat
-              on the Foundation Board, a person must: (a) be nominated to the
-              Nomination Committee by a Member in accordance with the nomination
-              procedures (including nomination deadlines) as are adopted by the
-              Nomination Committee from time to time; (b) have a second for the
-              nomination; and (c) be eligible for the position. Provided such
-              nominee is eligible, a nominee may be nominated as the Board
-              Chair, the Vice Board Chair, and as an At-Large Director at the
-              same time, however, a nominee may only hold one seat on the
-              Foundation Board at a time.
+              on the Foundation Board, a person must (a) be nominated to the
+              Nomination Committee by a Member in accordance with procedures
+              (including deadlines) adopted by the Nomination Committee; (b)
+              have a second for the nomination; and (c) be eligible for the
+              position. A nominee may be nominated as Board Chair, Vice Board
+              Chair, and At-Large Director at the same time, but may hold only
+              one seat on the Foundation Board at a time.
             </li>
             <li>
-              <strong>Elections</strong>. The election of Foundation Directors
-              will take place at the annual meeting. Each Member will have a
-              number of votes equal to the number of Foundation Directors that
-              are being elected. No cumulative voting will be allowed, and
-              Members will be allowed to cast only one vote for a particular
-              nominee. Directors for all positions will be elected by a
-              plurality of the votes cast.
+              <strong>Elections</strong>. The election of the elected Foundation
+              Directors — the Board Chair, the Vice Board Chair, and the
+              At-Large Directors — takes place at the annual meeting. Each
+              Member has a number of votes equal to the number of such Directors
+              being elected. No cumulative voting is allowed, and a Member may
+              cast only one vote for a particular nominee. Directors are elected
+              by a plurality of the votes cast. The leadership-role ex-officio
+              Directors under Section 2.15 are not elected by the Members; they
+              hold their seats by virtue of leadership roles assigned by the
+              Board under Section 3.5.
             </li>
             <li>
-              <strong>Term of Office</strong>. Each Director will serve a
-              two-year term beginning on January 1st of the applicable year.
-              Each Director shall hold office until their successor has been
-              duly elected and qualified.
+              <strong>Term of Office</strong>. Each Director serves a two-year
+              term beginning January 1 of the applicable year and holds office
+              until a successor is duly elected and qualified.
             </li>
             <li>
-              <strong>Board Size; Board Composition</strong>. The exact size of
-              the Board will be set by the Board from time to time, but will not
-              be less than three Directors. The Board will be composed of at
-              least the following:
-              <ol>
-                <li>The Board Chair;</li>
-                <li>The Vice Board Chair;</li>
-                <li>The President (or the Vice President, by proxy);</li>
-                <li>At-Large Directors who are not Officers; and</li>
+              <strong>Board Size; Composition</strong>. The exact size of the
+              Board is set by the Board from time to time within a range of nine
+              (9) to fifteen (15) Directors, and in no event fewer than three.
+              The Board is composed of at least the following:
+              <ul>
+                <li>the Board Chair;</li>
+                <li>the Vice Board Chair;</li>
+                <li>the President (or the Vice President, by proxy);</li>
+                <li>At-Large Directors who are not Officers;</li>
                 <li>
-                  Each Project Board Chair (or the Project Board Vice Chair, by
-                  proxy).
+                  the Leadership-Role Directors holding ex-officio voting seats
+                  under Section 2.15.
                 </li>
-              </ol>
-              If the person appointed by the Board to be the President is
-              already an elected member of the Board, then the Vice President
-              will be a member of the Board. In such a case, the Secretary will
-              be entitled to vote by proxy for the President, and the Treasurer
-              will be entitled to vote by proxy for the Vice President in
-              accordance with Section 2.9.
+              </ul>
+              If the person appointed President is already an elected Director,
+              then the Vice President will be a member of the Board; in that
+              case the Secretary may vote by proxy for the President and the
+              Treasurer by proxy for the Vice President, in accordance with
+              Section 2.9.
             </li>
             <li>
-              <strong>Regular Meetings</strong>. The Board will have regular
-              meetings at least four times per year. Regular meetings may be
-              held without notice at such time, place, and manner as is
-              determined from time to time by the Board; provided that any
-              Director who is absent when such a determination is made will be
-              given notice of the determination. A regular meeting of the Board
-              may be held without notice immediately following the annual
-              meeting of the Members.
+              <strong>Community Representation</strong>. Because Rocky Linux is
+              the Foundation&apos;s sole project, the Foundation Board as a
+              whole is responsible for representing the Rocky Linux community in
+              its governance. Consistent with Charter Article II, the Board will
+              strive to maintain a composition that reflects a wide breadth of
+              influence across the community — spanning contributors, team
+              leadership, independent voices, and the broader membership — and
+              will guard against any composition in which a narrow group could
+              determine the direction of Rocky Linux. Should the Foundation ever
+              adopt an additional project, the Board will establish dedicated
+              representation for that project&apos;s community by amendment to
+              these Community Operating Principles.
             </li>
             <li>
-              <strong>Special Meetings</strong>. Special meetings of the Board
-              may be held as the work of the Foundation demands, and may be
-              called by the Board Chair, or any other three members of the
-              Board. Any Committee Chair of the applicable committee may call a
-              special meeting of the committee. A special meeting must be called
-              no less than forty-eight (48) hours prior to the actual meeting
-              and must include the purpose of the meeting being called. Business
-              transacted at any special meeting will be limited to matters
-              relating to the purpose or purposes stated in the notice of
-              special meeting.
+              <strong>Regular and Special Meetings</strong>. The Board will hold
+              regular meetings at least four times per year, which may be held
+              without notice at a time, place, and manner determined by the
+              Board (any absent Director who missed the determination will be
+              notified). Special meetings may be called by the Board Chair or
+              any three Directors on no less than 48 hours&apos; notice stating
+              the purpose; business at a special meeting is limited to the
+              stated purpose. A regular meeting may be held without notice
+              immediately following the annual meeting of the Members.
             </li>
             <li>
               <strong>Quorum and Voting</strong>. A majority of the Directors
-              then on the Foundation Board, will constitute a quorum for the
-              transaction of business at any meeting of the Board. The vote of a
-              majority of the Directors present at a meeting at which a quorum
-              is present shall be the act of the Board. If less than a quorum is
-              present at a meeting, a majority of the Directors present may
-              adjourn the meeting from time to time without further notice other
-              than an announcement at the meeting, until a quorum shall be
-              present. No Officer or Director may vote or act by proxy at any
-              meeting of the Board, other than (a) the President, who may act by
-              proxy through the Vice President, and (b) any Project Board Chair,
-              who may act by proxy through the applicable Project Board Vice
-              Chair. If there is a deadlock in a vote of the Foundation Board,
-              the matter will be submitted for a vote to the Project Board to
-              which the matter in question is most relevant.
+              then on the Foundation Board constitutes a quorum, subject to the
+              related-party restriction in Section 2.17. The vote of a majority
+              of the Directors present at a meeting at which a quorum is present
+              is the act of the Board. If less than a quorum is present, a
+              majority of those present may adjourn from time to time without
+              further notice until a quorum is present. No Officer or Director
+              may vote or act by proxy at a Board meeting, other than (a) the
+              President, who may act by proxy through the Vice President, and
+              (b) as otherwise expressly provided in these Community Operating
+              Principles.
+              <p>
+                If a vote of the Foundation Board results in a deadlock, the
+                matter fails for lack of a majority and may be placed on the
+                agenda for reconsideration at the next regular meeting. The
+                Board Chair may, in the interim, refer the matter to the
+                Technical Steering Committee or an Advisory Board for a
+                non-binding recommendation where appropriate.
+              </p>
             </li>
             <li>
-              <strong>
-                Participation by Conference Phone or Video Conference
-              </strong>
-              . Members of the Board or any Committee may participate in a
-              meeting of the Board or Committee by means of conference
-              telephone, video conference, or similar communications technology
-              as long as all persons participating in the meeting can speak with
-              and hear each other, and participation by a Director pursuant to
-              this section will constitute presence in person at such meeting.
+              <strong>Participation by Remote Communication</strong>. Directors
+              may participate in any Board or committee meeting by conference
+              telephone, video conference, or similar technology by which all
+              participants can hear and speak with one another; such
+              participation constitutes presence in person.
             </li>
             <li>
               <strong>Removal; Resignation</strong>. A Director may not be
-              removed during his or her term except by the vote of 2/3rds of the
-              Board or by a majority of the Board if the removal is for Cause. A
-              Director may resign at any time by providing notice to the Board.
+              removed during their term except by a 2/3 vote of the Board, or by
+              a majority of the Board if the removal is for Cause. A Director
+              may resign at any time by notice to the Board.
+              <p>
+                For Directors and Officers, &quot;Cause&quot; includes each of
+                the grounds set out in Section 1.10, applied with the heightened
+                expectations of fiduciaries under Article IV — in particular,
+                sustained opposition to or action against the Foundation&apos;s
+                mission or any fundamental principle of Charter Article II;
+                refusal to implement, or deliberate efforts to undermine, a
+                decision duly made by the Foundation&apos;s governing bodies;
+                and public disparagement of, or bad-faith failure to support,
+                the Foundation&apos;s sponsors or partners. Directors and
+                Officers are held to a higher standard than Members in light of
+                their fiduciary duties.
+              </p>
+              <p>
+                <strong>Protected conduct.</strong> Consistent with Sections 4.6
+                and 4.7, advocacy and good-faith disagreement through the
+                Foundation&apos;s processes, and decisions made in the genuine
+                best interest of the Foundation, are protected and do not
+                constitute Cause, even where contrary to the preferences of a
+                sponsor, partner, or fellow Director.
+              </p>
             </li>
             <li>
-              <strong>Vacancies</strong>. Any vacancy occurring on the Board due
-              to the removal or resignation of a Director may be filled by vote
-              of a majority of the Directors then in office, although less than
-              a quorum, or by a sole remaining Director. A Director elected to
-              fill a vacancy shall be elected for the unexpired term of such
-              Director&apos;s predecessor in office until the next annual meeting of
-              Members and until a successor is elected and qualified, or until
-              such director&apos;s earlier death, resignation or removal.
+              <strong>Vacancies</strong>. Any vacancy on the Board, whether due
+              to the removal or resignation of a Director, the creation of new
+              seats, or otherwise, may be filled by a majority of the Directors
+              then in office (although less than a quorum), or by a sole
+              remaining Director. A Director chosen to fill such a vacancy
+              serves the unexpired term of the predecessor, until the next
+              annual meeting of Members and until a successor is elected and
+              qualified, or until earlier death, resignation, or removal.
             </li>
             <li>
               <strong>Actions Without a Meeting</strong>. Any action required or
-              permitted to be taken at any meeting of the Board, or of any
-              committee thereof, may be taken without a meeting if all members
-              of the Board or committee, as the case may be, consent thereto in
-              writing, or by electronic transmission. After an action is taken,
-              the consent or consents relating thereto shall be filed with the
-              minutes of the proceedings of the Board, or the committee thereof,
-              in the same paper or electronic form as the minutes are
-              maintained.
+              permitted at any Board or committee meeting may be taken without a
+              meeting if all members of the Board or committee consent in
+              writing or by electronic transmission. The consents are filed with
+              the minutes in the same form as the minutes are maintained.
             </li>
             <li>
-              <strong>Committees</strong>. The Board may designate one or more
-              committees, each committee to consist of one or more of the
-              Directors with such powers and duties as the Board confers, to
-              serve at the pleasure of the Board. The Board may designate one or
-              more Directors as alternate members of any committee, who may
-              replace any absent or disqualified member at any meeting of the
-              committee. In the absence or disqualification of a member at any
-              meeting of a committee, the member or members thereof present at
-              any meeting and not disqualified from voting, whether or not such
-              member or members constitute a quorum, may unanimously appoint
-              another member of the Board to act at the meeting in the place of
-              any such absent or disqualified member. Any such committee, to the
-              extent provided in the resolution of the Board, shall have and may
-              exercise all the powers and authority of the Board in the
-              management of the business and affairs of the Foundation with
-              respect to the matters delegated to the committee, but no
-              committee shall have the power or authority in reference to
-              adopting, amending or repealing these Community Operating
-              Principles, or any other matter which has not been expressly
-              delegated to the committee. Each such committee shall keep minutes
-              and make such reports as the Board may from time to time request.
-              Except as the Foundation Board may otherwise determine, any
-              committee may make rules for the conduct of its business, but
-              unless otherwise provided by the directors or in such rules, its
-              business shall be conducted as nearly as possible in the same
-              manner as is provided in these Community Operating Principles for
-              the Board, including the quorum rules. Except as otherwise
-              provided in these Community Operating Principles, or the
-              resolution of the Board designating the committee, a committee may
-              create one or more subcommittees, each subcommittee to consist of
-              one or more members of the committee, and delegate to a
-              subcommittee any or all of the powers and authority of the
-              committee.
+              <strong>Committees; Nomination Committee</strong>. The Board may
+              designate one or more committees of one or more Directors, with
+              the powers and duties the Board confers, to serve at the
+              Board&apos;s pleasure, and may designate alternate members. No
+              committee may adopt, amend, or repeal these Community Operating
+              Principles or act on any matter not expressly delegated to it.
+              Each committee keeps minutes and reports as the Board requests,
+              and unless otherwise provided conducts business as nearly as
+              possible as provided for the Board, including the quorum rules. A
+              committee may create subcommittees and delegate to them. The Board
+              will maintain a Nomination Committee of Directors appointed by the
+              Board, charged with developing nomination procedures, receiving
+              nominations, and organizing the elections at the annual meeting.
             </li>
             <li>
-              <strong>Nomination Committee</strong>. The Board will have a
-              Nomination Committee made up of Foundation Directors appointed by
-              the Board. The Nomination Committee is tasked with developing
-              procedures for nominating Foundation Directors, receiving
-              nominations for Foundation Directors, and organizing the elections
-              at the annual meeting of the Members.
+              <strong>
+                Leadership-Role Directors (Ex-Officio Voting Seats)
+              </strong>
+              . The permanent leadership roles established under Article
+              III&apos;s leadership provisions — the Operations Lead, the Lead
+              Architect, and the Rocky Linux Engineering Lead — hold ex-officio
+              voting seats on the Foundation Board by virtue of their roles, for
+              the duration of each role-holder&apos;s term. These seats count
+              within the board-size range of Section 2.6 and are subject in all
+              respects to the related-party restriction of Section 2.17. Because
+              these seats are held by virtue of a leadership role assigned by
+              the Board under Section 3.5, they are not elected by the Members
+              and are not subject to the annual-meeting election under Sections
+              1.4 and 2.4; a leadership-role Director&apos;s seat begins and
+              ends with their tenure in the underlying role.
+              <p>
+                <strong>
+                  Related-party recusal and seat governance.
+                </strong>{" "}
+                To operationalize Section 2.17 in advance, the Board will
+                maintain a standing recusal order specifying, in priority
+                sequence, which same-company Directors abstain first whenever
+                the one-third threshold of Section 2.17 would otherwise be
+                exceeded. A Director under an active designation remains in
+                attendance and retains voice but does not count toward quorum
+                and may not vote, move, or second. The Board will further
+                maintain a sufficient number of unaffiliated and Independent
+                Directors so that a quorum can be formed with same-company
+                Directors held at or below one-third. Nothing in this Section
+                overrides Section 2.17; where they conflict, Section 2.17
+                controls.
+              </p>
             </li>
             <li>
-              <strong>Advisory Boards; Community Input</strong>. The Board may
-              create one or more advisory boards (each, an &quot;
-              <strong>Advisory Board</strong>&quot;) who will advise the Board on
-              various aspects related to the activities of the Foundation.
-              Members of an Advisory Board do not need to be Members of the
-              Foundation. An Advisory Board may bring matters to the Foundation
-              Board for a vote without the need for a second for matters
-              relating to the purpose of the specific Advisory Board. The Board
-              may also seek community input via DAOs or other distributed means
-              of decision making. Such input will be advisory only and not be
-              binding on the Board or the Foundation.
+              <strong>
+                Advisory Boards; Technical Steering Committee; Community Input
+              </strong>
+              . The Board may create one or more Advisory Boards to advise on
+              aspects of the Foundation&apos;s activities. Advisory Board
+              members need not be Members. An Advisory Board may bring matters
+              within its purpose to the Foundation Board for a vote without the
+              need for a second. The Board may also seek community input through
+              distributed means; such input is advisory only and not binding.
+              <p>
+                The Foundation maintains a Technical Steering Committee (the
+                &quot;<strong>TSC</strong>&quot;), composed of community members
+                and advisors, as a body of the Foundation Board. The Lead
+                Architect chairs the TSC. The TSC is responsible for technical
+                direction within the scope the Board assigns, and the Board acts
+                on technical matters through or upon the recommendation of the
+                TSC as provided in Section 2.1.
+              </p>
             </li>
             <li>
-              <strong>Compensation</strong>. Directors will not receive
-              compensation for their services as Directors. However, Directors
-              who provide services to the Foundation in capacities other than as
-              Directors may be compensated for such other roles.
-            </li>
-            <li>
-              <strong>Restrictions on Related Parties</strong>. No meeting of
-              the Board will allow a quorum to be established or maintained if
-              more than one third of the Board are employed by, consulting for,
-              or have a substantial financial interest (5% ownership or more) in
+              <strong>
+                Restrictions on Related Parties (anti-concentration)
+              </strong>
+              . No meeting of the Board may establish or maintain a quorum if
+              more than one-third of the Board are employed by, consulting for,
+              or hold a substantial financial interest (5% ownership or more) in
               the same company, organization, or corporate structure. If a
-              quorum cannot be established as a result of this restriction, the
-              Directors in question will be required to select a Director or
-              Directors to abstain from Board activities (voting, movements,
-              seconds, etc.), but may still remain in attendance, for the
-              remainder of the meeting. The abstaining member(s) will not count
-              towards establishing or maintaining a quorum in any way. If, for
-              whatever reason, a quorum still cannot be established or
-              maintained, all members in question will be required to abstain
-              from board activities (voting, movements, seconds, etc.), but may
-              remain in attendance, for the remainder of the meeting.
+              quorum cannot be established because of this restriction, the
+              affected Directors must select one or more of their number to
+              abstain from Board activities (voting, motions, seconds, and the
+              like) for the remainder of the meeting, while remaining in
+              attendance; abstaining Directors do not count toward establishing
+              or maintaining a quorum. If a quorum still cannot be established
+              or maintained, all affected Directors must abstain for the
+              remainder of the meeting while remaining in attendance.
             </li>
             <li>
-              <strong>Confidentiality</strong>. Members of the Foundation Board
-              and Project Boards will owe a duty of confidentiality to the
-              Foundation with respect to matters addressed at meetings of the
-              Foundation Board and Project Boards and other matters relating to
-              the activities of the Foundation Board and Project Boards.
-              Further, Members of the Foundation Board and Project Board will
-              not disclose information that is designated confidential by the
-              Foundation Board.
+              <strong>Compensation</strong>. Directors do not receive
+              compensation for their services as Directors. Directors who
+              provide services to the Foundation in other capacities may be
+              compensated for those other roles, subject to Article III and the
+              conflict-of-interest provisions of Article VIII.
+            </li>
+            <li>
+              <strong>Confidentiality</strong>. Directors owe a duty of
+              confidentiality to the Foundation with respect to matters
+              addressed at Board meetings and other matters relating to the
+              Board&apos;s activities, and will not disclose information
+              designated confidential by the Board.
             </li>
           </ol>
 
           <p>
-            <strong>ARTICLE III</strong> - <strong>OFFICERS</strong>
+            <strong>ARTICLE III</strong> -{" "}
+            <strong>OFFICERS AND LEADERSHIP ROLES</strong>
           </p>
           <ol>
             <li>
               <p>
                 <strong>Officers Generally</strong>. The officers of the
-                Foundation (&quot;<strong>Officers</strong>&quot;) will consist of a Board
-                Chair and Vice Board Chair (&quot;<strong>Elected Officers</strong>
-                &quot;), and President, Vice President, Secretary, Assistant
-                Secretary (optional), Treasurer, and Assistant Treasurer
-                (optional) (&quot;<strong>Appointed Officers</strong>&quot;).
+                Foundation (&quot;<strong>Officers</strong>&quot;) consist of a
+                Board Chair and Vice Board Chair (&quot;
+                <strong>Elected Officers</strong>&quot;) and a President, Vice
+                President, Secretary, Assistant Secretary (optional), Treasurer,
+                and Assistant Treasurer (optional) (&quot;
+                <strong>Appointed Officers</strong>&quot;).
               </p>
             </li>
             <li>
               <p>
-                <strong>Election, Appointment and Term of Office</strong>.
-                Elected Officers will be elected by a majority vote of the
-                Members at the annual meeting in accordance with Section 1.4.
-                The Appointed Officers will be appointed at the first meeting of
-                the Board following their election. Each Appointed Officer will
-                serve a one year term beginning on January 1st of each year and
-                shall hold office until his or her successor has been duly
-                appointed and qualified. An Officer may be appointed for any
-                number of consecutive or non-consecutive terms. A person may
-                hold only one officer position at a time. In the case of a
-                vacancy in an Appointed Officer position due to resignation or
-                removal, the Board will appoint a new person to the vacant
-                position and such person will hold the office until the end of
-                the current term.
+                <strong>Election, Appointment, and Term</strong>. Elected
+                Officers are elected by a majority vote of the Members at the
+                annual meeting under Section 1.4. Appointed Officers are
+                appointed at the first Board meeting following the election and
+                serve one-year terms beginning January 1, holding office until a
+                successor is appointed and qualified. An Officer may serve any
+                number of terms but may hold only one officer position at a
+                time. A vacancy in an Appointed Officer position is filled by
+                the Board for the remainder of the term.
               </p>
             </li>
             <li>
               <p>
-                <strong>Duties</strong>. The Officers will have the following
-                duties:
+                <strong>Duties of Officers</strong>. The Officers have the
+                following duties:
+              </p>
+              <ul>
+                <li>
+                  <strong>Board Chair.</strong> Presides at all meetings of the
+                  Board and the Members; exercises the powers of the President
+                  in the President&apos;s absence, inability, or a vacancy; and
+                  has such other duties as the Board confers.
+                </li>
+                <li>
+                  <strong>Vice Board Chair.</strong> Performs the Board
+                  Chair&apos;s duties in the Board Chair&apos;s absence or
+                  disability, and has such other duties as the Board confers.
+                </li>
+                <li>
+                  <strong>President.</strong> Serves as Executive Director with
+                  general and active management of the Foundation&apos;s
+                  business and affairs (other than matters within the Technical
+                  Steering Committee&apos;s scope), subject to the Board&apos;s
+                  direction. If no Board Chair is elected, the President
+                  presides at meetings of the Board and the Members.
+                </li>
+                <li>
+                  <strong>Vice President.</strong> Performs the President&apos;s
+                  duties in the President&apos;s absence or disability and has
+                  such other duties as the Board confers.
+                </li>
+                <li>
+                  <strong>Secretary / Assistant Secretary.</strong> Keeps the
+                  records and minutes of meetings of the Board and the Members;
+                  ensures notices are duly given; is custodian of the books and
+                  records; and performs the duties incident to the office.
+                  Minutes are approved at the following Board meeting. The Board
+                  may appoint an Assistant Secretary to assist.
+                </li>
+                <li>
+                  <strong>Treasurer / Assistant Treasurer.</strong> Has custody
+                  of Foundation funds and financial records, keeps full and
+                  accurate accounts, renders accounts at the annual meeting, and
+                  performs other duties prescribed by the Board, Board Chair, or
+                  President.
+                </li>
+              </ul>
+            </li>
+            <li>
+              <p>
+                <strong>Permanent Leadership Roles</strong>. In addition to the
+                Officers, the Foundation maintains the following permanent
+                leadership roles to provide a leadership layer above the Project
+                Teams: the Operations Lead, the Lead Architect (Rocky Linux),
+                and the Rocky Linux Engineering Lead. These roles provide
+                alignment, management, and support across the Foundation&apos;s
+                operations, architecture, and engineering delivery, and report
+                through RESF leadership to the Board.
+              </p>
+              <ul>
+                <li>
+                  <strong>Operations Lead.</strong> Responsible for the
+                  organizational health and operational integrity of the
+                  Foundation, spanning legal/administrative/compliance matters,
+                  financial health and sponsorship, risk management,
+                  organizational coherence, and people and talent development.
+                </li>
+                <li>
+                  <strong>Lead Architect (Rocky Linux).</strong> Responsible for
+                  the architectural direction of the distribution — build system
+                  architecture, upstream alignment, SIG direction, and release
+                  roadmap — and serves as Chair of the Technical Steering
+                  Committee under Section 2.16.
+                </li>
+                <li>
+                  <strong>Rocky Linux Engineering Lead.</strong> Accountable for
+                  the infrastructure and tooling that build, test, and release
+                  the distribution, spanning accounts and identity,
+                  infrastructure, packaging, security, distribution, testing,
+                  and team coordination.
+                </li>
+              </ul>
+              <p>
+                The Lead Architect and Engineering Lead are peer roles; neither
+                reports to the other. Where architectural direction and
+                operational execution intersect, they reach alignment together
+                and escalate to RESF leadership only if consensus cannot be
+                reached.
               </p>
             </li>
             <li>
               <p>
-                <strong>Board Chair</strong>. The Board Chair will preside at
-                all meetings of the Board and at all meetings of the Members.
-                The Board Chair will have all the powers of the President in the
-                event of the President&apos;s absence or inability to act, or in the
-                event of a vacancy in the office of the President and will have
-                such other duties as may be conferred upon the Board Chair by
-                the Board.
+                <strong>
+                  Appointment, Term, Renewal, and Removal of Leadership Roles
+                </strong>
+                . Leadership roles are appointed by the President and confirmed
+                by a majority vote of the Board. Each role carries a one-year
+                term aligned to the Foundation&apos;s officer year (commencing
+                January 1), and renews by majority vote of the Board at or
+                before the first Board meeting following the annual meeting,
+                with no limit on consecutive terms. A leadership-role holder may
+                be removed by a 2/3 vote of the Board, or by a majority vote for
+                Cause. Where a role is funded by a sponsor or employer, that
+                funding is disclosed to the Board and does not alter the
+                role-holder&apos;s duty to act in the best interests of the
+                Foundation.
               </p>
             </li>
             <li>
               <p>
-                <strong>Vice Board Chair</strong>. The Vice Board Chair will, in
-                the absence or disability of the Board Chair, perform the duties
-                and exercise the powers of the Board Chair, and will have such
-                other duties as may be conferred upon the Vice Board Chair by
-                the Board.
-              </p>
-            </li>
-            <li>
-              <p>
-                <strong>President</strong>. The President (also known as
-                Director) will be the Executive Director of the Foundation and
-                will have general and active management of the business and
-                affairs of the Foundation (other than the management of projects
-                managed by a Project Board), subject to the direction of the
-                Board. If a Board Chair is not elected, the President will
-                preside at all meetings of the Board and at all meetings of the
-                Members.
-              </p>
-            </li>
-            <li>
-              <p>
-                <strong>Vice President</strong>. The Vice President will, in the
-                absence or disability of the President, perform the duties and
-                exercise the powers of the President, and will have such other
-                duties as may be conferred upon the Vice President by the Board.
-              </p>
-            </li>
-            <li>
-              <p>
-                <strong>Secretary and Assistant Secretary</strong>. The
-                Secretary will keep or cause to be kept a record of all of the
-                proceedings all meetings of the Board and at all meetings of the
-                Members; cause all notices to be duly given in accordance with
-                the provisions of these Community Operating Principles; be the
-                custodian of the books and records of the Foundation and perform
-                in general all duties incident to the office of Secretary and
-                such other duties as are given by these Community Operating
-                Principles or as from time to time may be assigned by the Board
-                or the President. All minutes of the Board must be approved by
-                the Board at the following meeting of the Board to be inserted
-                in the minute book. The Board may appoint an Assistant
-                Secretary, who will, if one is appointed, render assistance to
-                the Secretary in all the responsibilities described above.
-              </p>
-            </li>
-            <li>
-              <p>
-                <strong>Treasurer and Assistant Treasurer</strong>. The
-                Treasurer will have custody of all Foundation funds and
-                financial records, will keep full and accurate accounts of
-                receipts and disbursements and render accounts thereof at the
-                annual meetings of members, and shall perform such other duties
-                as may be prescribed by the Board, the Board Chair, or the
-                President.
-              </p>
-            </li>
-            <li>
-              <p>
-                <strong>Delegation of Authority</strong>. To the extent required
-                to carry out the duties ascribed to the Officers by these
-                Community Operating Principles, the Officers are authorized to
-                bind the Foundation and enter contracts on behalf of the
-                Foundation, provided that the Board may limit the scope of such
-                authority. The Board may, from time to time, delegate the powers
-                or duties of any Officer to any other officer or agent,
-                notwithstanding any provision hereof.
-              </p>
-            </li>
-            <li>
-              <p>
-                <strong>Limitations on Authority.</strong> No Officer or other
-                agent of the Foundation may do any of the following without the
-                prior approval of the Board: (a) enter into any contract or
-                agreement in an amount greater than $5,000; (b) incur
-                indebtedness on behalf of the Foundation in excess of $1,000;
-                (c) waive or discharge any material obligations owed to the
-                Foundation by a third party; (d) license or sell any assets of
-                the Foundation in the ordinary course of the Foundation&apos;s
-                activities and consistent with past practices; (e) such other
-                acts as are determined by the Board from time to time.
-              </p>
-            </li>
-            <li>
-              <p>
-                <strong>Resignation and Removal</strong>. An Officer may not be
-                removed during his or her term except by the vote of 2/3rds of
-                the Board or by a majority of the Board if the removal is for
-                Cause. An Officer may resign at any time by providing notice to
-                the Board.
-              </p>
-            </li>
-            <li>
-              <p>
-                <strong>Compensation</strong>. Officers may receive compensation
-                for their services as Officer&apos;s in amounts determined by the
-                Board.**
+                <strong>
+                  Delegation; Limitations; Resignation, Removal; Compensation
+                </strong>
+                . Officers are authorized to bind the Foundation and enter
+                contracts as required to carry out their duties, subject to
+                limits the Board sets. The Board may delegate the powers or
+                duties of any Officer to another officer or agent. No Officer or
+                agent may, without prior Board approval: (a) enter a contract
+                greater than $5,000; (b) incur indebtedness over $1,000; (c)
+                waive or discharge a material obligation owed to the Foundation;
+                (d) license or sell Foundation assets outside the ordinary
+                course; or (e) take such other acts as the Board determines. An
+                Officer may be removed only by a 2/3 vote of the Board, or a
+                majority for Cause, and may resign on notice to the Board.
+                Officers may be compensated for their services in amounts
+                determined by the Board.
               </p>
             </li>
           </ol>
+
           <p>
             <strong>ARTICLE IV</strong> -{" "}
             <strong>BOARD AND OFFICER EXPECTATIONS</strong>
@@ -558,119 +627,191 @@ export default function CommunityOperatingPrinciples() {
           <ol>
             <li>
               <p>
-                <strong>Attendance at Board Meetings</strong>. Directors and
-                Officers are required to attend at least 75% of the regular
-                meetings of the Board per year. Officers are also responsible
-                for responding to communications of the Board in a timely manner
-                and meeting the appropriate deadlines and responsibilities
-                associated with their Officer position. If an Officer or
-                Director cannot meet the requirements noted above, the person
-                should reach out to the Board Chair to discuss.
+                <strong>Attendance</strong>. Directors and Officers are expected
+                to attend at least 75% of the regular meetings of the Board each
+                year. Officers must respond to Board communications in a timely
+                manner and meet the deadlines and responsibilities of their
+                position. A Director or Officer who cannot meet these
+                expectations should contact the Board Chair.
               </p>
             </li>
             <li>
               <p>
-                <strong>Board Duties</strong>. Directors, Officers, and Members
-                each Project Board must act in a manner that they reasonably
-                believe to be in the best interests of the Foundation and to the
-                benefit of the public community supported by the Foundation.
+                <strong>Fiduciary Duties of Directors</strong>. Each Director,
+                Officer, and leadership-role holder owes fiduciary duties to the
+                Foundation and must discharge them in good faith and in a manner
+                they reasonably believe to be in the best interests of the
+                Foundation and the public community it supports. These duties
+                include:
               </p>
-            </li>
-          </ol>
-          <p>
-            <strong>ARTICLE V</strong> -{" "}
-            <strong>PROJECT BOARDS AND PROJECT TEAMS</strong>
-          </p>
-          <ol>
-            <li>
-              <strong>Project Boards Generally</strong>. The Foundation&apos;s
-              initiatives will be carried out by Project Boards (each, a &quot;
-              <strong>Project Board</strong>&quot;) made up of Members. The number
-              and duties of the Project Boards will be determined by the
-              Foundation Board. Subject to oversight by the Foundation Board and
-              the general purposes of the applicable Project Board as determined
-              by the Foundation Board, each Project Board will create and
-              oversee Project Teams that will act on behalf of the Project Board
-              to carry out the specific projects and work of the Foundation. It
-              is anticipated that each Project Board will create and oversee
-              multiple Project Teams that will work on projects related to the
-              applicable Project Board&apos;s areas of responsibility.{" "}
-            </li>
-            <li>
-              <strong>Project Board Size; Composition</strong>. Each Project
-              Board will consist of as many directors (&quot;
-              <strong>Project Directors</strong>&quot;) as is determined by the
-              Foundation Board. Project Directors must be Members of the
-              Foundation. A person may be a member of more than one Project
-              Board at the same time. A person may only hold the role of Project
-              Board Chair / Project Board Vice Chair on one Project Board at any
-              given time. A person may not hold more than one seat on the
-              Foundation Board at a time.
-            </li>
-            <li>
-              <strong>Project Director Eligibility.</strong> To be a Project
-              Director, a person must (a) be at least 18 years of age, (b) have
-              been a Member of the Foundation for at least one year, (c)
-              demonstrated exemplary dedication to the project and/or community,
-              and (d) have mentored (and/or invited) at least one Member within
-              the last 12 months. To be eligible to be the Project Board Chair,
-              a person must have previously served at least one full term on a
-              Project Board.
-            </li>
-            <li>
-              <strong>Election of Project Directors</strong>. Following the
-              election of Foundation Directors at the annual meeting, Members of
-              the respective Project Teams will elect Project Directors to the
-              respective Project Board. Each Team Member will have one vote on
-              all matters presented to the Team Members for a vote. Following
-              election of the Project Boards, each Project Board will appoint a
-              Project Board Chair and Project Board Vice Chair. An eligible
-              person may be nominated to a Project Board in accordance with the
-              Project Board&apos;s community operating principles. If the Project
-              Board does not have an explicit nomination process, Project Board
-              nominees will be nominated in accordance with the process set
-              forth in Section 2.3 of these Community Operating Principles.
-            </li>
-            <li>
-              <strong>Rules Governing Project Boards</strong>. Each Project
-              Board shall keep minutes of each meeting of the Project Board, and
-              the initial act of each meeting will be to appoint a secretary of
-              the meeting. Further, each Project Board will make such reports to
-              the Foundation Board as the Foundation Board may from time to time
-              request. Except as the Foundation Board may otherwise determine,
-              any Project Board may make rules for the conduct of its business,
-              but unless otherwise provided by the Project Directors or in such
-              rules, its business shall be conducted as nearly as possible in
-              the same manner as is provided in these Community Operating
-              Principles for the Foundation Board, including the quorum rules.
-              Projects will be encouraged to develop written trademark policies
-              to encourage a level playing field for commercial use of the
-              Project by others.{" "}
-            </li>
-            <li>
-              <strong>Project Team Leadership</strong>. Each Project Team will
-              have the following leadership structure:
               <ul>
                 <li>
-                  <strong>Team Lead</strong>: Primary leader of the Project
-                  Team.
+                  <strong>Duty of care.</strong> to remain informed about the
+                  Foundation&apos;s activities, finances, and risks; to prepare
+                  for and participate in Board deliberations; and to exercise
+                  the care that an ordinarily prudent person would exercise in a
+                  like position and under similar circumstances.
                 </li>
                 <li>
-                  <strong>Team Deputy</strong>: Support and second level leader
-                  for the Project Team.
+                  <strong>Duty of loyalty.</strong> to place the interests of
+                  the Foundation above the Director&apos;s own interests and
+                  above the interests of any employer, sponsor, client, or other
+                  organization with which the Director is affiliated; and to
+                  avoid, disclose, and appropriately manage conflicts of
+                  interest in accordance with Article VIII.
                 </li>
                 <li>
-                  <strong>Team Members</strong>: Individual Members who are part
-                  of and contributing to the Project Team.
+                  <strong>Duty of obedience.</strong> when representing the
+                  Foundation in any capacity, to act consistently with the
+                  Foundation&apos;s Charter, mission, and goals, and with these
+                  Community Operating Principles, and to ensure the
+                  Foundation&apos;s resources are used in furtherance of its
+                  stated purposes.
                 </li>
               </ul>
             </li>
             <li>
-              <strong>Election of Project Team Leadership</strong>. Subject to
-              the applicable Project Board Community Operating Principles, each
-              team will have, at a minimum, one Team Lead and one Team Deputy
-              who will be selected in accordance with the applicable Project
-              Board Community Operating Principles.
+              <p>
+                <strong>Duty to Surface Threats and Problems</strong>. Each
+                Director, Officer, and leadership-role holder has an affirmative
+                obligation to bring to the attention of the Board, promptly and
+                candidly, any material threat, risk, problem, or adverse
+                development of which they become aware that could affect the
+                Foundation, its mission, Rocky Linux, its finances, its
+                reputation, its security, or its community. This obligation
+                applies whether or not the matter falls within the
+                individual&apos;s own area of responsibility, and whether or not
+                the individual believes others may already be aware of it. A
+                Director may not suppress, delay, or withhold such information
+                to protect any person or organization — including themselves, a
+                fellow Director or Officer, a Member or contributor, an
+                affiliated employer or sponsor, or any other party. Where
+                confidentiality, legal sensitivity, or urgency warrants, the
+                matter may be raised first with the Board Chair or President,
+                but it must be surfaced to the full Board without undue delay.
+              </p>
+            </li>
+            <li>
+              <p>
+                <strong>Priority of Duty</strong>. The fiduciary responsibility
+                of a Director to the mission, Charter, and goals of the
+                Foundation takes precedence over the Director&apos;s personal
+                interests and over any commercial, employment, or other
+                obligations the Director may hold. A Director who is employed
+                by, consults for, holds an interest in, or otherwise represents
+                another company or organization remains, in their capacity as a
+                Director, bound first to the Foundation. Where the interests of
+                such an affiliated party diverge from the interests of the
+                Foundation, the Director must act in the interests of the
+                Foundation or recuse themselves from a particular matter.
+              </p>
+            </li>
+            <li>
+              <p>
+                <strong>Recusal and Obligation to Resign</strong>. If a Director
+                is unable to discharge the duties set out in this Article —
+                whether because of a sustained conflict between the
+                Foundation&apos;s interests and an affiliated party&apos;s
+                interests, an inability to prioritize the Foundation&apos;s
+                mission, sustained opposition to a fundamental principle of
+                Charter Article II, or any other reason — the Director must
+                recuse themselves from the affected matters and, where the
+                inability is not limited to a particular matter, must remove
+                themselves from the director position by resignation. A Director
+                who cannot, in good conscience, place the Foundation&apos;s
+                mission and the principles of the Charter before competing
+                obligations should not continue to serve. A Director who
+                fundamentally opposes a core tenet of the Foundation&apos;s
+                mission as set out in Charter Article II is, for that reason,
+                misaligned with the Foundation and should resign. Nothing in
+                this Section limits the Board&apos;s authority to remove a
+                Director under Section 2.11.
+              </p>
+            </li>
+            <li>
+              <p>
+                <strong>Decisions, Dissent, and Implementation</strong>. Every
+                Director, Officer, and leadership-role holder is free to
+                advocate for any position and to disagree, including
+                persistently, through the Foundation&apos;s deliberative and
+                voting processes. Robust, good-faith disagreement in service of
+                the Foundation is expected and protected, and is never, by
+                itself, a basis for removal or discipline.
+              </p>
+              <p>
+                Once a matter has been duly decided by the appropriate body,
+                however, all are expected to respect and support the
+                implementation of that decision, even if they argued against it.
+                Continued advocacy to revisit or reconsider a decision through
+                proper channels remains appropriate; refusing to implement a
+                duly-made decision, or acting to undermine or obstruct it, is
+                not. The protection in this Section attaches to the right to
+                advocate and dissent through process — not to obstruction of an
+                outcome the process has reached.
+              </p>
+            </li>
+            <li>
+              <p>
+                <strong>Support for Sponsors and Partners</strong>. Decisions of
+                the Foundation are made solely in the best interest of the
+                Foundation and its mission; nothing in this Section subordinates
+                that duty to any sponsor or partner, and a Director must always
+                be free to decide against a sponsor&apos;s or partner&apos;s
+                wishes where the Foundation&apos;s interest so requires. Subject
+                to that overriding duty, Directors, Officers, leadership-role
+                holders, and Members are expected to engage professionally and
+                constructively with the Foundation&apos;s sponsors and partners,
+                to support those relationships in good faith, and to align with
+                sponsors and partners where doing so is consistent with the
+                Foundation&apos;s interest. Concerns about a sponsor or partner
+                are to be raised through appropriate internal channels rather
+                than through public disparagement. Acting in the
+                Foundation&apos;s best interest, or disagreeing with a sponsor
+                or partner in good faith, is protected conduct and is never a
+                basis for removal.
+              </p>
+            </li>
+          </ol>
+
+          <p>
+            <strong>ARTICLE V</strong> - <strong>PROJECT TEAMS</strong>
+          </p>
+          <ol>
+            <li>
+              <strong>Project Teams Generally</strong>. The Foundation&apos;s
+              initiatives are carried out by Project Teams made up of Members.
+              The number, scope, and duties of Project Teams are determined by
+              the Foundation Board, which oversees the Project Teams directly.
+              Project Teams carry out the specific projects and work of the
+              Foundation within their assigned areas.
+            </li>
+            <li>
+              <strong>Project Team Leadership</strong>. Each Project Team has at
+              least the following leadership structure:
+              <ul>
+                <li>
+                  <strong>Team Lead</strong> — the primary leader of the Project
+                  Team;
+                </li>
+                <li>
+                  <strong>Team Deputy</strong> — the support and second-level
+                  leader; and
+                </li>
+                <li>
+                  <strong>Team Members</strong> — the individual Members
+                  contributing to the Project Team.
+                </li>
+              </ul>
+              Each Project Team has, at a minimum, one Team Lead and one Team
+              Deputy, selected in the manner the Board adopts. Project Teams
+              retain responsibility for their day-to-day work; the leadership
+              roles of Article III provide alignment and support above the teams
+              but do not displace Team responsibility for day-to-day execution.
+            </li>
+            <li>
+              <strong>Trademark Practices</strong>. The Foundation will develop
+              and maintain a written trademark policy that encourages a level
+              playing field for commercial use of Rocky Linux by others.
             </li>
           </ol>
 
@@ -680,189 +821,111 @@ export default function CommunityOperatingPrinciples() {
           <ol>
             <li>
               <p>
+                <strong>Right to Indemnification</strong>. The Foundation will
+                indemnify and hold harmless, to the fullest extent permitted by
+                applicable law, any person (an &quot;
+                <strong>Indemnified Person</strong>&quot;) made or threatened to
+                be made a party to any proceeding by reason of the fact that the
+                person is or was a Director or Officer of the Foundation, or,
+                while a Director or Officer, was serving at the Foundation&apos;s
+                request as a director, officer, employee, or agent of another
+                entity, against all liability and reasonable expenses (including
+                attorneys&apos; fees) incurred. Indemnification for a proceeding
+                initiated by the Indemnified Person is required only if the
+                proceeding was authorized in advance by the Board.
+              </p>
+            </li>
+            <li>
+              <p>
                 <strong>
-                  Right to Indemnification of Directors and Officers
+                  Prepayment; Claims; Non-Exclusivity; Insurance; Amendment
                 </strong>
-                . The Foundation will indemnify and hold harmless, to the
-                fullest extent permitted by applicable law as it presently
-                exists or may hereafter be amended, any person (an &quot;
-                <strong>Indemnified Person</strong>&quot;) who was or is made or is
-                threatened to be made a party or is otherwise involved in any
-                action, suit or proceeding, whether civil, criminal,
-                administrative or investigative (a &quot;<strong>Proceeding</strong>
-                &quot;), by reason of the fact that such person, or a person for whom
-                such person is the legal representative, is or was a director or
-                officer of the Foundation or, while a director or officer of the
-                Foundation, is or was serving at the request of the Foundation
-                as a director, officer, employee or agent of another corporation
-                or of a partnership, joint venture, limited liability company,
-                trust, enterprise or nonprofit entity, against all liability and
-                loss suffered and expenses (including attorneys&apos; fees)
-                reasonably incurred by such Indemnified Person in such
-                Proceeding. The Foundation shall be required to indemnify an
-                Indemnified Person in connection with a Proceeding (or part
-                thereof) commenced by such Indemnified Person only if the
-                commencement of such Proceeding (or part thereof) by the
-                Indemnified Person was authorized in advance by the Board.
-              </p>
-            </li>
-            <li>
-              <p>
-                <strong>Prepayment of Expenses</strong>. The Foundation shall
-                pay the expenses (including attorneys&apos; fees) incurred by an
-                Indemnified Person in defending any Proceeding in advance of its
-                final disposition, provided, however, that, to the extent
-                required by law, such payment of expenses in advance of the
-                final disposition of the Proceeding shall be made only upon
-                receipt of an undertaking by the Indemnified Person to repay all
-                amounts advanced if it should be ultimately determined that the
-                Indemnified Person is not entitled to be indemnified under this
-                Article VI or otherwise.
-              </p>
-            </li>
-            <li>
-              <p>
-                <strong>Claims by Directors and Officers</strong>. If a claim
-                for indemnification or advancement of expenses under this
-                Article VI is not paid in full within 30 days after a written
-                claim therefor by the Indemnified Person has been received by
-                the Foundation, the Indemnified Person may file suit to recover
-                the unpaid amount of such claim and, if successful in whole or
-                in part, shall be entitled to be paid the expense of prosecuting
-                such claim. In any such action the Foundation shall have the
-                burden of proving that the Indemnified Person is not entitled to
-                the requested indemnification or advancement of expenses under
-                applicable law.
-              </p>
-            </li>
-            <li>
-              <p>
-                <strong>Non-Exclusivity of Rights</strong>. The rights conferred
-                on any person by this Article VI shall not be exclusive of any
-                other rights which such person may have or hereafter acquire
-                under any statute, provision of the Company&apos;s Certificate of
-                Incorporation, these Community Operating Principles, agreement,
-                vote of the Board or otherwise.
-              </p>
-            </li>
-            <li>
-              <p>
-                <strong>Insurance</strong>. The Board may, to the full extent
-                permitted by applicable law as it presently exists, or may
-                hereafter be amended from time to time, authorize an appropriate
-                officer or officers to purchase and maintain at the Foundation&apos;s
-                expense insurance: (a) to indemnify the Foundation for any
-                obligation which it incurs as a result of the indemnification of
-                directors, officers and employees under the provisions of this
-                Article VI; and (b) to indemnify or insure Directors, and
-                Officers against liability in instances in which they may not
-                otherwise be indemnified by the Foundation under the provisions
-                of this Article VI.
-              </p>
-            </li>
-            <li>
-              <p>
-                <strong>Amendment or Repeal</strong>. Any repeal or modification
-                of the foregoing provisions of this Article VI shall not
-                adversely affect any right or protection hereunder of any person
-                in respect of any act or omission occurring prior to the time of
-                such repeal or modification.
+                . The Foundation will pay expenses incurred in defending a
+                proceeding in advance of final disposition, subject to any
+                undertaking to repay required by law. If a claim is not paid
+                within 30 days, the Indemnified Person may sue to recover and,
+                if successful, recover the costs of that action, with the
+                Foundation bearing the burden of proving the person is not
+                entitled. The rights here are not exclusive of other rights. The
+                Board may authorize insurance to cover indemnification
+                obligations and liabilities. Any repeal or modification of this
+                Article does not adversely affect rights relating to acts or
+                omissions occurring before the change.
               </p>
             </li>
           </ol>
+
           <p>
-            <strong>ARTICLE VII</strong> -{" "}
-            <strong>
-              AMENDMENTS TO COMMUNITY OPERATING PRINCIPLES AND CHARTER
-            </strong>
+            <strong>ARTICLE VII</strong> - <strong>AMENDMENTS</strong>
           </p>
           <ol>
             <li>
               <p>
-                <strong>Amendment to Community Operating Principles</strong>.
-                These Community Operating Principles may be altered, amended, or
-                restated by the vote of 2/3rds of the Directors then serving on
-                the Board or by the Board of Directors of the Company.
-              </p>
-            </li>
-            <li>
-              <p>
-                <code> </code>
-                <strong>Amendment to Charter</strong>. The Foundation Charter
-                may be altered, amended, or restated by the vote of 2/3rds of
-                the Directors then serving on the Board or by the Board of
-                Directors of the Company.
-              </p>
-            </li>
-            <li>
-              <p>
                 <strong>
-                  Amendment to Project Board Community Operating Principles
+                  Amendment of Community Operating Principles and Charter
                 </strong>
-                . As part of its role of overseeing the Project Boards, the
-                Foundation Board may alter, amend, or restate any Project Board
-                Community Operating Principles by the vote of 2/3rds of the
-                Directors then serving on the Foundation Board.
+                . These Community Operating Principles may be altered, amended,
+                or restated by a 2/3 vote of the Directors then serving on the
+                Board. The Foundation Charter may likewise be altered, amended,
+                or restated by a 2/3 vote of the Directors then serving.
               </p>
             </li>
           </ol>
+
           <p>
             <strong>ARTICLE VIII</strong> - <strong>MISCELLANEOUS</strong>
           </p>
           <ol>
             <li>
               <p>
-                <strong>Accounts Books; Minutes; Etc</strong>. The Foundation
-                Board and each Project Board shall keep correct and complete
-                books and records of account and shall also keep minutes of the
-                proceedings of the Foundation Board and Project Boards. Books
-                shall be kept in accordance with sound accounting principles.
-                All books and records of the Foundation may be inspected by any
-                Director for any proper purpose upon reasonable notice to the
-                Foundation.
+                <strong>Books and Records; Minutes</strong>. The Board will keep
+                correct and complete books and records of account and minutes of
+                its proceedings, kept in accordance with sound accounting
+                principles. Any Director may inspect the books and records for a
+                proper purpose on reasonable notice.
               </p>
             </li>
             <li>
               <p>
                 <strong>Fiscal Year</strong>. The fiscal year of the Foundation
-                shall end on December 31st of each year.
+                ends December 31.
               </p>
             </li>
             <li>
               <p>
-                <strong>Conflicts of Interest</strong>. If any person who is a
-                Director or a Project Director is aware that the Foundation is
-                about to enter into any business transaction directly or
-                indirectly with himself or herself, any member of his or her
-                immediate family, or any entity in which he or she has any
-                legal, equitable or fiduciary interest or position, including
-                without limitation as a director, officer, shareholder, partner
-                or beneficiary, such person shall (a) immediately inform those
-                charged with approving the transaction on behalf of the
-                Foundation of his or her interest or position, (b) aid the
-                persons charged with making the decision by disclosing any
-                material facts within his or her knowledge that bear on the
-                advisability of such transaction from the standpoint of the
-                Foundation, and (c) not be entitled to vote on the decision to
-                enter into such transaction.
+                <strong>Conflicts of Interest</strong>. A Director who becomes
+                aware that the Foundation is about to enter a transaction,
+                directly or indirectly, with that Director, a member of their
+                immediate family, or an entity in which they have a legal,
+                equitable, or fiduciary interest or position, must (a)
+                immediately inform those approving the transaction of the
+                interest; (b) disclose material facts within their knowledge
+                bearing on the advisability of the transaction from the
+                Foundation&apos;s standpoint; and (c) not vote on the decision
+                to enter the transaction. This obligation applies to
+                leadership-role Directors holding ex-officio seats under Section
+                2.15 in the same manner as to any other Director, and is in
+                addition to the related-party quorum restriction of Section
+                2.17.
               </p>
             </li>
             <li>
               <p>
-                <strong>Loans to Directors and Officers Prohibited</strong>. No
-                loans shall be made by the Foundation to any of its Directors,
-                Project Director, or Officers.
+                <strong>Loans Prohibited</strong>. No loans will be made by the
+                Foundation to any of its Directors, Officers, or Members.
+              </p>
+            </li>
+            <li>
+              <p>
+                <strong>Public Benefit Status</strong>. The Foundation is a
+                Delaware Public Benefit Corporation with the objectives set
+                forth in its Charter and these Community Operating Principles.
+                It does not have an objective to make money for shareholders. As
+                of the date of adoption, the Foundation is not a 501(c) U.S.
+                tax-exempt organization.
               </p>
             </li>
           </ol>
-          <hr />
-          <p className="text-sm">
-            <strong>[1]:</strong> This means the Foundation is a Delaware Public
-            Benefit Corporation, with the objectives set forth in this Charter
-            and the Foundation Community Operating Principles. We do not have an
-            objective to make money for shareholders. As of the time of this
-            writing, the Foundation is NOT a 501(c)* US tax-exempt organization.
-          </p>
         </div>
       </div>
     </div>
