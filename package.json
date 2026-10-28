@@ -11,7 +11,8 @@
     "test:watch": "jest --watch",
     "test:coverage": "jest --coverage",
     "test:coveragereport": "jest --coverage --coverageDirectory coverage --coverageReporters lcov",
-    "test:clear": "jest --clearCache"
+    "test:clear": "jest --clearCache",
+    "check:security-txt": "node scripts/check-security-txt.js"
   },
   "dependencies": {
     "@headlessui/react": "^1.7.4",
