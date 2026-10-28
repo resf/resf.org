@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Link from "next/link";
-import { serverSideTranslations } from "next-i18next/serverSideTranslations";
-import { useTranslation } from "next-i18next";
+import { serverSideTranslations } from "next-i18next/pages/serverSideTranslations";
+import { useTranslation } from "next-i18next/pages";
 import * as faq from "@/config/faq";
 
 import Header from "@/components/Header";
