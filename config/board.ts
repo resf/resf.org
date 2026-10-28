@@ -120,7 +120,7 @@ export const board = [
 		image: "/christopherd.jpg",
 		role: "Independent",
 		country: "USA",
-		active: true,
+		active: false,
 		socials: {
 			linkedIn: "https://www.linkedin.com/in/cdibona/",
 			bluesky: "https://bsky.app/profile/cdibona.bsky.social",
