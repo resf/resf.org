@@ -1,6 +1,4 @@
 const nextJest = require("next/jest");
-const { pathsToModuleNameMapper } = require("ts-jest");
-const { compilerOptions } = require("./tsconfig.json");
 
 const createJestConfig = nextJest({
   dir: "./",
@@ -29,7 +27,7 @@ const customJestConfig = {
           https://jestjs.io/docs/webpack#handling-static-assets */
     "^.+\\.(jpg|jpeg|png|gif|webp|avif|svg)$":
       "<rootDir>/__mocks__/fileMock.js",
-    ...pathsToModuleNameMapper(compilerOptions.paths, { prefix: "<rootDir>/" }),
+    "^@/(.*)$": "<rootDir>/$1",
   },
   transformIgnorePatterns: [
     "/node_modules/",
@@ -41,9 +39,17 @@ const customJestConfig = {
     "<rootDir>/cypress/",
   ],
   transform: {
-    /* Use babel-jest to transpile tests with the next/babel preset
-            https://jestjs.io/docs/configuration#transform-objectstring-pathtotransformer--pathtotransformer-object */
-    "^.+\\.(js|jsx|ts|tsx)$": ["babel-jest", { presets: ["next/babel"] }],
+    "^.+\\.(js|jsx|ts|tsx)$": [
+      "@swc/jest",
+      {
+        jsc: {
+          parser: { syntax: "typescript", tsx: true },
+          transform: {
+            react: { runtime: "automatic" },
+          },
+        },
+      },
+    ],
   },
 };
 

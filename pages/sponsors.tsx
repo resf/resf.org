@@ -1,7 +1,7 @@
 import Head from "next/head";
 import PageTitle from "@/components/common/PageTitle";
-import { serverSideTranslations } from "next-i18next/serverSideTranslations";
-import { useTranslation } from "next-i18next";
+import { serverSideTranslations } from "next-i18next/pages/serverSideTranslations";
+import { useTranslation } from "next-i18next/pages";
 import { useSponsorTiers } from "@/hooks/useSponsorTiers";
 import * as sponsorTiersLib from "@/lib/sponsorTiersLib";
 
