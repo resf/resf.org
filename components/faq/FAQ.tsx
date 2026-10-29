@@ -7,7 +7,7 @@ export interface FAQProps {
   children?: ReactNode;
 }
 
-export type FAQComponent = ReactElement<any> & {
+export type FAQComponent = ReactElement & {
   Group?: ReactNode;
   Item?: ReactNode;
 };
